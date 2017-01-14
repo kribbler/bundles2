@@ -1,0 +1,144 @@
+/*
+Theme Name: RockGroup Child Theme
+Theme URI: http://rockgroup.themerex.net
+Author URI:http://themerex.net/
+Description: RockGroup is an up-to-date flat WordPress Template with modern metro layout for Blog, Magazine, Review site, Art Portfolio & so on.
+RockGroup has clean modern design, big functional options and it is very easy to modify & expand.
+We are confident that you will be more than pleased by your purchase!
+Author: ThemeREX
+Version: 2.1
+License: GNU General Public License
+License URI:license.txt
+Template: rockgroup
+
+*/
+
+@import url('../rockgroup/style.css');
+
+h2.subTitle {
+	color: #ab842e;
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    margin-bottom: 0;
+}
+
+#header {
+	padding-top: 0;
+	background: #e4e8d7;
+}
+
+.color_scheme_blue footer.footer {
+	background: #523f31;
+}
+
+.media_kit {
+	text-align: right;
+	padding-bottom: 0 !important;
+}
+
+.media_kit a {
+	display: inline-block;
+	background: #2e99ac;
+	padding: 10px 20px;
+	color: #fff;
+	font-weight: 600;
+	font-size: 12px;
+}
+
+footer.footer {
+	padding-top: 0;
+	padding-bottom: 30px;
+}
+
+.footer_top {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	background: #695243;
+}
+
+.footer_social {
+	display: inline-block;
+	width: 23px;
+	height: 23px;
+	margin: 3px;
+}
+
+.footer_social.facebook {
+	background: url(images/logo-facebook.png) center no-repeat;
+}
+
+.footer_social.twitter {
+	background: url(images/logo-twitter.png) center no-repeat;
+}
+
+.footer_social.instagram {
+	background: url(images/logo-instagram.png) center no-repeat;
+}
+
+.footer_social.pinterest {
+	background: url(images/logo-pinterest.png) center no-repeat;
+}
+
+.footer_social.google-plus {
+	background: url(images/logo-google-plus.png) center no-repeat;
+	clear: both;
+}
+
+.footer_social.rss {
+	background: url(images/logo-rss.png) center no-repeat;
+}
+
+.footer_social.youtube {
+	background: url(images/logo-youtube.png) center no-repeat;
+}
+
+.footer_social.linkedin {
+	background: url(images/logo-linkedin.png) center no-repeat;
+}
+
+.footer_top h2 {
+	color: #fff;
+	letter-spacing: 1;
+	font-size: 20px;
+	text-align: left;
+}
+
+.footer_top .textwidget {
+	text-align: left;
+	color: #e5e6d6;
+}
+
+.footer_top .wrapWide {
+	padding-bottom: 0;
+}
+
+.footer_top p {
+	padding: 0;
+}
+
+.footer_top p:first-child {
+	padding-bottom: 20px;
+}
+
+#footer_menu, .footer_recent_posts {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+#footer_menu li a, .footer_recent_posts li a{
+	color: #e5e6d6;
+}
+
+#footer_menu li:before {
+	content: "> ";
+	color: #87a93e;
+}
+
+.copyright {
+	padding: 0;
+	font-size: 12px;
+	color: #e5e6d6;
+}
