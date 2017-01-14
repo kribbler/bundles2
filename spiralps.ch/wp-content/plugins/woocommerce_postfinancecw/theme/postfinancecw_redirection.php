@@ -1,0 +1,42 @@
+<?php 
+/**
+  * You are allowed to use this API in your web application.
+ *
+ * Copyright (C) 2013 by customweb GmbH
+ *
+ * This program is licenced under the customweb software licence. With the
+ * purchase or the installation of the software in your application you
+ * accept the licence agreement. The allowed usage is outlined in the
+ * customweb software licence which can be found under
+ * http://www.customweb.ch/en/software-license-agreement
+ *
+ * Any modification or distribution is strictly forbidden. The license
+ * grants you the installation in one application. For multiuse you will need
+ * to purchase further licences at http://www.customweb.com/shop.
+ *
+ * See the customweb software licence agreement for more details.
+ *
+ */
+
+get_header();
+?>
+
+<h2><?php print __('Redirection', 'woocommerce_postfinancecw'); ?>: <?php print $paymentMethodName; ?></h2>
+	
+<form action="<?php print $form_target_url; ?>" method="POST" name="process_form">
+	
+	<?php foreach($hidden_fields as $field_name => $field_value): ?>
+		<input type="hidden" name="<?php echo $field_name; ?>" value="<?php echo $field_value; ?>" />
+	<?php endforeach; ?>
+
+	<input class="button" type="submit" name="continue_button" value="<?php print __('Continue', 'woocommerce_postfinancecw'); ?>" />
+
+</form>
+<script type="text/javascript"> 
+jQuery(document).ready(function() {
+	document.process_form.submit(); 
+});
+</script>
+<?php 
+
+get_footer();

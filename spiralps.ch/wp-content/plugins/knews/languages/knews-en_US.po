@@ -1,0 +1,3262 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: K-news v1.5.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-12-16 15:34:17+0000\n"
+"Last-Translator: Carles <mail@carlesrever.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: POEditor.com\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: admin/knews_admin_news_send.php:215
+#@ knews
+msgid "Schedule submit"
+msgstr "Schedule submit"
+
+#: admin/knews_admin_news_send.php:199
+#: admin/knews_admin_submits.php:71
+#@ knews
+msgid "(highest)"
+msgstr "(highest)"
+
+#: admin/knews_admin_news_send.php:199
+#: admin/knews_admin_submits.php:71
+#@ knews
+msgid "(lowest)"
+msgstr "(lowest)"
+
+#: admin/knews_admin_auto.php:327
+#: admin/knews_admin_news_send.php:199
+#: admin/knews_admin_news_send.php:208
+#: admin/knews_admin_submits.php:71
+#@ knews
+msgid "(normal)"
+msgstr "(normal)"
+
+#: includes/submit_batch.php:52
+#@ knews
+msgid "Batch submit process has been properly scheduled."
+msgstr "Batch submit process has been properly scheduled."
+
+#: admin/knews_admin_users.php:551
+#@ knews
+msgid "Activate user directly (don't send e-mail confirmation)"
+msgstr "Activate user directly (don't send e-mail confirmation)"
+
+#: admin/knews_admin_users.php:378
+#@ knews
+msgid "Filter by state"
+msgstr "Filter by state"
+
+#: admin/knews_admin_users.php:498
+#@ knews
+msgid "No users match the search criteria"
+msgstr "No users match the search criteria"
+
+#: admin/knews_admin_lists.php:164
+#: admin/knews_admin_lists.php:223
+#@ knews
+msgid "Active users"
+msgstr "Active users"
+
+#: admin/knews_admin_news_list.php:275
+#@ knews
+msgid "Add newsletter"
+msgstr "Add newsletter"
+
+#: admin/knews_admin_import.php:384
+#: admin/knews_admin_import.php:385
+#: admin/knews_admin_import.php:386
+#: admin/knews_admin_import.php:387
+#: admin/knews_admin_stats.php:245
+#: admin/knews_admin_stats.php:477
+#: admin/knews_admin_users.php:371
+#: admin/knews_admin_users.php:379
+#@ knews
+msgid "All"
+msgstr "All"
+
+#: admin/knews_admin_import.php:393
+#@ knews
+msgid "All in"
+msgstr "All in"
+
+#: admin/knews_admin_import.php:796
+#@ knews
+msgid "And have been blocked in this import:"
+msgstr "And have been blocked in this import:"
+
+#: admin/knews_admin_import.php:777
+#@ knews
+msgid "And there have not been imported:"
+msgstr "And there have not been imported:"
+
+#: admin/knews_admin_lists.php:253
+#@ knews
+msgid "At the moment there is no list, you can create new ones"
+msgstr "At the moment there is no list, you can create new ones"
+
+#: admin/knews_admin_news_list.php:230
+#@ knews
+msgid "At the moment there is no newsletter, you can create new ones"
+msgstr "At the moment there is no newsletter, you can create new ones"
+
+#: admin/knews_admin_import.php:788
+#@ knews
+msgid "Automatically send confirmation e-mails:"
+msgstr "Automatically send confirmation e-mails:"
+
+#: admin/knews_admin_config.php:332
+#@ knews
+msgid "Before enabling the sending SMTP, enter the values and your e-mail and then click on TEST button"
+msgstr "Before enabling the sending SMTP, enter the values and your e-mail and then click on TEST button"
+
+#: admin/knews_admin_import.php:388
+#: admin/knews_admin_users.php:382
+#: admin/knews_admin_users.php:442
+#@ knews
+msgid "Blocked"
+msgstr "Blocked"
+
+#: admin/knews_admin_config.php:191
+#@ knews
+msgid "CRON"
+msgstr "CRON"
+
+#: admin/knews_admin_config.php:221
+#@ knews
+msgid "CRON has not yet been configured"
+msgstr "CRON has not yet been configured"
+
+#: admin/knews_admin_config.php:223
+#: knews.php:1891
+#@ knews
+msgid "CRON has stopped working."
+msgstr "CRON has stopped working."
+
+#: admin/knews_admin_config.php:212
+#@ knews
+msgid "CRON is properly configured"
+msgstr "CRON is properly configured"
+
+#: admin/knews_admin_import.php:242
+#@ knews
+msgid "CSV File"
+msgstr "CSV File"
+
+#: admin/knews_admin_import.php:231
+#@ knews
+msgid "CSV Upload"
+msgstr "CSV Upload"
+
+#: admin/knews_admin_import.php:772
+#@ knews
+msgid "CSV total:"
+msgstr "CSV total:"
+
+#: admin/knews_admin_news_send.php:70
+#@ knews
+msgid "I can't submit an e-mail to:"
+msgstr "I can't submit an e-mail to:"
+
+#: admin/knews_admin_config.php:329
+#@ knews
+msgid "Pay attention: If your SMTP server is anonymous leave SMTP User and SMTP Password fields blank"
+msgstr "Pay attention: If your SMTP server is anonymous leave SMTP User and SMTP Password fields blank"
+
+#: admin/knews_admin_import.php:402
+#@ knews
+msgid "Check dates"
+msgstr "Check dates"
+
+#: admin/knews_admin_news_edit.php:56
+#: includes/resize_img.php:130
+#@ knews
+msgid "Check the directory permissions for"
+msgstr "Check the directory permissions for"
+
+#: admin/knews_admin_import.php:382
+#@ knews
+msgid "Select a column"
+msgstr "Select a column"
+
+#: admin/knews_admin_news_list.php:269
+#@ knews
+msgid "Choose a template"
+msgstr "Choose a template"
+
+#: knews.php:1671
+#@ knews
+msgid "Configuration"
+msgstr "Configuration"
+
+#: admin/knews_admin_import.php:388
+#: admin/knews_admin_users.php:381
+#: admin/knews_admin_users.php:441
+#@ knews
+msgid "Confirmed"
+msgstr "Confirmed"
+
+#: admin/knews_admin_import.php:316
+#: admin/knews_admin_news_edit.php:65
+#: admin/knews_admin_submits.php:154
+#@ knews
+msgid "Continue"
+msgstr "Continue"
+
+#: admin/knews_admin_lists.php:263
+#@ knews
+msgid "Create a mailing list"
+msgstr "Create a mailing list"
+
+#: admin/knews_admin_users.php:238
+#: admin/knews_admin_users.php:508
+#@ knews
+msgid "Create a subscriber manually"
+msgstr "Create a subscriber manually"
+
+#: admin/knews_admin_lists.php:108
+#: admin/knews_admin_lists.php:258
+#@ knews
+msgid "Create new mailing list"
+msgstr "Create new mailing list"
+
+#: admin/knews_admin_news_list.php:83
+#: admin/knews_admin_news_list.php:240
+#@ knews
+msgid "Create new newsletter"
+msgstr "Create new newsletter"
+
+#: admin/knews_admin_users.php:553
+#@ knews
+msgid "Create a user"
+msgstr "Create a user"
+
+#: admin/knews_admin_news_list.php:133
+#: admin/knews_admin_news_list.php:178
+#@ knews
+msgid "Created"
+msgstr "Created"
+
+#: direct/knews_cron_do.php:275
+#@ knews
+msgid "Cron-JS finished, you can close the window"
+msgstr "Cron-JS finished, you can close the window"
+
+#: direct/knews_cron_do.php:271
+#@ knews
+msgid "Cron-JS in the process, don't close this window..."
+msgstr "Cron-JS in the process, don't close this window..."
+
+#: admin/knews_admin_config.php:134
+#: admin/knews_admin_config.php:187
+#: admin/knews_admin_config.php:385
+#: admin/knews_admin_config.php:430
+#@ knews
+msgid "Customised messages"
+msgstr "Customised messages"
+
+#: admin/knews_admin_news_send.php:198
+#@ knews
+msgid "Date (day/month/year)"
+msgstr "Date (day/month/year)"
+
+#: admin/knews_admin_auto.php:133
+#: admin/knews_admin_lists.php:184
+#: admin/knews_admin_news_list.php:156
+#: admin/knews_admin_news_list.php:189
+#: admin/knews_admin_submits.php:167
+#: admin/knews_admin_users.php:433
+#: admin/knews_admin_users.php:483
+#@ knews
+msgid "Delete"
+msgstr "Delete"
+
+#: admin/knews_admin_import.php:818
+#@ knews
+msgid "Do the import"
+msgstr "Do the import"
+
+#: admin/knews_admin_config.php:275
+#@ knews
+msgid "E-mails sent internally using WordPress (wp_mail() function)"
+msgstr "E-mails sent internally using WordPress (wp_mail() function)"
+
+#: admin/knews_admin_news_list.php:150
+#: admin/knews_admin_users.php:427
+#@ knews
+msgid "Edit"
+msgstr "Edit"
+
+#: admin/knews_admin_news_edit.php:82
+#@ knews
+msgid "Editing newsletter"
+msgstr "Editing newsletter"
+
+#: admin/knews_admin_auto.php:327
+#: admin/knews_admin_news_send.php:208
+#@ knews
+msgid "E-mails sent at once"
+msgstr "E-mails sent at once"
+
+#: admin/knews_admin_export.php:41
+#: admin/knews_admin_import.php:87
+#@ knews
+msgid "Enclosure"
+msgstr "Enclosure"
+
+#: admin/knews_admin_import.php:95
+#@ knews
+msgid "Encoding"
+msgstr "Encoding"
+
+#: admin/knews_admin_auto.php:68
+#: admin/knews_admin_auto.php:266
+#: admin/knews_admin_lists.php:50
+#: admin/knews_admin_lists.php:53
+#: admin/knews_admin_news.php:160
+#: admin/knews_admin_news.php:163
+#: admin/knews_admin_news.php:166
+#: admin/knews_admin_news.php:169
+#: admin/knews_admin_news.php:172
+#: admin/knews_admin_news_edit.php:24
+#: admin/knews_admin_news_edit.php:56
+#: admin/knews_admin_news_list.php:265
+#: admin/knews_admin_news_send.php:70
+#: admin/knews_admin_news_send.php:130
+#: admin/knews_admin_users.php:220
+#: admin/knews_admin_users.php:226
+#: admin/knews_admin_users.php:229
+#: admin/knews_admin_users.php:232
+#: admin/knews_admin_users.php:277
+#: admin/knews_admin_users.php:532
+#: includes/resize_img.php:95
+#: includes/resize_img.php:104
+#: includes/resize_img.php:130
+#@ knews
+msgid "Error"
+msgstr "Error"
+
+#: admin/knews_admin_news_edit.php:57
+#@ knews
+msgid "Error saving"
+msgstr "Error saving"
+
+#: admin/knews_admin_import.php:61
+#@ knews
+msgid "Error: can't move uploaded file."
+msgstr "Error: can't move uploaded file."
+
+#: admin/knews_admin_import.php:288
+#: admin/knews_admin_import.php:379
+#: admin/knews_admin_import.php:811
+#@ knews
+msgid "Error: can't open the file"
+msgstr "Error: can't open the file"
+
+#: admin/knews_admin_users.php:238
+#@ knews
+msgid "Extra fields"
+msgstr "Extra fields"
+
+#: admin/knews_admin_users.php:254
+#: admin/knews_admin_users.php:304
+#@ knews
+msgid "Field"
+msgstr "Field"
+
+#: admin/knews_admin_import.php:233
+#@ knews
+msgid "Fields assignement"
+msgstr "Fields assignement"
+
+#: admin/knews_admin_import.php:246
+#@ knews
+msgid "File upload"
+msgstr "File upload"
+
+#: admin/knews_admin_import.php:59
+#@ knews
+msgid "File uploaded correctly"
+msgstr "File uploaded correctly"
+
+#: admin/knews_admin_stats.php:244
+#: admin/knews_admin_users.php:385
+#: direct/select_post.php:259
+#@ knews
+msgid "Filter"
+msgstr "Filter"
+
+#: admin/knews_admin_users.php:370
+#@ knews
+msgid "Filter by mailing list"
+msgstr "Filter by mailing list"
+
+#: admin/knews_admin_users.php:350
+#@ knews
+msgid "Find"
+msgstr "Find"
+
+#: admin/knews_admin_submits.php:191
+#@ knews
+msgid "Finished"
+msgstr "Finished"
+
+#: admin/knews_admin_import.php:232
+#@ knews
+msgid "Formatting"
+msgstr "Formatting"
+
+#: admin/knews_admin_import.php:431
+#: admin/knews_admin_import.php:818
+#: admin/knews_admin_users.php:307
+#@ knews
+msgid "Go back"
+msgstr "Go back"
+
+#: admin/knews_admin_auto.php:208
+#: admin/knews_admin_auto.php:211
+#: admin/knews_admin_news_list.php:209
+#: admin/knews_admin_news_list.php:212
+#: includes/knews_util.php:348
+#: includes/knews_util.php:351
+#@ knews
+msgid "Go to first page"
+msgstr "Go to first page"
+
+#: admin/knews_admin_auto.php:217
+#: admin/knews_admin_auto.php:220
+#: admin/knews_admin_news_list.php:218
+#: admin/knews_admin_news_list.php:221
+#: includes/knews_util.php:357
+#: includes/knews_util.php:360
+#@ knews
+msgid "Go to last page"
+msgstr "Go to last page"
+
+#: admin/knews_admin_auto.php:216
+#: admin/knews_admin_auto.php:219
+#: admin/knews_admin_news_list.php:217
+#: admin/knews_admin_news_list.php:220
+#: includes/knews_util.php:356
+#: includes/knews_util.php:359
+#@ knews
+msgid "Go to next page"
+msgstr "Go to next page"
+
+#: admin/knews_admin_auto.php:209
+#: admin/knews_admin_auto.php:212
+#: admin/knews_admin_news_list.php:210
+#: admin/knews_admin_news_list.php:213
+#: includes/knews_util.php:349
+#: includes/knews_util.php:352
+#@ knews
+msgid "Go to previous page"
+msgstr "Go to previous page"
+
+#: admin/knews_admin_config.php:318
+#@ knews
+msgid "Host SMTP"
+msgstr "Host SMTP"
+
+#: admin/knews_admin_import.php:426
+#@ knews
+msgid "If a user already exists (matches e-mail)"
+msgstr "If a user already exists (matches e-mail)"
+
+#: admin/knews_admin_import.php:309
+#@ knews
+msgid "If you see the correct values, press \"Continue\""
+msgstr "If you see the correct values, press \"Continue\""
+
+#: direct/test_smtp.php:10
+#@ knews
+msgid "If you can read this e-mail, SMTP is correctly configured and you can activate it in Knews preferences"
+msgstr "If you can read this e-mail, SMTP is correctly configured and you can activate it in Knews preferences"
+
+#: admin/knews_admin_import.php:388
+#: admin/knews_admin_import.php:396
+#@ knews
+msgid "If you choose a column, allowed values ​​are:"
+msgstr "If you choose a column, allowed values ​​are:"
+
+#: admin/knews_admin_import.php:243
+#@ knews
+msgid "If you do not know what values ​​to put, leave these initially, later you can change it"
+msgstr "If you do not know what values ​​to put, leave these initially, later you can change it"
+
+#: admin/knews_admin_import.php:412
+#@ knews
+msgid "If you enter a value manually, this will be the same for all users imported"
+msgstr "If you enter a value manually, this will be the same for all users imported"
+
+#: admin/knews_admin_import.php:235
+#@ knews
+msgid "Import"
+msgstr "Import"
+
+#: admin/knews_admin_import.php:228
+#: knews.php:1667
+#@ knews
+msgid "Import CSV"
+msgstr "Import CSV"
+
+#: admin/knews_admin_import.php:823
+#@ knews
+msgid "Import finished"
+msgstr "Import finished"
+
+#: admin/knews_admin_import.php:766
+#@ knews
+msgid "Import preview (we have not made ​​any changes yet:"
+msgstr "Import preview (we have not made ​​any changes yet:"
+
+#: admin/knews_admin_import.php:768
+#@ knews
+msgid "Import results"
+msgstr "Import results"
+
+#: admin/knews_admin_users.php:262
+#@ knews
+msgid "Inactive language"
+msgstr "Inactive language"
+
+#: admin/knews_admin_config.php:228
+#@ knews
+msgid "Instructions for setting up CRON"
+msgstr "Instructions for setting up CRON"
+
+#: admin/knews_admin_auto.php:112
+#: admin/knews_admin_auto.php:175
+#: admin/knews_admin_export.php:103
+#: admin/knews_admin_import.php:390
+#: admin/knews_admin_news_list.php:136
+#: admin/knews_admin_news_list.php:181
+#: admin/knews_admin_news_list.php:254
+#: admin/knews_admin_users.php:266
+#: admin/knews_admin_users.php:417
+#: admin/knews_admin_users.php:476
+#: admin/knews_admin_users.php:521
+#@ knews
+msgid "Language"
+msgstr "Language"
+
+#: admin/knews_admin_import.php:409
+#@ knews
+msgid "Leave empty"
+msgstr "Leave empty"
+
+#: admin/knews_admin_lists.php:213
+#@ knews
+msgid "List name"
+msgstr "List name"
+
+#: admin/knews_admin_lists.php:261
+#: admin/knews_admin_users.php:539
+#@ knews
+msgid "Mailing list"
+msgstr "Mailing list"
+
+#: admin/knews_admin_lists.php:48
+#@ knews
+msgid "Mailing list created"
+msgstr "Mailing list created"
+
+#: admin/knews_admin_lists.php:108
+#: knews.php:1664
+#@ knews
+msgid "Mailing lists"
+msgstr "Mailing lists"
+
+#: admin/knews_admin_lists.php:94
+#@ knews
+msgid "Mailing lists updated"
+msgstr "Mailing lists updated"
+
+#: admin/knews_admin_config.php:131
+#: admin/knews_admin_config.php:184
+#: admin/knews_admin_config.php:382
+#: admin/knews_admin_config.php:427
+#@ knews
+msgid "Main options"
+msgstr "Main options"
+
+#: admin/knews_admin_import.php:427
+#@ knews
+msgid "Maintain current data"
+msgstr "Maintain current data"
+
+#: admin/knews_admin_import.php:432
+#@ knews
+msgid "Make preview"
+msgstr "Make preview"
+
+#: admin/knews_admin_news_list.php:134
+#: admin/knews_admin_news_list.php:179
+#@ knews
+msgid "Modified"
+msgstr "Modified"
+
+#: admin/knews_admin_config.php:432
+#@ knews
+msgid "Multilingual"
+msgstr "Multilingual"
+
+#: admin/knews_admin_news_list.php:243
+#@ knews
+msgid "Name"
+msgstr "Name"
+
+#: admin/knews_admin_lists.php:154
+#: includes/knews_util.php:15
+#: includes/knews_util.php:17
+#: includes/knews_util.php:19
+#: includes/knews_util.php:24
+#: includes/knews_util.php:57
+#: includes/knews_util.php:59
+#: includes/knews_util.php:61
+#: includes/knews_util.php:67
+#@ knews
+msgid "Name list"
+msgstr "Name list"
+
+#: admin/knews_admin_auto.php:111
+#: admin/knews_admin_auto.php:174
+#: admin/knews_admin_submits.php:109
+#: admin/knews_admin_submits.php:208
+#@ knews
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#: admin/knews_admin_news.php:160
+#@ knews
+msgid "Failed to create the Newsletter"
+msgstr "Failed to create the Newsletter"
+
+#: admin/knews_admin_news_edit.php:24
+#@ knews
+msgid "Newsletter doesn't exists"
+msgstr "Newsletter doesn't exists"
+
+#: admin/knews_admin_news_list.php:67
+#@ knews
+msgid "Newsletter list updated"
+msgstr "Newsletter list updated"
+
+#: admin/knews_admin_news_list.php:132
+#: admin/knews_admin_news_list.php:177
+#@ knews
+msgid "Newsletter name"
+msgstr "Newsletter name"
+
+#: admin/knews_admin_news_edit.php:58
+#@ knews
+msgid "Newsletter saved"
+msgstr "Newsletter saved"
+
+#: admin/knews_admin_news_edit.php:23
+#: admin/knews_admin_news_send.php:129
+#: knews.php:1663
+#@ knews
+msgid "Newsletters"
+msgstr "Newsletters"
+
+#: admin/knews_admin_news_edit.php:64
+#: admin/knews_admin_news_send.php:199
+#: knews.php:1926
+#: knews.php:2168
+#: knews.php:2197
+#: knews.php:2206
+#@ knews
+msgid "No"
+msgstr "No"
+
+#: admin/knews_admin_import.php:256
+#@ knews
+msgid "No delimiters"
+msgstr "No delimiters"
+
+#: admin/knews_admin_import.php:388
+#: admin/knews_admin_users.php:380
+#@ knews
+msgid "Not confirmed"
+msgstr "Not confirmed"
+
+#: admin/knews_admin_news_send.php:173
+#@ knews
+msgid "Now you must click here, then a window that emulates CRON with JavaScript will open. You should leave it open till sending ends."
+msgstr "Now you must click here, then a window that emulates CRON with JavaScript will open. You should leave it open till sending ends."
+
+#: admin/knews_admin_import.php:774
+#@ knews
+msgid "Of which have been successfully imported:"
+msgstr "Of which have been successfully imported:"
+
+#: admin/knews_admin_submits.php:195
+#@ knews
+msgid "Ongoing"
+msgstr "Ongoing"
+
+#: admin/knews_admin_lists.php:155
+#: admin/knews_admin_lists.php:214
+#@ knews
+msgid "Open"
+msgstr "Open"
+
+#: admin/knews_admin_lists.php:156
+#: admin/knews_admin_lists.php:215
+#@ knews
+msgid "Open for registered users"
+msgstr "Open for registered users"
+
+#: admin/knews_admin_import.php:428
+#@ knews
+msgid "Overwrite"
+msgstr "Overwrite"
+
+#: admin/knews_admin_submits.php:198
+#@ knews
+msgid "Paused"
+msgstr "Paused"
+
+#: admin/knews_admin_news_send.php:199
+#@ knews
+msgid "Paused?"
+msgstr "Paused?"
+
+#: admin/knews_admin_import.php:389
+#@ knews
+msgid "Permission"
+msgstr "Permission"
+
+#: admin/knews_admin_config.php:319
+#@ knews
+msgid "Port SMTP"
+msgstr "Port SMTP"
+
+#: admin/knews_admin_import.php:234
+#: admin/knews_admin_news_list.php:153
+#@ knews
+msgid "Preview"
+msgstr "Preview"
+
+#: admin/knews_admin_news_send.php:199
+#: admin/knews_admin_submits.php:110
+#: admin/knews_admin_submits.php:145
+#: admin/knews_admin_submits.php:209
+#@ knews
+msgid "Priority"
+msgstr "Priority"
+
+#: admin/knews_admin_submits.php:114
+#: admin/knews_admin_submits.php:213
+#@ knews
+msgid "Progress / Results"
+msgstr "Progress / Results"
+
+#: admin/knews_admin_import.php:256
+#@ knews
+msgid "Properly tabulated"
+msgstr "Properly tabulated"
+
+#: admin/knews_admin_config.php:333
+#@ knews
+msgid "Recipient"
+msgstr "Recipient"
+
+#: admin/knews_admin_config.php:321
+#@ knews
+msgid "SMTP Password"
+msgstr "SMTP Password"
+
+#: direct/test_smtp.php:9
+#@ knews
+msgid "SMTP Submit e-mail test done"
+msgstr "SMTP Submit e-mail test done"
+
+#: admin/knews_admin_config.php:320
+#@ knews
+msgid "SMTP User"
+msgstr "SMTP User"
+
+#: admin/knews_admin_config.php:167
+#: admin/knews_admin_config.php:365
+#: admin/knews_admin_config.php:495
+#: admin/knews_admin_news_edit.php:140
+#: knews.php:1777
+#@ knews
+msgid "Save"
+msgstr "Save"
+
+#: admin/knews_admin_config.php:62
+#: admin/knews_admin_config.php:122
+#@ knews
+msgid "Saved."
+msgstr "Saved."
+
+#: admin/knews_admin_import.php:297
+#@ knews
+msgid "Scan CSV again"
+msgstr "Scan CSV again"
+
+#: admin/knews_admin_lists.php:183
+#@ knews
+msgid "See users"
+msgstr "See users"
+
+#: direct/select_post.php:210
+#@ knews
+msgid "Select the post to insert in the newsletter"
+msgstr "Select the post to insert in the newsletter"
+
+#: admin/knews_admin_users.php:549
+#@ knews
+msgid "Send e-mail confirmation"
+msgstr "Send e-mail confirmation"
+
+#: admin/knews_admin_config.php:276
+#@ knews
+msgid "Send e-mails using SMTP (recommended)"
+msgstr "Send e-mails using SMTP (recommended)"
+
+#: admin/knews_admin_news_send.php:223
+#@ knews
+msgid "Send the newsletter manually"
+msgstr "Send the newsletter manually"
+
+#: admin/knews_admin_news_send.php:150
+#@ knews
+msgid "Send the newsletter to the following lists"
+msgstr "Send the newsletter to the following lists"
+
+#: admin/knews_admin_config.php:472
+#@ knews
+msgid "Sender"
+msgstr "Sender"
+
+#: admin/knews_admin_config.php:317
+#: admin/knews_admin_config.php:475
+#@ knews
+msgid "Sender e-mail"
+msgstr "Sender e-mail"
+
+#: admin/knews_admin_config.php:316
+#: admin/knews_admin_config.php:474
+#@ knews
+msgid "Sender name"
+msgstr "Sender name"
+
+#: admin/knews_admin_config.php:249
+#@ knews
+msgid "Sending"
+msgstr "Sending"
+
+#: admin/knews_admin_news_send.php:188
+#@ knews
+msgid "Sending SMTP is not enabled, the shipments are less reliable."
+msgstr "Sending SMTP is not enabled, the shipments are less reliable."
+
+#: admin/knews_admin_news_send.php:149
+#@ knews
+msgid "Sending newsletter"
+msgstr "Sending newsletter"
+
+#: admin/knews_admin_export.php:33
+#: admin/knews_admin_import.php:79
+#@ knews
+msgid "Separator"
+msgstr "Separator"
+
+#: direct/test_smtp.php:26
+#@ knews
+msgid "Shipping done, check that the mail has arrived."
+msgstr "Shipping done, check that the mail has arrived."
+
+#: admin/knews_admin_submits.php:131
+#@ knews
+msgid "Special"
+msgstr "Special"
+
+#: admin/knews_admin_news_send.php:198
+#@ knews
+msgid "Start (now or deferred)?"
+msgstr "Start (now or deferred)?"
+
+#: admin/knews_admin_export.php:104
+#: admin/knews_admin_import.php:383
+#: admin/knews_admin_users.php:280
+#: admin/knews_admin_users.php:417
+#: admin/knews_admin_users.php:476
+#@ knews
+msgid "State"
+msgstr "State"
+
+#: admin/knews_admin_news_list.php:137
+#: admin/knews_admin_news_list.php:182
+#: admin/knews_admin_users.php:417
+#: admin/knews_admin_users.php:476
+#: knews.php:1670
+#@ knews
+msgid "Stats"
+msgstr "Stats"
+
+#: admin/knews_admin_submits.php:115
+#: admin/knews_admin_submits.php:214
+#@ knews
+msgid "Status"
+msgstr "Status"
+
+#: admin/knews_admin_submits.php:112
+#: admin/knews_admin_submits.php:211
+#@ knews
+msgid "Submit end"
+msgstr "Submit end"
+
+#: admin/knews_admin_auto.php:290
+#: admin/knews_admin_news_list.php:154
+#@ knews
+msgid "Submit"
+msgstr "Submit"
+
+#: direct/test_smtp.php:28
+#@ knews
+msgid "Submit error."
+msgstr "Submit error."
+
+#: admin/knews_admin_news_edit.php:60
+#: admin/knews_admin_news_send.php:234
+#@ knews
+msgid "Submit newsletter"
+msgstr "Submit newsletter"
+
+#: admin/knews_admin_news_edit.php:59
+#@ knews
+msgid "Continue editing"
+msgstr "Continue editing"
+
+#: admin/knews_admin_submits.php:111
+#: admin/knews_admin_submits.php:210
+#@ knews
+msgid "Submit start"
+msgstr "Submit start"
+
+#: admin/knews_admin_submits.php:105
+#: knews.php:1666
+#@ knews
+msgid "Submits"
+msgstr "Submits"
+
+#: admin/knews_admin_users.php:238
+#: knews.php:1665
+#@ knews
+msgid "Subscribers"
+msgstr "Subscribers"
+
+#: admin/knews_admin_users.php:290
+#: admin/knews_admin_users.php:417
+#: admin/knews_admin_users.php:476
+#@ knews
+msgid "Subscriptions"
+msgstr "Subscriptions"
+
+#: admin/knews_admin_config.php:192
+#@ knews
+msgid "Submit method"
+msgstr "Submit method"
+
+#: knews.php:464
+#@ knews
+msgid "Today, at"
+msgstr "Today, at"
+
+#: knews.php:465
+#@ knews
+msgid "Tomorrow, at"
+msgstr "Tomorrow, at"
+
+#: knews.php:466
+#: knews.php:471
+#@ knews
+msgid "at"
+msgstr "at"
+
+#: knews.php:470
+#@ knews
+msgid "Yesterday, at"
+msgstr "Yesterday, at"
+
+#: admin/knews_admin_news_list.php:135
+#: admin/knews_admin_news_list.php:180
+#@ knews
+msgid "Template"
+msgstr "Template"
+
+#: admin/knews_admin_config.php:336
+#@ knews
+msgid "Test SMTP config"
+msgstr "Test SMTP config"
+
+#: admin/knews_admin_export.php:224
+#: admin/knews_admin_import.php:61
+#: admin/knews_admin_import.php:66
+#@ knews
+msgid "The directory /wp-content/plugins/knews/tmp must be writable (chmod 700)"
+msgstr "The directory /wp-content/plugins/knews/tmp must be writable (chmod 700)"
+
+#: admin/knews_admin_import.php:103
+#@ knews
+msgid "The first row is a header"
+msgstr "The first row is a header"
+
+#: admin/knews_admin_config.php:213
+#: admin/knews_admin_config.php:224
+#@ knews
+msgid "The last execution was done"
+msgstr "The last execution was done"
+
+#: admin/knews_admin_news_send.php:130
+#@ knews
+msgid "The newsletter doesn't exists"
+msgstr "The newsletter doesn't exists"
+
+#: admin/knews_admin_news.php:158
+#@ knews
+msgid "The newsletter has been created successfully"
+msgstr "The newsletter has been created successfully"
+
+#: admin/knews_admin_users.php:218
+#@ knews
+msgid "The user has been added and an e-mail confirmation has been sent"
+msgstr "The user has been added and an e-mail confirmation has been sent"
+
+#: admin/knews_admin_users.php:223
+#@ knews
+msgid "The user has been added and from now on he will receive the newsletters"
+msgstr "The user has been added and from now on he will receive the newsletters"
+
+#: admin/knews_admin_users.php:220
+#@ knews
+msgid "The user has been added but an error occurred in sending e-mail confirmation"
+msgstr "The user has been added but an error occurred in sending e-mail confirmation"
+
+#: admin/knews_admin_users.php:229
+#@ knews
+msgid "The user was already introduced"
+msgstr "The user was already introduced"
+
+#: admin/knews_admin_news.php:166
+#@ knews
+msgid "There is already another newsletter with the same name!"
+msgstr "There is already another newsletter with the same name!"
+
+#: admin/knews_admin_import.php:779
+#@ knews
+msgid "There have been created:"
+msgstr "There have been created:"
+
+#: admin/knews_admin_import.php:781
+#@ knews
+msgid "There have been updated:"
+msgstr "There have been updated:"
+
+#: admin/knews_admin_import.php:382
+#@ knews
+msgid "This field is required to take it in some column"
+msgstr "This field is required to take it in some column"
+
+#: admin/knews_admin_news_send.php:198
+#@ knews
+msgid "Time"
+msgstr "Time"
+
+#: admin/knews_admin_news_send.php:66
+#@ knews
+msgid "The single e-mail has been sent to:"
+msgstr "The single e-mail has been sent to:"
+
+#: knews.php:923
+#: knews.php:924
+#@ knews
+msgid "Unique language"
+msgstr "Unique language"
+
+#: admin/knews_admin_import.php:701
+#@ knews
+msgid "Unknown language"
+msgstr "Unknown language"
+
+#: admin/knews_admin_users.php:307
+#@ knews
+msgid "Update user"
+msgstr "Update user"
+
+#: admin/knews_admin_config.php:455
+#@ knews
+msgid "Use the WPML defined languages to operate Knews in multilanguage mode"
+msgstr "Use the WPML defined languages to operate Knews in multilanguage mode"
+
+#: admin/knews_admin_config.php:460
+#@ knews
+msgid "Use the qTranslate defined languages to operate Knews in multilanguage mode"
+msgstr "Use the qTranslate defined languages to operate Knews in multilanguage mode"
+
+#: admin/knews_admin_config.php:469
+#@ knews
+msgid "Operate Knews as monolingual"
+msgstr "Operate Knews as monolingual"
+
+#: admin/knews_admin_config.php:444
+#@ knews
+msgid "No mulilanguage plugins detected. Knews works with qTranslate and WPML plugins"
+msgstr "No mulilanguage plugins detected. Knews works with qTranslate and WPML plugins"
+
+#: admin/knews_admin_config.php:445
+#@ knews
+msgid "qTranslate: free plugin"
+msgstr "qTranslate: free plugin"
+
+#: admin/knews_admin_config.php:446
+#@ knews
+msgid "WPML: commercial plugin"
+msgstr "WPML: commercial plugin"
+
+#: admin/knews_admin_config.php:448
+#@ knews
+msgid "Note: Knews authors have no relationship with qTranslate or WMPL authors."
+msgstr "Note: Knews authors have no relationship with qTranslate or WMPL authors."
+
+#: admin/knews_admin_news_edit.php:54
+#@ knews
+msgid "If you leave now this page, the Newsletter changes will be lost. Please, cancel and press the \"Save\" button (blue coloured)."
+msgstr "If you leave now this page, the Newsletter changes will be lost. Please, cancel and press the \"Save\" button (blue coloured)."
+
+#: admin/knews_admin_config.php:437
+#: knews.php:1882
+#@ knews
+msgid "The multilanguage plugin has stopped working."
+msgstr "The multilanguage plugin has stopped working."
+
+#: knews.php:1874
+#@ knews
+msgid "Welcome to Knews."
+msgstr "Welcome to Knews."
+
+#: knews.php:1874
+#: knews.php:1882
+#: knews.php:1891
+#, php-format
+#@ knews
+msgid "Please, go to %s configuration page"
+msgstr "Please, go to %s configuration page"
+
+#: knews.php:1851
+#: knews.php:1857
+#: knews.php:1864
+#: knews.php:1876
+#: knews.php:1884
+#: knews.php:1893
+#: knews.php:1900
+#@ knews
+msgid "Don't show this message again [x]"
+msgstr "Don't show this message again [x]"
+
+#: admin/knews_admin_import.php:698
+#@ knews
+msgid "The user already exists"
+msgstr "The user already exists"
+
+#: admin/knews_admin_users.php:98
+#: admin/knews_admin_users.php:104
+#: admin/knews_admin_users.php:123
+#: admin/knews_admin_users.php:155
+#@ knews
+msgid "User data updated"
+msgstr "User data updated"
+
+#: admin/knews_admin_users.php:316
+#@ knews
+msgid "User not found"
+msgstr "User not found"
+
+#: admin/knews_admin_stats.php:365
+#: admin/knews_admin_submits.php:113
+#: admin/knews_admin_submits.php:212
+#@ knews
+msgid "Users"
+msgstr "Users"
+
+#: admin/knews_admin_users.php:501
+#@ knews
+msgid "There are not yet users"
+msgstr "There are not yet users"
+
+#: admin/knews_admin_import.php:790
+#@ knews
+msgid "Users unconfirmed (You should do confirmation manually):"
+msgstr "Users unconfirmed (You should do confirmation manually):"
+
+#: admin/knews_admin_import.php:389
+#@ knews
+msgid "Send a confirmation e-mail to the unconfirmed users (not to the locked ones)"
+msgstr "Send a confirmation e-mail to the unconfirmed users (not to the locked ones)"
+
+#: admin/knews_admin_import.php:256
+#@ knews
+msgid "Using special characters (accents) correctly coded"
+msgstr "Using special characters (accents) correctly coded"
+
+#: admin/knews_admin_users.php:254
+#: admin/knews_admin_users.php:304
+#@ knews
+msgid "Value"
+msgstr "Value"
+
+#: admin/knews_admin_import.php:707
+#: admin/knews_admin_users.php:232
+#@ knews
+msgid "Wrong e-mail"
+msgstr "Wrong e-mail"
+
+#: admin/knews_admin_import.php:704
+#@ knews
+msgid "Wrong state"
+msgstr "Wrong state"
+
+#: admin/knews_admin_news_edit.php:63
+#: admin/knews_admin_news_send.php:199
+#: knews.php:1925
+#: knews.php:2169
+#: knews.php:2198
+#: knews.php:2205
+#@ knews
+msgid "Yes"
+msgstr "Yes"
+
+#: admin/knews_admin_news_send.php:187
+#@ knews
+msgid "You cannot schedule a delayed delivery. You must leave an auxiliary window open (JavaScript CRON Emulation) until the sending ends"
+msgstr "You cannot schedule a delayed delivery. You must leave an auxiliary window open (JavaScript CRON Emulation) until the sending ends"
+
+#: admin/knews_admin_news.php:169
+#@ knews
+msgid "You must choose a name for the new newsletter!"
+msgstr "You must choose a name for the new newsletter!"
+
+#: admin/knews_admin_news.php:163
+#@ knews
+msgid "You must choose a template!"
+msgstr "You must choose a template!"
+
+#: admin/knews_admin_import.php:66
+#@ knews
+msgid "You must upload a file."
+msgstr "You must upload a file."
+
+#: admin/knews_admin_import.php:255
+#@ knews
+msgid "You should be seeing the header and the four first lines of the CSV:"
+msgstr "You should be seeing the header and the four first lines of the CSV:"
+
+#: knews.php:137
+#@ knews
+msgid "Widget submit button"
+msgstr "Widget submit button"
+
+#: includes/phpscanner.php:12
+#: knews.php:142
+#@ knews
+msgid "You were already a subscriber (AJAX message)"
+msgstr "You were already a subscriber (AJAX message)"
+
+#: includes/phpscanner.php:29
+#@ knews
+msgid "ajax_subscription"
+msgstr "We just sent you an e-mail to confirm your subscription"
+
+#: includes/phpscanner.php:30
+#@ knews
+msgid "ajax_subscription_direct"
+msgstr "You have been successfully subscribed"
+
+#: includes/phpscanner.php:31
+#@ knews
+msgid "ajax_subscription_oops"
+msgstr "You were already subscribed"
+
+#: includes/phpscanner.php:32
+#@ knews
+msgid "ajax_subscription_error"
+msgstr "An error ocurred while sending e-mail confirmation"
+
+#: includes/phpscanner.php:28
+#@ knews
+msgid "ajax_wrong_email"
+msgstr "Your e-mail address seems to be incorrect. Please check it back"
+
+#: includes/phpscanner.php:33
+#@ knews
+msgid "email_subscription_subject"
+msgstr "Newsletter sign up"
+
+#: includes/phpscanner.php:34
+#@ knews
+msgid "email_subscription_body"
+msgstr "<p>You've asked to be subscribed to the newsletter of #blog_name#, you must confirm your registration by clicking <a href=\"#url_confirm#\">here</a>.</p><p>You can paste the address in the browser:<br>#url_confirm#</p>"
+
+#: includes/phpscanner.php:37
+#@ knews
+msgid "subscription_ok_title"
+msgstr "Your subscription has been confirmed"
+
+#: includes/phpscanner.php:38
+#@ knews
+msgid "subscription_ok_message"
+msgstr "From now on, you will receive our newsletters.<br><br><strong>Thank you.</strong>"
+
+#: includes/phpscanner.php:39
+#@ knews
+msgid "subscription_error_title"
+msgstr "Error on subscription"
+
+#: includes/phpscanner.php:40
+#@ knews
+msgid "subscription_error_message"
+msgstr "Please, try it again. If necessary, copy the entire link in the browser bar.<br><br><strong>We apologize for the inconvenience</strong>"
+
+#: includes/phpscanner.php:41
+#@ knews
+msgid "subscription_stop_error_title"
+msgstr "Fail to cancel your subscription"
+
+#: includes/phpscanner.php:42
+#@ knews
+msgid "subscription_stop_error_message"
+msgstr "Please, try it again. If necessary, copy the entire email link in the navigation bar. Sorry for the inconvenience."
+
+#: includes/phpscanner.php:43
+#@ knews
+msgid "subscription_stop_ok_title"
+msgstr "Your subscription has been cancelled"
+
+#: includes/phpscanner.php:44
+#@ knews
+msgid "subscription_stop_ok_message"
+msgstr "From now on, you will no longer receive our newsletters. Thank you."
+
+#: includes/phpscanner.php:45
+#@ knews
+msgid "dialogs_close_button"
+msgstr "Close"
+
+#: admin/knews_admin_import.php:401
+#@ knews
+msgid "year-month-day"
+msgstr "year-month-day"
+
+#: admin/knews_admin_import.php:386
+#: admin/knews_admin_users.php:283
+#@ knews
+msgid "blocked"
+msgstr "blocked"
+
+#: admin/knews_admin_lists.php:50
+#@ knews
+msgid "can't create the mailing list"
+msgstr "can't create the mailing list"
+
+#: admin/knews_admin_import.php:385
+#: admin/knews_admin_users.php:282
+#@ knews
+msgid "confirmed"
+msgstr "confirmed"
+
+#: admin/knews_admin_submits.php:138
+#@ knews
+msgid "deleted"
+msgstr "deleted"
+
+#: admin/knews_admin_import.php:399
+#@ knews
+msgid "day-month-year"
+msgstr "day-month-year"
+
+#: admin/knews_admin_import.php:257
+#@ knews
+msgid "If not, change the separator values and / or closing. Then press \"Scan CSV again\":"
+msgstr "If not, change the separator values and / or closing. Then press \"Scan CSV again\":"
+
+#: admin/knews_admin_import.php:411
+#@ knews
+msgid "introduce value"
+msgstr "introduce value"
+
+#: admin/knews_admin_import.php:400
+#@ knews
+msgid "month-day-year"
+msgstr "month-day-year"
+
+#: admin/knews_admin_config.php:213
+#: admin/knews_admin_config.php:224
+#@ knews
+msgid "minutes ago"
+msgstr "minutes ago"
+
+#: admin/knews_admin_import.php:384
+#: admin/knews_admin_users.php:281
+#@ knews
+msgid "not confirmed"
+msgstr "not confirmed"
+
+#: admin/knews_admin_auto.php:266
+#: admin/knews_admin_news_list.php:265
+#: admin/knews_admin_users.php:277
+#: admin/knews_admin_users.php:532
+#@ knews
+msgid "Language not detected!"
+msgstr "Language not detected!"
+
+#: admin/knews_admin_auto.php:327
+#: admin/knews_admin_news_send.php:208
+#@ knews
+msgid "test mode"
+msgstr "test mode"
+
+#: admin/knews_admin_lists.php:53
+#@ knews
+msgid "there is already a list with this name!"
+msgstr "there is already a list with this name!"
+
+#: admin/knews_admin_import.php:772
+#: admin/knews_admin_import.php:774
+#: admin/knews_admin_import.php:777
+#: admin/knews_admin_import.php:779
+#: admin/knews_admin_import.php:781
+#: admin/knews_admin_import.php:793
+#: admin/knews_admin_import.php:796
+#: admin/knews_admin_import.php:802
+#@ knews
+msgid "users"
+msgstr "users"
+
+#: includes/phpscanner.php:17
+#: knews.php:147
+#@ knews
+msgid "E-mail on automatically import (body)"
+msgstr "E-mail on automatically import (body)"
+
+#: includes/phpscanner.php:16
+#: knews.php:146
+#@ knews
+msgid "E-mail on automatically import (title)"
+msgstr "E-mail on automatically import (title)"
+
+#: includes/phpscanner.php:26
+#: knews.php:156
+#@ knews
+msgid "Close Button Caption"
+msgstr "Close Button Caption"
+
+#: includes/phpscanner.php:15
+#: knews.php:145
+#@ knews
+msgid "Confirmation E-mail (body)"
+msgstr "Confirmation E-mail (body)"
+
+#: includes/phpscanner.php:14
+#: knews.php:144
+#@ knews
+msgid "Confirmation E-mail (subject)"
+msgstr "Confirmation E-mail (subject)"
+
+#: includes/phpscanner.php:21
+#: knews.php:151
+#@ knews
+msgid "Subscription Error Dialog (Message)"
+msgstr "Subscription Error Dialog (Message)"
+
+#: includes/phpscanner.php:20
+#: knews.php:150
+#@ knews
+msgid "Subscription Error Dialog (Title)"
+msgstr "Subscription Error Dialog (Title)"
+
+#: includes/phpscanner.php:19
+#: knews.php:149
+#@ knews
+msgid "Subscription OK Dialog (Message)"
+msgstr "Subscription OK Dialog (Message)"
+
+#: includes/phpscanner.php:18
+#: knews.php:148
+#@ knews
+msgid "Subscription OK Dialog (Title)"
+msgstr "Subscription OK Dialog (Title)"
+
+#: includes/phpscanner.php:11
+#: knews.php:141
+#@ knews
+msgid "Subscription done, you were already subscribed (AJAX message)"
+msgstr "Subscription done, you were already subscribed (AJAX message)"
+
+#: includes/phpscanner.php:10
+#: knews.php:140
+#@ knews
+msgid "We have sent you a confirmation e-mail (AJAX message)"
+msgstr "We have sent you a confirmation e-mail (AJAX message)"
+
+#: includes/phpscanner.php:13
+#: knews.php:143
+#@ knews
+msgid "Subscription error (AJAX message)"
+msgstr "Subscription error (AJAX message)"
+
+#: includes/phpscanner.php:23
+#: knews.php:153
+#@ knews
+msgid "UnSubscribe Error Dialog (Message)"
+msgstr "UnSubscribe Error Dialog (Message)"
+
+#: includes/phpscanner.php:22
+#: knews.php:152
+#@ knews
+msgid "UnSubscribe Error Dialog (Title)"
+msgstr "UnSubscribe Error Dialog (Title)"
+
+#: includes/phpscanner.php:25
+#: knews.php:155
+#@ knews
+msgid "UnSubscribe OK Dialog (Message)"
+msgstr "UnSubscribe OK Dialog (Message)"
+
+#: includes/phpscanner.php:24
+#: knews.php:154
+#@ knews
+msgid "UnSubscribe OK Dialog (Title)"
+msgstr "UnSubscribe OK Dialog (Title)"
+
+#: includes/phpscanner.php:9
+#: knews.php:138
+#@ knews
+msgid "Wrong e-mail address, please check (AJAX message)"
+msgstr "Wrong e-mail address, please check (AJAX message)"
+
+#: includes/phpscanner.php:36
+#@ knews
+msgid "email_importation_body"
+msgstr "You have been subscribed to the newsletters  of the #blog_name#, you should confirm your subscription by clicking <a href=\"#url_confirm#\">here</a>.</p><p>You can paste the address into a browser:<br>#url_confirm#</p>"
+
+#: includes/phpscanner.php:35
+#@ knews
+msgid "email_importation_subject"
+msgstr "Newsletter sign up"
+
+#: admin/knews_admin_users.php:454
+#@ knews
+msgid "deleted list"
+msgstr "deleted list"
+
+#: admin/knews_admin_import.php:799
+#@ knews
+msgid "Total errors:"
+msgstr "Total errors:"
+
+#: admin/knews_admin_users.php:118
+#@ knews
+msgid "User deleted"
+msgstr "User deleted"
+
+#: admin/knews_admin_users.php:427
+#@ knews
+msgid "Edit this user"
+msgstr "Edit this user"
+
+#: admin/knews_admin_users.php:429
+#@ knews
+msgid "Activate this user"
+msgstr "Activate this user"
+
+#: admin/knews_admin_auto.php:129
+#: admin/knews_admin_users.php:429
+#@ knews
+msgid "Activate"
+msgstr "Activate"
+
+#: admin/knews_admin_users.php:433
+#@ knews
+msgid "Delete definitively this user"
+msgstr "Delete definitively this user"
+
+#: admin/knews_admin_users.php:430
+#@ knews
+msgid "Block this user"
+msgstr "Block this user"
+
+#: admin/knews_admin_users.php:430
+#@ knews
+msgid "Block"
+msgstr "Block"
+
+#: admin/knews_admin_news_list.php:188
+#: admin/knews_admin_users.php:482
+#@ knews
+msgid "Batch actions"
+msgstr "Batch actions"
+
+#: admin/knews_admin_lists.php:242
+#: admin/knews_admin_news_list.php:191
+#: admin/knews_admin_users.php:485
+#@ knews
+msgid "Apply"
+msgstr "Apply"
+
+#: admin/knews_admin_lists.php:182
+#: admin/knews_admin_news_list.php:152
+#@ knews
+msgid "Rename"
+msgstr "Rename"
+
+#: admin/knews_admin_lists.php:239
+#@ knews
+msgid "Only update"
+msgstr "Only update"
+
+#: admin/knews_admin_lists.php:240
+#@ knews
+msgid "Only delete"
+msgstr "Only delete"
+
+#: admin/knews_admin_submits.php:158
+#@ knews
+msgid "See fails"
+msgstr "See fails"
+
+#: admin/knews_admin_submits.php:152
+#@ knews
+msgid "Pause"
+msgstr "Pause"
+
+#: admin/knews_admin_import.php:230
+#@ knews
+msgid "Progress"
+msgstr "Progress"
+
+#: admin/knews_admin_lists.php:182
+#@ knews
+msgid "Rename this list"
+msgstr "Rename this list"
+
+#: admin/knews_admin_lists.php:183
+#@ knews
+msgid "See this list users"
+msgstr "See this list users"
+
+#: admin/knews_admin_lists.php:184
+#: admin/knews_admin_news_list.php:156
+#@ knews
+msgid "Delete definitively this newsletter"
+msgstr "Delete definitively this newsletter"
+
+#: admin/knews_admin_news_list.php:150
+#@ knews
+msgid "Edit this newsletter"
+msgstr "Edit this newsletter"
+
+#: admin/knews_admin_news_list.php:152
+#@ knews
+msgid "Rename this newsletter"
+msgstr "Rename this newsletter"
+
+#: admin/knews_admin_news_list.php:153
+#@ knews
+msgid "Open a preview in a new window"
+msgstr "Open a preview in a new window"
+
+#: admin/knews_admin_news_list.php:154
+#@ knews
+msgid "Submit this newsletter"
+msgstr "Submit this newsletter"
+
+#: admin/knews_admin_submits.php:145
+#@ knews
+msgid "Change the priority"
+msgstr "Change the priority"
+
+#: admin/knews_admin_submits.php:148
+#@ knews
+msgid "Set the current date and time as start submit time"
+msgstr "Set the current date and time as start submit time"
+
+#: admin/knews_admin_submits.php:152
+#@ knews
+msgid "Pause this submit"
+msgstr "Pause this submit"
+
+#: admin/knews_admin_submits.php:154
+#@ knews
+msgid "Remove pause, continue submit"
+msgstr "Remove pause, continue submit"
+
+#: admin/knews_admin_submits.php:148
+#@ knews
+msgid "Start now"
+msgstr "Start now"
+
+#: admin/knews_admin_submits.php:100
+#: admin/knews_admin_submits.php:158
+#@ default
+#@ knews
+msgid "See report fails by SMTP server"
+msgstr "See report fails by SMTP server"
+
+#: admin/knews_admin_submits.php:167
+#@ knews
+msgid "Stop and delete this submit now"
+msgstr "Stop and delete this submit now"
+
+#: direct/edit_news.php:15
+#@ knews
+msgid "Error: This newsletter does not exist"
+msgstr "Error: This newsletter does not exist"
+
+#: admin/knews_admin_news_edit.php:62
+#@ knews
+msgid "Do you really want to delete this module?"
+msgstr "Do you really want to delete this module?"
+
+#: admin/knews_admin_news_edit.php:52
+#@ knews
+msgid "Move module"
+msgstr "Move module"
+
+#: admin/knews_admin_news_edit.php:53
+#@ knews
+msgid "Delete module"
+msgstr "Delete module"
+
+#: admin/knews_admin_news_edit.php:79
+#@ knews
+msgid "Subject"
+msgstr "Subject"
+
+#: direct/select_post.php:233
+#@ knews
+msgid "Posts"
+msgstr "Posts"
+
+#: direct/select_post.php:234
+#@ knews
+msgid "Pages"
+msgstr "Pages"
+
+#: admin/knews_admin_config.php:479
+#@ knews
+msgid "Reset all alerts"
+msgstr "Reset all alerts"
+
+#: admin/knews_admin_config.php:165
+#@ knews
+msgid "Reset all messages to default values (all languages at once)"
+msgstr "Reset all messages to default values (all languages at once)"
+
+#: admin/knews_admin_submits.php:31
+#: admin/knews_admin_submits.php:34
+#@ knews
+msgid "Knews will try to resend those messages which have reported error"
+msgstr "Knews will try to resend those messages which have reported error"
+
+#: admin/knews_admin_submits.php:159
+#@ knews
+msgid "Resubmit those which have reported error"
+msgstr "Resubmit those which have reported error"
+
+#: admin/knews_admin_submits.php:159
+#@ knews
+msgid "Retry"
+msgstr "Retry"
+
+#: admin/knews_admin_export.php:239
+#@ knews
+msgid "1. Select the users you want to export:"
+msgstr "1. Select the users you want to export:"
+
+#: admin/knews_admin_export.php:243
+#@ knews
+msgid "1.1. Select the lists to export:"
+msgstr "1.1. Select the lists to export:"
+
+#: admin/knews_admin_export.php:251
+#@ knews
+msgid "1.2. Select the languages to export:"
+msgstr "1.2. Select the languages to export:"
+
+#: admin/knews_admin_export.php:267
+#@ knews
+msgid "2. Format options:"
+msgstr "2. Format options:"
+
+#: admin/knews_admin_export.php:97
+#@ knews
+msgid "E-mail"
+msgstr "E-mail"
+
+#: admin/knews_admin_export.php:86
+#: admin/knews_admin_export.php:276
+#@ knews
+msgid "Export users"
+msgstr "Export users"
+
+#: admin/knews_admin_export.php:270
+#@ knews
+msgid "Insert a header in the first row"
+msgstr "Insert a header in the first row"
+
+#: admin/knews_admin_export.php:232
+#@ knews
+msgid "No users match criteria"
+msgstr "No users match criteria"
+
+#: admin/knews_admin_export.php:81
+#@ knews
+msgid "Select at least one list and one language."
+msgstr "Select at least one list and one language."
+
+#: admin/knews_admin_export.php:221
+#, php-format
+#@ knews
+msgid "To download the .CSV, click %s here"
+msgstr "To download the .CSV, click %s here"
+
+#: knews.php:1668
+#@ knews
+msgid "Export CSV"
+msgstr "Export CSV"
+
+#: admin/knews_admin_export.php:261
+#@ knews
+msgid "Note: mark all lists and the desired language/s to filter by language, or all languages and desired lists to filter by list,"
+msgstr "Note: mark all lists and the desired language/s to filter by language, or all languages and desired lists to filter by list,"
+
+#: admin/knews_admin_export.php:263
+#@ knews
+msgid "...or all lists and all languages to export all users."
+msgstr "...or all lists and all languages to export all users."
+
+#: admin/knews_admin_export.php:216
+#, php-format
+#@ knews
+msgid "%s users have been exported."
+msgstr "%s users have been exported."
+
+#: admin/knews_admin_export.php:105
+#@ knews
+msgid "Lists"
+msgstr "Lists"
+
+#: admin/knews_admin_news_edit.php:46
+#@ knews
+msgid "Edit image"
+msgstr "Edit image"
+
+#: admin/knews_admin_news_edit.php:50
+#@ knews
+msgid "Insert post/page content"
+msgstr "Insert post/page content"
+
+#: admin/knews_admin_news_edit.php:51
+#@ knews
+msgid "Free text content"
+msgstr "Free text content"
+
+#: admin/knews_admin_news_edit.php:157
+#@ knews
+msgid "Resize toolbox"
+msgstr "Resize toolbox"
+
+#: admin/knews_admin_news_edit.php:9
+#@ knews
+msgid "Warning! IE 6/7 can't edit newsletters! The editor uses HTML5 properties, you need upgrade at least to IE8, or use an modern Firefox, Chrome or Safari."
+msgstr "Warning! IE 6/7 can't edit newsletters! The editor uses HTML5 properties, you need upgrade at least to IE8, or use an modern Firefox, Chrome or Safari."
+
+#: admin/knews_admin_news_edit.php:67
+#@ knews
+msgid "Warning! Opera can't edit newsletters. You must use a modern Firefox, Chrome, Safari or at least Internet Explorer 8."
+msgstr "Warning! Opera can't edit newsletters. You must use a modern Firefox, Chrome, Safari or at least Internet Explorer 8."
+
+#: direct/edit_news.php:27
+#@ knews
+msgid "Warning! You should activate JavaScript to edit newsletters!"
+msgstr "Warning! You should activate JavaScript to edit newsletters!"
+
+#: admin/knews_admin_submits.php:125
+#@ knews
+msgid "No submits yet. First go to Newsletters, create one, and then submit it."
+msgstr "No submits yet. First go to newsletters, create one, and then submit it."
+
+#: admin/knews_admin_export.php:224
+#@ knews
+msgid "Error: I can't write the .CSV file."
+msgstr "Error: I can't write the .CSV file."
+
+#: admin/knews_admin_import.php:397
+#@ knews
+msgid "User join date"
+msgstr "User join date"
+
+#: admin/knews_admin_import.php:397
+#@ knews
+msgid "All: today"
+msgstr "All: today"
+
+#: admin/knews_admin_submits.php:164
+#@ knews
+msgid "See log"
+msgstr "See log"
+
+#: admin/knews_admin_submits.php:96
+#: admin/knews_admin_submits.php:164
+#@ knews
+msgid "See the complete submit log"
+msgstr "See the complete submit log"
+
+#: admin/knews_admin_config.php:478
+#@ knews
+msgid "Alerts and logs"
+msgstr "Alerts and logs"
+
+#: admin/knews_admin_config.php:480
+#@ knews
+msgid "Write logs (in /wp-content/plugins/knews/tmp directory) in submits"
+msgstr "Write logs (in /wp-content/plugins/knews/tmp directory) in submits"
+
+#: includes/knews_util.php:282
+#@ knews
+msgid "Go to template page"
+msgstr "Go to template page"
+
+#: admin/knews_admin_news.php:192
+#@ knews
+msgid "Redirecting to editor..."
+msgstr "Redirecting to editor..."
+
+#: admin/knews_admin_config.php:341
+#, php-format
+#@ knews
+msgid "The e-mails submited to any e-mail terminated with @knewstest.com (like testing001@knewstest.com or xxx@knewstest.com) will be submited to: %s for your testing purposes"
+msgstr "The e-mails submited to any e-mail terminated with @knewstest.com (like testing001@knewstest.com or xxx@knewstest.com) will be submited to: %s for your testing purposes"
+
+#: admin/knews_admin_lists.php:22
+#@ knews
+msgid "List deleted"
+msgstr "List deleted"
+
+#: admin/knews_admin_submits.php:16
+#: admin/knews_admin_submits.php:41
+#: admin/knews_admin_submits.php:47
+#@ knews
+msgid "Submit start time updated"
+msgstr "Submit start time updated"
+
+#: admin/knews_admin_lists.php:16
+#@ knews
+msgid "List name updated"
+msgstr "List name updated"
+
+#: admin/knews_admin_submits.php:53
+#@ knews
+msgid "Submit deleted"
+msgstr "Submit deleted"
+
+#: admin/knews_admin_submits.php:10
+#@ knews
+msgid "Submit priority updated"
+msgstr "Submit priority updated"
+
+#: admin/knews_admin_config.php:243
+#@ knews
+msgid "Use WordPress's built-in CRON framework."
+msgstr "Use WordPress's built-in CRON framework."
+
+#: admin/knews_admin_config.php:243
+#@ knews
+msgid "This option no requires configuration, but in less traffic sites can be slow to submit"
+msgstr "This option no requires configuration, but in less traffic sites can be slow to submit"
+
+#: admin/knews_admin_config.php:244
+#@ knews
+msgid "Use the JavaScript CRON emulation."
+msgstr "Use the JavaScript CRON emulation."
+
+#: admin/knews_admin_config.php:244
+#@ knews
+msgid "This option requires you to keep a window open during submission and does not allow deferred submits"
+msgstr "This option requires you to keep a window open during submission and does not allow deferred submits"
+
+#: admin/knews_admin_news_list.php:155
+#@ knews
+msgid "Duplicate"
+msgstr "Duplicate"
+
+#: admin/knews_admin_news_list.php:155
+#@ knews
+msgid "Duplicate this newsletter"
+msgstr "Duplicate this newsletter"
+
+#: admin/knews_admin_news_edit.php:47
+#@ knews
+msgid "Apply changes and refresh image"
+msgstr "Apply changes and refresh image"
+
+#: admin/knews_admin_news_edit.php:48
+#@ knews
+msgid "Undo image changes"
+msgstr "Undo image changes"
+
+#: admin/knews_admin_news_edit.php:49
+#@ knews
+msgid "Properties of image"
+msgstr "Properties of image"
+
+#: admin/knews_admin_news_send.php:117
+#@ knews
+msgid "Select one or more lists"
+msgstr "Select one or more lists"
+
+#: includes/submit_batch.php:55
+#@ knews
+msgid "No active users in the selected list, nothing programmed to send."
+msgstr "No active users in the selected list, nothing programmed to send."
+
+#: admin/knews_admin_config.php:197
+#@ knews
+msgid "Configure CRON tutorial"
+msgstr "Configure CRON tutorial"
+
+#: admin/knews_admin_config.php:236
+#@ knews
+msgid "You must add this line in your webserver CRONTAB:"
+msgstr "You must add this line in your webserver CRONTAB:"
+
+#: admin/knews_admin_config.php:276
+#@ knews
+msgid "Configure SMTP tutorial"
+msgstr "Configure SMTP tutorial"
+
+#: admin/knews_admin_news.php:172
+#@ knews
+msgid "The language can't be localized"
+msgstr "The language can't be localized"
+
+#: admin/knews_admin_news_edit.php:45
+#@ knews
+msgid "You are in image edition mode. You must press Apply or Undo image changes (or press ESC key) before doing anything."
+msgstr "You are in image edition mode. You must press Apply or Undo image changes (or press ESC key) before doing anything."
+
+#: admin/knews_admin_news_edit.php:117
+#@ knews
+msgid "Image alt:"
+msgstr "Image alt:"
+
+#: admin/knews_admin_news_edit.php:117
+#@ knews
+msgid "The alternate text is very important, because most mail clients block initial image load and show the alternate image text."
+msgstr "The alternate text is very important, because most mail clients block initial image load and show the alternate image text."
+
+#: admin/knews_admin_news_edit.php:116
+#@ knews
+msgid "Image link:"
+msgstr "Image link:"
+
+#: admin/knews_admin_news_edit.php:116
+#@ knews
+msgid "Put a url if you want to put link around the image, for example: http://www.mysite.com/mypage.html."
+msgstr "Put a url if you want to put link around the image, for example: http://www.mysite.com/mypage.html."
+
+#: admin/knews_admin_news_list.php:161
+#: admin/knews_admin_news_list.php:250
+#@ knews
+msgid "Multilanguage"
+msgstr "Multilanguage"
+
+#: admin/knews_admin_news_list.php:240
+#@ knews
+msgid "Make your own templates how-to"
+msgstr "Make your own templates how-to"
+
+#: admin/knews_admin_stats.php:235
+#@ knews
+msgid "From date:"
+msgstr "From date:"
+
+#: admin/knews_admin_stats.php:240
+#: admin/knews_admin_stats.php:313
+#: admin/knews_admin_stats.php:475
+#@ knews
+msgid "to date:"
+msgstr "to date:"
+
+#: admin/knews_admin_stats.php:246
+#@ knews
+msgid "last 7 days"
+msgstr "last 7 days"
+
+#: admin/knews_admin_stats.php:247
+#@ knews
+msgid "last 30 days"
+msgstr "last 30 days"
+
+#: admin/knews_admin_stats.php:248
+#@ knews
+msgid "last week"
+msgstr "last week"
+
+#: admin/knews_admin_stats.php:249
+#@ knews
+msgid "last month"
+msgstr "last month"
+
+#: admin/knews_admin_stats.php:259
+#@ knews
+msgid "The date range you have selected is not available."
+msgstr "The date range you have selected is not available."
+
+#: admin/knews_admin_stats.php:281
+#@ knews
+msgid "Current status of subscriptions"
+msgstr "Current status of subscriptions"
+
+#: admin/knews_admin_stats.php:289
+#@ knews
+msgid "Active users:"
+msgstr "Active users:"
+
+#: admin/knews_admin_stats.php:292
+#@ knews
+msgid "Not confirmed:"
+msgstr "Not confirmed:"
+
+#: admin/knews_admin_stats.php:295
+#@ knews
+msgid "Unsubscribed users:"
+msgstr "Unsubscribed users:"
+
+#: admin/knews_admin_stats.php:298
+#@ knews
+msgid "Total:"
+msgstr "Total:"
+
+#: admin/knews_admin_stats.php:308
+#@ knews
+msgid "Currently have no subscribers."
+msgstr "Currently have no subscribers."
+
+#: admin/knews_admin_stats.php:313
+#@ knews
+msgid "Accumulated sign ups and unsubscribes from date:"
+msgstr "Accumulated sign ups and unsubscribes from date:"
+
+#: admin/knews_admin_stats.php:321
+#@ knews
+msgid "You must select a right date range"
+msgstr "You must select a right date range"
+
+#: admin/knews_admin_stats.php:365
+#: admin/knews_admin_stats.php:366
+#: admin/knews_admin_stats.php:386
+#@ knews
+msgid "Sign ups"
+msgstr "Sign ups"
+
+#: admin/knews_admin_stats.php:365
+#: admin/knews_admin_stats.php:367
+#: admin/knews_admin_stats.php:387
+#: admin/knews_admin_stats.php:457
+#: admin/knews_admin_stats.php:461
+#: admin/knews_admin_stats.php:483
+#: admin/knews_admin_stats.php:501
+#@ knews
+msgid "Unsubscriptions"
+msgstr "Unsubscriptions"
+
+#: admin/knews_admin_stats.php:457
+#@ knews
+msgid "Sendings"
+msgstr "Sendings"
+
+#: admin/knews_admin_stats.php:457
+#: admin/knews_admin_stats.php:458
+#: admin/knews_admin_stats.php:478
+#: admin/knews_admin_stats.php:497
+#@ knews
+msgid "Sendings OK"
+msgstr "Sendings OK"
+
+#: admin/knews_admin_stats.php:457
+#: admin/knews_admin_stats.php:459
+#: admin/knews_admin_stats.php:480
+#: admin/knews_admin_stats.php:504
+#@ knews
+msgid "Sendings Error"
+msgstr "Sendings Error"
+
+#: admin/knews_admin_stats.php:457
+#: admin/knews_admin_stats.php:460
+#: admin/knews_admin_stats.php:482
+#: admin/knews_admin_stats.php:513
+#@ knews
+msgid "Cant read"
+msgstr "Can't read"
+
+#: admin/knews_admin_stats.php:462
+#@ knews
+msgid "Total clicks"
+msgstr "Total clicks"
+
+#: admin/knews_admin_stats.php:475
+#@ knews
+msgid "Newsletters & clicks from date:"
+msgstr "Newsletters & clicks from date:"
+
+#: admin/knews_admin_stats.php:457
+#: admin/knews_admin_stats.php:481
+#: admin/knews_admin_stats.php:506
+#@ knews
+msgid "Link clicks"
+msgstr "Link clicks"
+
+#: admin/knews_admin_stats.php:511
+#@ knews
+msgid "Total submits"
+msgstr "Total submits"
+
+#: admin/knews_admin_stats.php:536
+#, php-format
+#@ knews
+msgid "Error: make sure the directory %s exists and has write permissions (chmod 700)."
+msgstr "Error: make sure the directory %s exists and has write permissions (chmod 700)."
+
+#: includes/resize_img.php:140
+#@ knews
+msgid "Error: there is no image selected"
+msgstr "Error: there is no image selected"
+
+#: knews.php:2210
+#@ knews
+msgid "Customize widget messages"
+msgstr "Customize widget messages"
+
+#: admin/knews_admin_import.php:563
+#@ knews
+msgid "Sign up date user cant be understood"
+msgstr "Sign up date user can't be understood"
+
+#: admin/knews_admin_import.php:598
+#@ knews
+msgid "SQL Error while inserting user"
+msgstr "SQL Error while inserting user"
+
+#: admin/knews_admin_import.php:620
+#@ knews
+msgid "SQL Error while updating user"
+msgstr "SQL Error while updating user"
+
+#: admin/knews_admin_news_send.php:139
+#, php-format
+#@ knews
+msgid "Warning: the email has no subject! %s Edit it again before submit!"
+msgstr "Warning: the email has no subject! %s Edit it again before submit!"
+
+#: admin/knews_admin_news_send.php:145
+#, php-format
+#@ knews
+msgid "Warning: %sConfigure sender name before submit!"
+msgstr "Warning: %sConfigure sender name before submit!"
+
+#: admin/knews_admin_stats.php:385
+#@ knews
+msgid "Sign Ups & Blocks"
+msgstr "Sign Ups & Blocks"
+
+#: admin/knews_admin_config.php:197
+#@ knews
+msgid "Use the CRON server (recommended)"
+msgstr "Use the CRON server (recommended)"
+
+#: knews.php:122
+#@ knews
+msgid "Text direction, Left To Right or Right To Left: put <span style=\"color:#e00\">ltr</span> or <span style=\"color:#e00\">rtl</span>"
+msgstr "Text direction, Left To Right or Right To Left: put <span style=\"color:#e00\">ltr</span> or <span style=\"color:#e00\">rtl</span>"
+
+#: knews.php:157
+#@ knews
+msgid "Default alignment (<span style=\"color:#e00\">left</span> for left to right languages and <span style=\"color:#e00\">right</span> for right to left languages)"
+msgstr "Default alignment (<span style=\"color:#e00\">left</span> for left to right languages and <span style=\"color:#e00\">right</span> for right to left languages)"
+
+#: knews.php:158
+#@ knews
+msgid "Inverse alignment (<span style=\"color:#e00\">right</span> for left to right languages and <span style=\"color:#e00\">left</span> for right to left languages)"
+msgstr "Inverse alignment (<span style=\"color:#e00\">right</span> for left to right languages and <span style=\"color:#e00\">left</span> for right to left languages)"
+
+#: knews.php:159
+#@ knews
+msgid "Cant read text 1"
+msgstr "Can't read text 1"
+
+#: knews.php:160
+#@ knews
+msgid "Cant read text link"
+msgstr "Can't read text link"
+
+#: knews.php:161
+#@ knews
+msgid "Cant read text 2"
+msgstr "Can't read text 2"
+
+#: knews.php:164
+#@ knews
+msgid "Unsubscribe text 1"
+msgstr "Unsubscribe text 1"
+
+#: knews.php:165
+#@ knews
+msgid "Unsubscribe text link"
+msgstr "Unsubscribe text link"
+
+#: knews.php:166
+#@ knews
+msgid "Unsubscribe text 2"
+msgstr "Unsubscribe text 2"
+
+#: knews.php:167
+#@ knews
+msgid "The read more text link"
+msgstr "The read more text link"
+
+#: admin/knews_admin_news_edit.php:115
+#@ knews
+msgid "Image URL:"
+msgstr "Image URL:"
+
+#: admin/knews_admin_news_edit.php:118
+#@ knews
+msgid "Image align:"
+msgstr "Image align:"
+
+#: admin/knews_admin_news_edit.php:133
+#@ knews
+msgid "Apply changes"
+msgstr "Apply changes"
+
+#: admin/knews_admin_news_edit.php:133
+#@ knews
+msgid "Undo"
+msgstr "Undo"
+
+#: admin/knews_admin_stats.php:245
+#@ knews
+msgid "Fast selection:"
+msgstr "Fast selection:"
+
+#: knews.php:1856
+#@ knews
+msgid "You are downgraded the version of Knews, you can lose data, please update quickly"
+msgstr "You are downgraded the version of Knews, you can lose data, please update quickly"
+
+#: admin/knews_admin_news_list.php:240
+#@ knews
+msgid "http://www.knewsplugin.com/tutorial/"
+msgstr "http://www.knewsplugin.com/tutorial/"
+
+#: admin/knews_admin_config.php:276
+#@ knews
+msgid "http://www.knewsplugin.com/configure-smtp-submits/"
+msgstr "http://www.knewsplugin.com/configure-smtp-submits/"
+
+#: admin/knews_admin_config.php:197
+#@ knews
+msgid "http://www.knewsplugin.com/configure-webserver-cron/"
+msgstr "http://www.knewsplugin.com/configure-webserver-cron/"
+
+#: admin/knews_admin_config.php:231
+#, php-format
+#@ knews
+msgid "Multisite detected. Only one instance of %s must be called for all websites."
+msgstr "Multisite detected. Only one instance of %s must be called for all websites."
+
+#: admin/knews_admin_auto.php:68
+#@ knews
+msgid "Cant create the automated submit"
+msgstr "Can't create the automated submit"
+
+#: knews.php:129
+#: knews.php:134
+#, php-format
+#@ knews
+msgid "Widget \"%s\" label form"
+msgstr "Widget \"%s\" label form"
+
+#: knews.php:1669
+#@ knews
+msgid "Auto-create"
+msgstr "Auto-create"
+
+#: knews.php:1941
+#@ knews
+msgid "Knews Post Options"
+msgstr "Knews Post Options"
+
+#: knews.php:2146
+#@ knews
+msgid "Add a subscription form into the sidebar"
+msgstr "Add a subscription form into the sidebar"
+
+#: knews.php:2178
+#@ knews
+msgid "Dont ask"
+msgstr "Don't ask"
+
+#: knews.php:2179
+#@ knews
+msgid "Not required"
+msgstr "Not required"
+
+#: knews.php:2180
+#@ knews
+msgid "Required"
+msgstr "Required"
+
+#: admin/knews_admin_auto.php:17
+#@ knews
+msgid "Automated process deleted"
+msgstr "Automated process deleted"
+
+#: admin/knews_admin_auto.php:23
+#@ knews
+msgid "Automated process activated"
+msgstr "Automated process activated"
+
+#: admin/knews_admin_auto.php:23
+#@ knews
+msgid "Automated process deactivated"
+msgstr "Automated process deactivated"
+
+#: admin/knews_admin_auto.php:29
+#@ knews
+msgid "Automated submit activated"
+msgstr "Automated submit activated"
+
+#: admin/knews_admin_auto.php:29
+#@ knews
+msgid "Manual submit activated"
+msgstr "Manual submit activated"
+
+#: admin/knews_admin_auto.php:66
+#@ knews
+msgid "Automated submit created"
+msgstr "Automated submit created"
+
+#: admin/knews_admin_auto.php:51
+#@ knews
+msgid "Error: the name cant be empty"
+msgstr "Error: the name can't be empty"
+
+#: admin/knews_admin_auto.php:72
+#@ knews
+msgid "Error: there is already an automated submit with this name"
+msgstr "Error: there is already an automated submit with this name"
+
+#: admin/knews_admin_auto.php:97
+#@ knews
+msgid "Auto-create Newsletters"
+msgstr "Auto-create Newsletters"
+
+#: admin/knews_admin_auto.php:109
+#: admin/knews_admin_auto.php:172
+#@ knews
+msgid "Automated process name"
+msgstr "Automated process name"
+
+#: admin/knews_admin_auto.php:110
+#: admin/knews_admin_auto.php:173
+#@ knews
+msgid "Target"
+msgstr "Target"
+
+#: admin/knews_admin_auto.php:113
+#: admin/knews_admin_auto.php:176
+#@ knews
+msgid "Activated"
+msgstr "Activated"
+
+#: admin/knews_admin_auto.php:114
+#: admin/knews_admin_auto.php:177
+#@ knews
+msgid "Automatic submit"
+msgstr "Automatic submit"
+
+#: admin/knews_admin_auto.php:115
+#: admin/knews_admin_auto.php:178
+#@ knews
+msgid "Method"
+msgstr "Method"
+
+#: admin/knews_admin_auto.php:116
+#: admin/knews_admin_auto.php:179
+#@ knews
+msgid "Last run"
+msgstr "Last run"
+
+#: admin/knews_admin_auto.php:129
+#@ knews
+msgid "Activate/deactivate the automated task"
+msgstr "Activate/deactivate the automated task"
+
+#: admin/knews_admin_auto.php:129
+#@ knews
+msgid "Deactivate"
+msgstr "Deactivate"
+
+#: admin/knews_admin_auto.php:131
+#@ knews
+msgid "Automatic/Manual submits of auto-created newsletters"
+msgstr "Automatic/Manual submits of auto-created newsletters"
+
+#: admin/knews_admin_auto.php:133
+#@ knews
+msgid "Delete definitively this automated task"
+msgstr "Delete definitively this automated task"
+
+#: admin/knews_admin_auto.php:152
+#: admin/knews_admin_auto.php:248
+#@ knews
+msgid "Off"
+msgstr "Off"
+
+#: admin/knews_admin_auto.php:152
+#: admin/knews_admin_auto.php:248
+#@ knews
+msgid "On"
+msgstr "On"
+
+#: admin/knews_admin_auto.php:154
+#: admin/knews_admin_auto.php:325
+#@ knews
+msgid "Automated submit"
+msgstr "Automated submit"
+
+#: admin/knews_admin_auto.php:131
+#: admin/knews_admin_auto.php:154
+#: admin/knews_admin_auto.php:325
+#@ knews
+msgid "Manual submit"
+msgstr "Manual submit"
+
+#: admin/knews_admin_auto.php:206
+#@ knews
+msgid "Automated submits"
+msgstr "Automated submits"
+
+#: admin/knews_admin_auto.php:237
+#@ knews
+msgid "At the moment there is no automated task, you can create new ones"
+msgstr "At the moment there is no automated task, you can create new ones"
+
+#: admin/knews_admin_auto.php:97
+#: admin/knews_admin_auto.php:243
+#@ knews
+msgid "New Auto-creation Process"
+msgstr "New Auto-creation Process"
+
+#: admin/knews_admin_auto.php:243
+#: admin/knews_admin_news_list.php:322
+#@ knews
+msgid "Auto-create Newsletters Tutorial"
+msgstr "Auto-create Newsletters Tutorial"
+
+#: admin/knews_admin_auto.php:255
+#@ knews
+msgid "Get posts from language:"
+msgstr "Get posts from language:"
+
+#: admin/knews_admin_auto.php:269
+#@ knews
+msgid "Use as template:"
+msgstr "Use as template:"
+
+#: admin/knews_admin_auto.php:284
+#, php-format
+#@ knews
+msgid "You must first create a newsletter with insertable info (leave the %the_content%, %the_title% etc.)"
+msgstr "You must first create a newsletter with insertable info (leave the %the_content%, %the_title% etc.)"
+
+#: admin/knews_admin_auto.php:287
+#, php-format
+#@ knews
+msgid "Create a newsletter every %s posts"
+msgstr "Create a newsletter every %s posts"
+
+#: admin/knews_admin_auto.php:322
+#@ knews
+msgid "Error: there are no mailing lists"
+msgstr "Error: there are no mailing lists"
+
+#: admin/knews_admin_config.php:132
+#: admin/knews_admin_config.php:185
+#: admin/knews_admin_config.php:383
+#: admin/knews_admin_config.php:428
+#@ knews
+msgid "Advanced options"
+msgstr "Advanced options"
+
+#: admin/knews_admin_config.php:483
+#@ knews
+msgid "Automated options"
+msgstr "Automated options"
+
+#: admin/knews_admin_config.php:484
+#@ knews
+msgid "Include the posts in the automated newsletters (default value for the new created posts)"
+msgstr "Include the posts in the automated newsletters (default value for the new created posts)"
+
+#: admin/knews_admin_news_list.php:78
+#@ knews
+msgid "Manual Newsletters"
+msgstr "Manual Newsletters"
+
+#: admin/knews_admin_news_list.php:78
+#@ knews
+msgid "Auto-created Newsletters"
+msgstr "Auto-created Newsletters"
+
+#: admin/knews_admin_news_list.php:232
+#@ knews
+msgid "There is no auto-created newsletter."
+msgstr "There is no auto-created newsletter."
+
+#: admin/knews_admin_auto.php:243
+#: admin/knews_admin_news_list.php:322
+#@ knews
+msgid "http://www.knewsplugin.com/automated-newsletter-creation/"
+msgstr "http://www.knewsplugin.com/automated-newsletter-creation/"
+
+#: admin/knews_admin_auto.php:246
+#@ knews
+msgid "General options"
+msgstr "General options"
+
+#: knews.php:1924
+#@ knews
+msgid "Include this post in the automated newsletters?"
+msgstr "Include this post in the automated newsletters?"
+
+#: knews.php:1932
+#@ knews
+msgid "This post has been included into:"
+msgstr "This post has been included into:"
+
+#: knews.php:1937
+#@ knews
+msgid "This post still not included into any automated newsletter."
+msgstr "This post still not included into any automated newsletter."
+
+#: admin/knews_admin_auto.php:248
+#@ knews
+msgid "Active process:"
+msgstr "Active process:"
+
+#: admin/knews_admin_auto.php:249
+#@ knews
+msgid "Newsletter creation options"
+msgstr "Newsletter creation options"
+
+#: admin/knews_admin_auto.php:288
+#@ knews
+msgid "Create a newsletter every x amount of time"
+msgstr "Create a newsletter every x amount of time"
+
+#: admin/knews_admin_auto.php:307
+#@ knews
+msgid "Newsletter submit options"
+msgstr "Newsletter submit options"
+
+#: admin/knews_admin_auto.php:311
+#@ knews
+msgid "Target for newsletter:"
+msgstr "Target for newsletter:"
+
+#: admin/knews_admin_auto.php:325
+#@ knews
+msgid "Submit method:"
+msgstr "Submit method:"
+
+#: admin/knews_admin_config.php:120
+#@ knews
+msgid "Messages reset to defaults."
+msgstr "Messages reset to defaults."
+
+#: admin/knews_admin_auto.php:327
+#@ knews
+msgid "(high performance SMTP)"
+msgstr "(high performance SMTP)"
+
+#: direct/select_post.php:255
+#@ knews
+msgid "All categories"
+msgstr "All categories"
+
+#: admin/knews_admin_auto.php:53
+#@ knews
+msgid "Error: Please, fill all the form"
+msgstr "Error: Please, fill all the form"
+
+#: admin/knews_admin_import.php:429
+#@ knews
+msgid "Mantain current data and add new mailing lists"
+msgstr "Mantain current data and add new mailing lists"
+
+#: includes/knews_util.php:354
+#@ knews
+msgid "of"
+msgstr "of"
+
+#: admin/knews_admin_config.php:322
+#@ knews
+msgid "SMTP Secure"
+msgstr "SMTP Secure"
+
+#: direct/knews_cron_do.php:266
+#@ knews
+msgid "Step"
+msgstr "Step"
+
+#: admin/knews_admin_auto.php:131
+#@ knews
+msgid "Submit automatic"
+msgstr "Submit automatic"
+
+#: includes/knews_util.php:267
+#, php-format
+#@ knews
+msgid "This template requires Knews version %s you must update Knews before use this template"
+msgstr "This template requires Knews version %s you must update Knews before use this template"
+
+#: includes/knews_util.php:272
+#, php-format
+#@ knews
+msgid "This template requires the professional version of Knews. You can get it %s here"
+msgstr "This template requires the professional version of Knews. You can get it %s here"
+
+#: admin/knews_admin_config.php:490
+#@ knews
+msgid "Compatibility options"
+msgstr "Compatibility options"
+
+#: admin/knews_admin_config.php:60
+#, php-format
+#@ knews
+msgid "<strong>Knews is now registered</strong>. Go to %s plugins administration %s and click on Knews 'Check for updates' link for upgrade. Thank you very much."
+msgstr "<strong>Knews is now registered</strong>. Go to %s plugins administration %s and click on Knews 'Check for updates' link for upgrade. Thank you very much."
+
+#: admin/knews_admin_auto.php:230
+#@ knews
+msgid "Knews runs every hour the automated newsletter creation jobs."
+msgstr "Knews runs every hour the automated newsletter creation jobs."
+
+#: admin/knews_admin_auto.php:231
+#, php-format
+#@ knews
+msgid "You can manually trigger this task now (only recommended for testing purposes) %s Run Automated Creation Now"
+msgstr "You can manually trigger this task now (only recommended for testing purposes) %s Run Automated Creation Now"
+
+#: admin/knews_admin_submits.php:222
+#@ knews
+msgid "Knews submit runs every 10 minutes and sends a portion of the list."
+msgstr "Knews submit runs every 10 minutes and sends a portion of the list."
+
+#: admin/knews_admin_submits.php:223
+#, php-format
+#@ knews
+msgid "You can manually trigger the JavaScript CRON if your newsletter is not being sent for any reason: %s Run JS-Cron Now"
+msgstr "You can manually trigger the JavaScript CRON if your newsletter is not being sent for any reason: %s Run JS-Cron Now"
+
+#: knews.php:123
+#@ knews
+msgid "Widget subscription form title"
+msgstr "Widget subscription form title"
+
+#: knews.php:125
+#@ knews
+msgid "Widget latest newsletters title"
+msgstr "Widget latest newsletters title"
+
+#: knews.php:162
+#@ knews
+msgid "Mobile version text link"
+msgstr "Mobile version text link"
+
+#: knews.php:163
+#@ knews
+msgid "Desktop version text link"
+msgstr "Desktop version text link"
+
+#: knews.php:1862
+#, php-format
+#@ knews
+msgid "You are downgraded to the free version of Knews, you can lose data, please update quickly! You can get the professional version %s here"
+msgstr "You are downgraded to the free version of Knews, you can lose data, please update quickly! You can get the professional version %s here"
+
+#: admin/knews_admin_config.php:133
+#: admin/knews_admin_config.php:186
+#: admin/knews_admin_config.php:384
+#: admin/knews_admin_config.php:429
+#@ knews
+msgid "Knews Pro options"
+msgstr "Knews Pro options"
+
+#: admin/knews_admin_config.php:393
+#: admin/knews_admin_config.php:403
+#@ knews
+msgid "Registration"
+msgstr "Registration"
+
+#: admin/knews_admin_config.php:394
+#@ knews
+msgid "Bounce configuration"
+msgstr "Bounce configuration"
+
+#: admin/knews_admin_config.php:486
+#@ knews
+msgid "Use post edition date instead post creation date for the automated newsletters (older posts never included in automation, will be included if you edit it and activate this option)"
+msgstr "Use post edition date instead post creation date for the automated newsletters (older posts never included in automation, will be included if you edit it and activate this option)"
+
+#: admin/knews_admin_config.php:491
+#@ knews
+msgid "Apply filter the_content in the newsletter post insertion (Deactivate for compatibility issues with some plugins like NextGen Gallery)"
+msgstr "Apply filter the_content in the newsletter post insertion (Deactivate for compatibility issues with some plugins like NextGen Gallery)"
+
+#: admin/knews_admin_config.php:491
+#@ knews
+msgid "<strong>Note</strong>: if you are using <strong>qTranslate</strong> you cant deactivate this option, because it uses this filter to divide the post contents into different languages."
+msgstr "<strong>Note</strong>: if you are using <strong>qTranslate</strong> you can't deactivate this option, because it uses this filter to divide the post contents into different languages."
+
+#: admin/knews_admin_config.php:492
+#@ knews
+msgid "Prevent bot registrations. Some Cache Plugins can need deactivate this option (Subscribe always fails \"wrong e-mail adress\" message)."
+msgstr "Prevent bot registrations. Some Cache Plugins can need deactivate this option (Subscribe always fails \"wrong e-mail adress\" message)."
+
+#: admin/knews_admin_news_list.php:45
+#@ knews
+msgid "Newsletter deleted"
+msgstr "Newsletter deleted"
+
+#: admin/knews_admin_news_list.php:39
+#@ knews
+msgid "Newsletter name updated"
+msgstr "Newsletter name updated"
+
+#: admin/knews_admin_news_list.php:54
+#@ knews
+msgid "Newsletter duplicated"
+msgstr "Newsletter duplicated"
+
+#: admin/knews_admin_users.php:440
+#@ knews
+msgid "Unconfirmed"
+msgstr "Unconfirmed"
+
+#: admin/knews_admin_users.php:431
+#@ knews
+msgid "Bounce"
+msgstr "Bounce"
+
+#: admin/knews_admin_users.php:284
+#: admin/knews_admin_users.php:383
+#: admin/knews_admin_users.php:443
+#@ knews
+msgid "Bounced"
+msgstr "Bounced"
+
+#: admin/knews_admin_users.php:431
+#@ knews
+msgid "Mark as bounced email"
+msgstr "Mark as bounced email"
+
+#: includes/knews_util.php:331
+#@ knews
+msgid "You dont have any mobile template!"
+msgstr "You dont have any mobile template!"
+
+#: knews.php:1850
+#, php-format
+#@ knews
+msgid "There is a videotutorial about Knews WYSIWYG Editor, %s view it in Youtube"
+msgstr "There is a videotutorial about Knews WYSIWYG Editor, %s view it in Youtube"
+
+#: admin/knews_admin_news_edit.php:70
+#, php-format
+#@ knews
+msgid "Sorry, this is a premium feature. Please, %s click here and see all the Knews Pro features."
+msgstr "Sorry, this is a premium feature. Please, %s click here and see all the Knews Pro features."
+
+#: admin/knews_admin_import.php:207
+#@ knews
+msgid "Warning! You arent selected any mailing list, do you want to continue?"
+msgstr "Warning! You arent selected any mailing list, do you want to continue?"
+
+#: admin/knews_admin_config.php:395
+#@ knews
+msgid "Roles and capabilities"
+msgstr "Roles and capabilities"
+
+#: admin/knews_admin_users.php:344
+#@ knews
+msgid "All subscribers"
+msgstr "All subscribers"
+
+#: admin/knews_admin_lists.php:165
+#: admin/knews_admin_lists.php:224
+#@ knews
+msgid "Order"
+msgstr "Order"
+
+#: admin/knews_admin_auto.php:335
+#@ knews
+msgid "New Auto-create Newsletters Process"
+msgstr "New Auto-create Newsletters Process"
+
+#: admin/knews_admin_auto.php:247
+#@ knews
+msgid "Automated process name:"
+msgstr "Automated process name:"
+
+#: admin/knews_admin_config.php:401
+#@ knews
+msgid "Knews Pro is currently installed."
+msgstr "Knews Pro is currently installed."
+
+#: admin/knews_admin_lists.php:230
+#@ knews
+msgid "Warning: if you haven't any mailing list opened, the subscription widget will not shown"
+msgstr "Warning: if you haven't any mailing list opened, the subscription widget will not shown"
+
+#: admin/knews_admin_lists.php:233
+#@ knews
+msgid "Warning: you haven't any mailing list opened for logged users, the subscription widget will not shown until you make log out"
+msgstr "Warning: you haven't any mailing list opened for logged users, the subscription widget will not shown until you make log out"
+
+#: admin/knews_admin_config.php:340
+#@ knews
+msgid "Load SMTP defaults:"
+msgstr "Load SMTP defaults:"
+
+#: admin/knews_admin_config.php:340
+#@ knews
+msgid "Gmail SMTP"
+msgstr "Gmail SMTP"
+
+#: admin/knews_admin_config.php:340
+#@ knews
+msgid "My hosting is 1&1"
+msgstr "My hosting is 1&1"
+
+#: admin/knews_admin_config.php:340
+#@ knews
+msgid "My Hosting is GoDaddy"
+msgstr "My Hosting is GoDaddy"
+
+#: admin/knews_admin_config.php:340
+#@ knews
+msgid "Yahoo SMTP"
+msgstr "Yahoo SMTP"
+
+#: knews.php:1898
+#, php-format
+#@ knews
+msgid "<strong>Knews:</strong> Do you want to stay-in-touch about latest Knews features, tips and tricks? Please, subscribe to our newsletter %s here"
+msgstr "<strong>Knews:</strong> Do you want to stay-in-touch about latest Knews features, tips and tricks? Please, subscribe to our newsletter %s here"
+
+#: knews.php:1672
+#@ knews
+msgid "Prioritary Support"
+msgstr "Prioritary Support"
+
+#: admin/knews_admin_config.php:396
+#@ knews
+msgid "Custom Post Types configuration"
+msgstr "Custom Post Types configuration"
+
+#: admin/knews_admin_auto.php:163
+#@ knews
+msgid "NEVER"
+msgstr ""
+
+#: admin/knews_admin_config.php:193
+#@ knews
+msgid "Tracking pixel"
+msgstr ""
+
+#: admin/knews_admin_config.php:200
+#: admin/knews_admin_config.php:202
+#@ knews
+msgid "Use Knews CRON <strong>without configuration</strong> (We will trigger your script remotely)"
+msgstr ""
+
+#: admin/knews_admin_config.php:326
+#@ knews
+msgid "Conn mode:"
+msgstr ""
+
+#: admin/knews_admin_config.php:447
+#@ knews
+msgid "Polylang: free plugin"
+msgstr ""
+
+#: admin/knews_admin_config.php:465
+#@ knews
+msgid "Use the Polylang defined languages to operate Knews in multilanguage mode"
+msgstr ""
+
+#: admin/knews_admin_export.php:106
+#@ knews
+msgid "Register Date"
+msgstr ""
+
+#: admin/knews_admin_export.php:107
+#@ knews
+msgid "Register IP"
+msgstr ""
+
+#: admin/knews_admin_import.php:387
+#@ knews
+msgid "bounced"
+msgstr ""
+
+#: admin/knews_admin_import.php:415
+#@ knews
+msgid "Subscribe all users to the following mailing list:"
+msgstr ""
+
+#: admin/knews_admin_import.php:415
+#@ default
+msgid "Select one"
+msgstr ""
+
+#: admin/knews_admin_import.php:808
+#, php-format
+#@ knews
+msgid "To see the error details click %s here %s"
+msgstr ""
+
+#: admin/knews_admin_news_edit.php:85
+#: admin/knews_admin_news_edit.php:92
+#@ knews
+msgid "Desktop version"
+msgstr ""
+
+#: admin/knews_admin_news_edit.php:87
+#@ knews
+msgid "+ Add mobile version"
+msgstr ""
+
+#: admin/knews_admin_news_edit.php:89
+#: admin/knews_admin_news_edit.php:93
+#@ knews
+msgid "Mobile version"
+msgstr ""
+
+#: admin/knews_admin_news_list.php:207
+#@ knews
+msgid "newsletters"
+msgstr ""
+
+#: admin/knews_admin_stats.php:28
+#@ knews
+msgid "Global Stats"
+msgstr ""
+
+#: admin/knews_admin_stats.php:29
+#@ knews
+msgid "One News Stats"
+msgstr ""
+
+#: admin/knews_admin_stats.php:30
+#@ knews
+msgid "One User Stats"
+msgstr ""
+
+#: admin/knews_admin_stats.php:457
+#: admin/knews_admin_stats.php:463
+#: admin/knews_admin_stats.php:479
+#: admin/knews_admin_stats.php:499
+#@ knews
+msgid "Opened"
+msgstr ""
+
+#: admin/knews_admin_stats.php:530
+#@ knews
+msgid "Reset Stats"
+msgstr ""
+
+#: admin/knews_admin_users.php:13
+#@ knews
+msgid "Please, choose one user to get his stats (right link)."
+msgstr ""
+
+#: admin/knews_admin_users.php:173
+#, php-format
+#@ knews
+msgid "%s users deleted."
+msgstr ""
+
+#: admin/knews_admin_users.php:226
+#@ knews
+msgid "The user has not been added"
+msgstr ""
+
+#: admin/knews_admin_users.php:302
+#@ knews
+msgid "Joined:"
+msgstr ""
+
+#: admin/knews_admin_users.php:461
+#@ knews
+msgid "User stats"
+msgstr ""
+
+#: direct/select_post.php:272
+#@ knews
+msgid "Search"
+msgstr ""
+
+#: includes/knews_updateDB.php:205
+#: includes/knews_updateDB.php:222
+#@ knews
+msgid "Knews cant update. Please, check user database permisions. (You must allow ALTER TABLE)."
+msgstr ""
+
+#: includes/knews_util.php:253
+#@ knews
+msgid "Select this template"
+msgstr ""
+
+#: knews.php:133
+#@ knews
+msgid "Widget subtitle text"
+msgstr ""
+
+#: knews.php:135
+#@ knews
+msgid "Widget accept terms"
+msgstr ""
+
+#: knews.php:136
+#@ knews
+msgid "Widget required text fields"
+msgstr ""
+
+#: knews.php:139
+#@ knews
+msgid "Empty required field, please check (AJAX message)"
+msgstr ""
+
+#: knews.php:1149
+#@ knews
+msgid "customCSS"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+
+#: knews.php:1625
+#@ knews
+msgid "Custom font"
+msgstr ""
+
+#: knews.php:2094
+#@ knews
+msgid "Welcome to Knews Pro"
+msgstr ""
+
+#: knews.php:2094
+#, php-format
+#@ knews
+msgid "You can configure the new features <br />into %s Knews Pro Options tab"
+msgstr ""
+
+#: knews.php:2099
+#@ knews
+msgid "Knews Pro: NEW Features"
+msgstr ""
+
+#: knews.php:2099
+#, php-format
+#@ knews
+msgid "&gt; Now we can trigger remotely your CRONJOB<br> &gt; Knews Pro supports multiple SMTP configur.<br><br />configure it into %s Knews Pro Advanced tab"
+msgstr ""
+
+#: knews.php:2104
+#@ knews
+msgid "NEW FEATURE: TRACKING PIXEL"
+msgstr ""
+
+#: knews.php:2104
+#, php-format
+#@ knews
+msgid "Knews includes now tracking pixel in the sent newsletters. Please, configure it into %s Knews Advanced tab"
+msgstr ""
+
+#: knews.php:2108
+#@ knews
+msgid "KNEWS LOVES GOOGLE ANALYTICS"
+msgstr ""
+
+#: knews.php:2166
+#@ knews
+msgid "Show subtitle"
+msgstr ""
+
+#: knews.php:2186
+#@ knews
+msgid "Label position"
+msgstr ""
+
+#: knews.php:2188
+#@ knews
+msgid "Outside"
+msgstr ""
+
+#: knews.php:2189
+#@ knews
+msgid "Inside"
+msgstr ""
+
+#: knews.php:2190
+#@ knews
+msgid "Hidden"
+msgstr ""
+
+#: knews.php:2195
+#@ knews
+msgid "Terms checkbox"
+msgstr ""
+
+#: knews.php:2203
+#@ knews
+msgid "Show required text fields"
+msgstr ""
+
+#: knews.php:2209
+#@ knews
+msgid "Customize widget CSS"
+msgstr ""
+

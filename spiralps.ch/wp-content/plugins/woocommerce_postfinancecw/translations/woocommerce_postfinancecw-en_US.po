@@ -1,0 +1,730 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgid "Operation is not allowed."
+msgstr "Operation is not allowed."
+
+msgid "Month"
+msgstr "Month"
+
+msgid "Capturing"
+msgstr "Capturing"
+
+msgid "Order prefix"
+msgstr "Order prefix"
+
+msgid "A captured transaction cannot be marked as failed."
+msgstr "A captured transaction cannot be marked as failed"
+
+msgid "Merchant Reference"
+msgstr "Merchant reference"
+
+msgid "Test Account SHA-IN Passphrase"
+msgstr "Test account SHA-IN passphrase"
+
+msgid "Test Account SHA-OUT Passphrase"
+msgstr "Test Account SHA-OUT Passphrase"
+
+msgid "API Username"
+msgstr "API Username"
+
+msgid "The credit card is expired."
+msgstr "Credit card has expired"
+
+msgid "Select the date on which your card expires."
+msgstr "Select the expiry date of your card"
+
+msgid "Message"
+msgstr "Message"
+
+msgid "Maximal Capturable Amount"
+msgstr "Maximal capturable amount"
+
+msgid "Live PSPID"
+msgstr "Live PSPID"
+
+msgid "Capture"
+msgstr "Capture"
+
+msgid "Which status should be set if a problem with the authorisation has occurred? In these cases you must manually verify if the customer has been charged with the amount."
+msgstr "Which status should be set if a problem with the authorisation has occurred? In these cases you must verify manually if the customer has been charged with the amount. "
+
+msgid "Your card number is invalid."
+msgstr "Your card number is invalid"
+
+msgid "Currency"
+msgstr "Currency"
+
+msgid "With the Dynamic Template you can design the layout of the payment page yourself. For the option 'Own template' the URL to the template file must be entered into the following box."
+msgstr "With the Dynamic Template you can design the layout of the payment page yourself. For the option 'Own template' the URL to the template file must be entered into the following box."
+
+msgid "The test PSPID as given by the PostFinance."
+msgstr "The test PSPID from PostFinance"
+
+msgid "Amount"
+msgstr "Amount"
+
+msgid "3D Secure sucess"
+msgstr "3D Secure successfull"
+
+msgid "Set here the minimal order total for which this payment method is available. If it is set to zero, it is always available."
+msgstr "Set the minimal order total for which this payment method is available. If it is set to zero, it is always available."
+
+msgid "Don't change the layout of the payment page"
+msgstr "Don't change the layout of the payment page"
+
+msgid "The card number is too long."
+msgstr "Card number is too long"
+
+msgid "You have to enter the name of the account owner."
+msgstr "Enter the name of the account owner"
+
+msgid "Dynamic Template"
+msgstr "Dynamic Template"
+
+msgid "The authorization is refused."
+msgstr "Authorisation was refused"
+
+msgid "Unknown reason"
+msgstr "Unknown reason"
+
+msgid "Please enter here the account number of your bank account."
+msgstr "Please enter your bank account number"
+
+msgid "You have to enter the CVC code from the back of your credti card."
+msgstr "You have to enter the CVC code from the back of your credit card"
+
+msgid "The PSPID as given by the PostFinance."
+msgstr "The PSPID from PostFinance."
+
+msgid "Minimal Order Total"
+msgstr "Minimal order total"
+
+msgid "A captured transaction cannot be cancelled."
+msgstr "A captured transaction cannot be cancelled"
+
+msgid "Yes"
+msgstr "Yes"
+
+msgid "Year"
+msgstr "Year"
+
+msgid "Please select the expiry month on your card."
+msgstr "Please select the expiry month on your card"
+
+msgid "You have to enter a card number."
+msgstr "You have to enter a card number"
+
+msgid "You have to enter the month of the card expiry."
+msgstr "You have to enter the month of the card expiry"
+
+msgid "The refund is in uncertain."
+msgstr "Refund is uncertain"
+
+msgid "Enter the live SHA-IN passphrase. This value must be identical to the one in the back-end of PostFinance."
+msgstr "Enter the live SHA-IN passphrase. This value must be identical to the one in the back-end of PostFinance."
+
+msgid "Invalid CVC format."
+msgstr "Invalid CVC format"
+
+msgid "Test Mode"
+msgstr "Test mode"
+
+msgid "Redirection"
+msgstr "Redirection"
+
+msgid "For a maintenance request a payment id must be set on the transaction."
+msgstr "For a maintenance request a payment ID must be defined for the transaction."
+
+msgid "The validation of the payment can be carried out at various points during the order process. The validation can be controlled with this option."
+msgstr "The validation of the payment can be carried out at various points during the order process. The validation can be controlled with this option."
+
+msgid "Wrong bank account format."
+msgstr "Wrong bank account format"
+
+msgid "Which status should be set if the payment has been successfully authorised?"
+msgstr "Which status should be set if the payment has been successfully authorised?"
+
+msgid "Enter the test PSPID of PostFinance."
+msgstr "Enter the test PSPID of PostFinance."
+
+msgid "The refund is in progress."
+msgstr "Refund is in process"
+
+msgid "A cancelled transaction cannot be authorized."
+msgstr "A cancelled transaction cannot be authorised."
+
+msgid "The payment is refused."
+msgstr "Payment was refused."
+
+msgid "You can create an API username in the back-end of PostFinance . The API user is necessary for the direct communication between the shop and the service of PostFinance ."
+msgstr "You can create an API username in the back-end of PostFinance . The API user is necessary for the direct communication between the shop and the service of PostFinance ."
+
+msgid "Amount to refund"
+msgstr "Amount to refund"
+
+msgid "Only authorized transaction can be refunded."
+msgstr "Only authorised transaction can be refunded"
+
+msgid "Enter the test SHA-OUT passphrase. This value must be identical to the one in the back-end of PostFinance."
+msgstr "Enter the test SHA-OUT passphrase. This value must be identical to the one in the back-end of PostFinance."
+
+msgid "The capture will automatically close the transaction for further captures."
+msgstr "The capture will automatically close the transaction for further captures"
+
+msgid "Are you a German merchant?"
+msgstr "Are you a German merchant?"
+
+msgid "The result of the authorization is not known."
+msgstr "Result of the authorisation is unknown"
+
+msgid "The 'bank code' field cannot be empty and it must be 8 digits long."
+msgstr "The 'bank code' box cannot be empty and it must be 8 digits long"
+
+msgid "No API password was provided."
+msgstr "No API password was provided"
+
+msgid "Direct Link"
+msgstr "Direct Link"
+
+msgid "You have to enter a CVC code."
+msgstr "You have to enter a CVC code"
+
+msgid "Acceptance"
+msgstr "Acceptance"
+
+msgid "Bank account number"
+msgstr "Bank account number"
+
+msgid "Failed"
+msgstr "Failed"
+
+msgid "Set here the maximal order total for which this payment method is available. If it is set to zero, it is always available."
+msgstr "Set the maximal order total for which this payment method is available. If it is set to zero, it is always available."
+
+msgid "The 'bank code' field cannot be empty and it must be 5 digits long."
+msgstr "The 'bank code' box cannot be empty and must be 5 digits long"
+
+msgid "Maximal Refundable Amount"
+msgstr "Maximal refundable amount"
+
+msgid "3D Secure failed"
+msgstr "3D Secure failed"
+
+msgid "An expiry month must be selected."
+msgstr "An expiry month must be selected."
+
+msgid "Error Message:"
+msgstr "Error message:"
+
+msgid "The SHA signatures do not match."
+msgstr "SHA signatures do not match"
+
+msgid "Refunded Amount"
+msgstr "Refunded amount"
+
+msgid "The cardholder name is missing."
+msgstr "Cardholder name is missing."
+
+msgid "Test PSPID"
+msgstr "Test PSPID"
+
+msgid "The CVC contains invalid chars."
+msgstr "CVC contains invalid chars"
+
+msgid "Transaction Paid"
+msgstr "Transaction paid"
+
+msgid "A cancelled transaction cannot be marked as failed."
+msgstr "A cancelled transaction cannot be marked as failed."
+
+msgid "Transaction Cancelled"
+msgstr "Transaction cancelled"
+
+msgid "Cancel Transaction"
+msgstr "Cancel transaction"
+
+msgid "Captured Status"
+msgstr "Captured status"
+
+msgid "Please select the expiry year on your card."
+msgstr "Please select your card's year of expiry"
+
+msgid "The cancellation is processed offline."
+msgstr "Cancellation is processed offline."
+
+msgid "Expiry date must be in the future."
+msgstr "Expiry date must be set in the future"
+
+msgid "Maximal Order Total"
+msgstr "Maximal order total"
+
+msgid "Figure number"
+msgstr "Figure number"
+
+msgid "Successful"
+msgstr "Successful"
+
+msgid "SHA-512"
+msgstr "SHA-512"
+
+msgid "Subscriptions: Add Manual Renewal"
+msgstr "Subscriptions: Add manual Renewal"
+
+msgid "More Details"
+msgstr "More details"
+
+msgid "Shop ID"
+msgstr "Shop ID"
+
+msgid "Operation is not supported."
+msgstr "Operation is not supported."
+
+msgid "Germany"
+msgstr "Germany"
+
+msgid "You have to enter the CVC code from your card."
+msgstr "Enter the CVC code from your card"
+
+msgid "This transaction is already closed for further captures."
+msgstr "This transaction is already closed for further captures"
+
+msgid "Select the authorization method to use for processing this payment method."
+msgstr "Select the authorisation method to use in order to process this payment method."
+
+msgid "Brand and card number do not match."
+msgstr "Brand and card number do not match."
+
+msgid "Paid Status"
+msgstr "Paid status"
+
+msgid "A cancelled transaction cannot be captured."
+msgstr "A cancelled transaction cannot be captured"
+
+msgid "Validation"
+msgstr "Validation"
+
+msgid "SHA-IN Passphrase"
+msgstr "SHA-IN Passphrase"
+
+msgid "Amount to capture"
+msgstr "Amount to capture"
+
+msgid "Card Holder Name"
+msgstr "Card holder name"
+
+msgid "A transaction may be uncertain, when the payment is not guaranteed. For example in case the credit card does not participate in the 3D procedure."
+msgstr "A transaction may be uncertain, when the payment is not guaranteed. For example in the case that the credit card does not participate in the 3D Secure procedure."
+
+msgid "Your card number is invalid. May be you choose the wrong credit card type."
+msgstr "Your card number is invalid. You may have chosen the wrong credit card type"
+
+msgid "No"
+msgstr "No"
+
+msgid "Card Expiry Date"
+msgstr "Card expiry date"
+
+msgid "A manual renewal debits the customer directly for this subscription. This by pass any time restriction of the automatic subscription plugin."
+msgstr "A manual renewal charges the customer directly for this subscription. This by pass any time restriction of the automatic subscription plugin."
+
+msgid "Authorization Method"
+msgstr "Authorisation Method"
+
+msgid "Action"
+msgstr "Action"
+
+msgid "The SHA signature of the 3D Secure callback was not valid."
+msgstr "The SHA signature of the 3D Secure callback was not valid"
+
+msgid "Transaction Uncertain"
+msgstr "Transaction uncertain"
+
+msgid "Payment Notification"
+msgstr "Payment Notification"
+
+msgid "You have to enter the a card number."
+msgstr "You have to enter the a card number."
+
+msgid "Template URL for own template"
+msgstr "Template URL for own template"
+
+msgid "The capturing is in uncertain."
+msgstr "The capturing is uncertain"
+
+msgid "The acquiring system is not available. Hence the authorization is not completed."
+msgstr "The acquiring system is not available. The authorisation has therefore not yet been completed."
+
+msgid "The expiry date is invalid."
+msgstr "The expiry date is invalid"
+
+msgid "PostFinance Settings"
+msgstr "PostFinance settings"
+
+msgid "Payment ID"
+msgstr "Payment ID"
+
+msgid "The capturing is in progress."
+msgstr "Capturing is in process."
+
+msgid "Captured Amount"
+msgstr "Captured amount"
+
+msgid "The payment is not finished. Hence it must be manually checked."
+msgstr "The payment is incomplete and must therefore be checked manuall."
+
+msgid "The 'account number' field cannot be empty."
+msgstr "The 'account number' box cannot be empty."
+
+msgid "Authorization Failed"
+msgstr "Authorisation failed"
+
+msgid "Refund"
+msgstr "Refund"
+
+msgid "CVC Code"
+msgstr "CVC Code"
+
+msgid "A authorized transaction cannot be authorized again."
+msgstr "An authorised transaction cannot be authorised again."
+
+msgid "Expiry date is in wrong format."
+msgstr "Expiry date is in wrong format"
+
+msgid "If the test mode is selected the test PSPID is used and the test SHA passphrases."
+msgstr "In the test mode the test PSPID and test pass phrases are used automatically."
+
+msgid "Inactive"
+msgstr "Inactive"
+
+msgid "Directly after order"
+msgstr "Directly after order"
+
+msgid "PostFinance Transactions"
+msgstr "PostFinance transactions"
+
+msgid "Bank code number"
+msgstr "Bank code number"
+
+msgid "Add manual renewal"
+msgstr "Add manual renewal"
+
+msgid "Only captured transaction can be refunded."
+msgstr "Only captured transaction can be refunded"
+
+msgid "A cancelled transaction cannot be refunded."
+msgstr "A cancelled transaction cannot be refunded"
+
+msgid "The authorization could not be completed, due to a delayed external validation of the payment."
+msgstr "Authorisation could not be completed, due to a delay with the external validation of the payment."
+
+msgid "Use shop template"
+msgstr "Use shop template"
+
+msgid "Here you can insert an order prefix. The prefix allows you to change the order number that is transmitted to PostFinance . The prefix must contain the tag {id}. It will then be replaced by the order number (e.g. name_{id})."
+msgstr "Here you can insert an order prefix. The prefix allows you to change the order number which is transmitted to PostFinance . The prefix must contain the tag {id}. It will then be replaced by the order number (e.g. name_{id})."
+
+msgid "Should the amount be captured automatically after the order (direct) or should the amount only be reserved (deferred)?"
+msgstr "Should the amount be captured automatically after the order (direct) or should the amount only be reserved (deferred)?"
+
+msgid "SHA-1"
+msgstr "SHA-1"
+
+msgid "The 'account_number' field cannot be longer than 10 digits."
+msgstr "The 'account_number' box cannot be longer than 10 digits."
+
+msgid "Use own template"
+msgstr "Use own template"
+
+msgid "You have to enter the year of the card expiry."
+msgstr "You have to enter the year of the card expiration"
+
+msgid "Authorized Status"
+msgstr "Authorised status"
+
+msgid "Here you can define a Shop ID. This is only necessary if you wish to operate several shops with one PSPID. In order to use this module, an additional module is required."
+msgstr "Here you can define a Shop ID. This is only necessary if you wish to operate several shops with one PSPID. In order to use this module, an additional module is required."
+
+msgid "Account owner name."
+msgstr "Account owner name"
+
+msgid "The card number is too short."
+msgstr "The card number is too short."
+
+msgid "Is Authorized"
+msgstr "Is authorised"
+
+msgid "The 'account owner' field cannot be empty."
+msgstr "The 'account owner' field cannot be empty"
+
+msgid "SAH IN signature is wrong."
+msgstr "SHA IN signature is wrong."
+
+msgid "Not Germany"
+msgstr "Not Germany"
+
+msgid "The CVC code is too long."
+msgstr "CVC is too long"
+
+msgid "3D Secure"
+msgstr "3D Secure"
+
+msgid "After selection of payment method"
+msgstr "After selection of payment method"
+
+msgid "Alias Token"
+msgstr "Alias Token"
+
+msgid "A failed authorization cannot be authorized."
+msgstr "A failed authorisation cannot be authorised."
+
+msgid "Alias"
+msgstr "Alias"
+
+msgid "Password for the API user."
+msgstr "Password for the API user"
+
+msgid "Which status should be set when a transaction is labelled as paid? For payments by invoice a payment the labelling might occur with a delay; in this case this status helps keep apart paid from unpaid invoices."
+msgstr "Which status should be set when a transaction is labelled as paid? For payments by invoice the labelling might occur with a delay; in this case this status helps differentiate between paid and unpaid invoices."
+
+msgid "The payment could not be authorized, because it is not certain."
+msgstr "Payment could not be authorised as it is uncertain."
+
+msgid "Only authorized transaction can be captured."
+msgstr "Only authorised transactions can be captured."
+
+msgid "SHA-256"
+msgstr "SHA-256"
+
+msgid "Operation Mode"
+msgstr "Operation mode"
+
+msgid "Capture Transaction"
+msgstr "Capture transaction"
+
+msgid "Enter the PSPID of PostFinance."
+msgstr "Enter the PSPID of PostFinance."
+
+msgid "Payment Method"
+msgstr "Payment method"
+
+msgid "Card Number"
+msgstr "Card number"
+
+msgid "Transaction Captured"
+msgstr "Transaction captured"
+
+msgid "Date"
+msgstr "Date"
+
+msgid "Authorization Amount"
+msgstr "Authorisation amount"
+
+msgid "I confirm my payment"
+msgstr "I confirm my payment"
+
+msgid "Transaction Authorized"
+msgstr "Transaction authorised"
+
+msgid "The 'account_number' field must be 11 digits long."
+msgstr "The 'account_number' box must be 11 digits long."
+
+msgid "If the Alias Manager is used, the intended purpose is shown to the customer on the payment page. Through this the customer knows why his data is saved."
+msgstr "If the Alias Manager is active, the feature's purpose is explained to the customer on the payment page. The customer is thereby informed about the reason for saving his data."
+
+msgid "Select the hash calculation method to use. This value must correspond with the selected value in the back-end of PostFinance."
+msgstr "Select the hash calculation method to use. This value must correspond to the selected value in the back-end of PostFinance."
+
+msgid "Merchant Origin"
+msgstr "Merchant origin"
+
+msgid "A captured transaction cannot be authorized."
+msgstr "A captured transaction cannot be authorised"
+
+msgid "Discount"
+msgstr "Discount"
+
+msgid "Live Mode"
+msgstr "Live mode"
+
+msgid "Direct Debits"
+msgstr "Direct Debits (ELV)"
+
+msgid "This transaction is already closed for further refunds."
+msgstr "This transaction has been closed for further refunds"
+
+msgid "Hash calculation method"
+msgstr "Hash calculation method"
+
+msgid "Please enter here the bank code of your bank."
+msgstr "Please enter here the bank code of your bank"
+
+msgid "Alias Gateway"
+msgstr "Alias Gateway"
+
+msgid "Cancelled Status"
+msgstr "Cancelled status"
+
+msgid "Waiting for client payment"
+msgstr "Waiting for customer payment"
+
+msgid "Subscription Payment Failed with error:"
+msgstr "Subscription payment failed with error:"
+
+msgid "The cardholder name is too long."
+msgstr "Cardholder name is too long"
+
+msgid "Uncertain Status"
+msgstr "Uncertain sStatus"
+
+msgid "Close transaction for further refunds."
+msgstr "Close transaction for further refunds"
+
+msgid "The URL indicated here is rendered as Template. For this you must select option 'Use own template'. The URL must point to an HTML page that contains the string '$$$PAYMENT ZONE$$$'. This part of the HTML file is replaced with the form for the credit card input."
+msgstr "The URL indicated here is rendered as a template. For this option you must select 'Use own template'. The URL must point to an HTML page that contains the string '$$$PAYMENT ZONE$$$'. This part of the HTML file is then replaced by the form for the credit card data."
+
+msgid "The alias manager allows the customer to select from a credit card previously stored. The credit card data is stored by PostFinance."
+msgstr "The alias manager allows the customer to pay with a previously stored credit card. The credit card data is stored with PostFinance."
+
+msgid "The customer is now in the payment process of PostFinance."
+msgstr "The customer is now in the payment process of PostFinance."
+
+msgid "SHA-OUT Passphrase"
+msgstr "SHA-OUT Passphrase"
+
+msgid "Refund Transaction"
+msgstr "Refund transaction"
+
+msgid "Continue"
+msgstr "Continue"
+
+msgid "You have to enter the card holder name on the card."
+msgstr "You have to enter the card holder name"
+
+msgid "A authorized transaction cannot be marked as failed."
+msgstr "An authorised transaction cannot be marked as failed"
+
+msgid "Only authorized transaction can be cancelled."
+msgstr "Only authorised transaction can be cancelled."
+
+msgid "The card number contains invalid chars."
+msgstr "The card number contains invalid chars."
+
+msgid "Please enter here the CVC code from your card. You find the code on the back of the card."
+msgstr "Please enter the CVC code from your card. You can find the code on the back of the card"
+
+msgid "The transaction is cancelled."
+msgstr "Transaction was cancelled"
+
+msgid "Close transaction for further captures."
+msgstr "Close transaction for further captures"
+
+msgid "Enable %s"
+msgstr "Enable %s"
+
+msgid "Please enter here the number on your card."
+msgstr "Please enter your card number"
+
+msgid "Enter the live SHA-OUT passphrase. This value must be identical to the one in the back-end of PostFinance."
+msgstr "Enter the live SHA-OUT passphrase. This value must be identical to the one in the back-end of PostFinance."
+
+msgid "Please enter here the name of the account owner."
+msgstr "Please enter the name of the account owner"
+
+msgid "The whole transaction is cancelled."
+msgstr "The entire transaction has been cancelled"
+
+msgid "Alias Manager"
+msgstr "Alias Manager"
+
+msgid "The transaction failed due to a unkown reason."
+msgstr "The transaction failed due to an unkown reason."
+
+msgid "Please enter here the card holder name on the card."
+msgstr "Please enter the card holder's name."
+
+msgid "Less Details"
+msgstr "Less details"
+
+msgid "Enter the test SHA-IN passphrase. This value must be identical to the one in the back-end of PostFinance."
+msgstr "Enter the test SHA-IN passphrase. This value must be identical to the one in the back-end of PostFinance."
+
+msgid "You have to enter bank code of your bank."
+msgstr "Enter your bank's bank code"
+
+msgid "Expiry date contains non-numeric data."
+msgstr "Expiry date contains non-numeric data"
+
+msgid "Order is stored, but not finally authorized or captured."
+msgstr "Order has been stored, but final authorisation or capturing is missing"
+
+msgid "A cancelled transaction cannot be cancelled again."
+msgstr "A cancelled transaction cannot be cancelled again"
+
+msgid "Captures"
+msgstr "Captures"
+
+msgid "You can choose a previous used card:"
+msgstr "You can select a previously used card:"
+
+msgid "You have to enter the card holder."
+msgstr "You have to enter the card holder."
+
+msgid "Active"
+msgstr "Active"
+
+msgid "You have to enter your bank account number."
+msgstr "Enter your bank account number"
+
+msgid "Wrong 'BRAND' was specified."
+msgstr "Wrong 'BRAND' was specified"
+
+msgid "The authorization declined by the aquirer."
+msgstr "Authorisation was declined by the acquirer"
+
+msgid "During the authorization"
+msgstr "During the authorisation"
+
+msgid "No API username was provided."
+msgstr "No API username was provided."
+
+msgid "An expiry year must be selected."
+msgstr "An expiry year must be selected"
+
+msgid "Card Expiration"
+msgstr "Card expiration date"
+
+msgid "Don't use template (standard PostFinance)"
+msgstr "Don't use template (standard PostFinance)"
+
+msgid "Direct EBanking"
+msgstr "Direct EBanking"
+
+msgid "Invalid expiry month."
+msgstr "Invalid expiry month"
+
+msgid "The transaction id is incorrect."
+msgstr "Transaction ID is incorrect"
+
+msgid "Deferred"
+msgstr "Deferred"
+
+msgid "Intended purpose of alias"
+msgstr "Intended purpose of alias"
+
+msgid "The configuration values for PostFinance can be set under:"
+msgstr "The configuration values for PostFinance can be set under:"
+
+msgid "Some input was invalid."
+msgstr "Invalid input"
+
+msgid "API Password"
+msgstr "API Password"
+
+msgid "Other Discount"
+msgstr "Other discount"
+
+msgid "Refunds"
+msgstr "Refunds"
+

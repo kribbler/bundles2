@@ -1,0 +1,730 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgid "Subscriptions: Add Manual Renewal"
+msgstr "Subscriptions: Voeg Manual Vernieuwing"
+
+msgid "Account owner name."
+msgstr "Rekeninghouder naam"
+
+msgid "The capture will automatically close the transaction for further captures."
+msgstr "De boeking wordt automatisch de transactie te sluiten voor verdere boekingen."
+
+msgid "Not Germany"
+msgstr "Niet Duitsland"
+
+msgid "Other Discount"
+msgstr "Andere Discount"
+
+msgid "Only authorized transaction can be refunded."
+msgstr "Alleen geautoriseerde transacties kunnen worden bijgeschreven."
+
+msgid "Merchant Origin"
+msgstr "Merchant oorsprong"
+
+msgid "Card Expiry Date"
+msgstr "Card Vervaldatum"
+
+msgid "Close transaction for further refunds."
+msgstr "Sluit transactie voor verdere terugbetalingen."
+
+msgid "Please enter here the CVC code from your card. You find the code on the back of the card."
+msgstr "Voer hier het CVC uw kaart in te voeren. U kunt dit vinden op de achterkant van uw creditcard."
+
+msgid "After selection of payment method"
+msgstr "Na het selecteren van de betaalmethode"
+
+msgid "Template URL for own template"
+msgstr "URL voor eigen template"
+
+msgid "Captured Amount"
+msgstr "Opgenomen bedrag"
+
+msgid "Invalid expiry month."
+msgstr "Invalid expiry month."
+
+msgid "The refund is in uncertain."
+msgstr "De restitutie is in onzekere."
+
+msgid "You have to enter a CVC code."
+msgstr "Je moet een CVC-code in te voeren."
+
+msgid "Don't use template (standard PostFinance)"
+msgstr "Geen template gebruiken (standaard PostFinance)"
+
+msgid "Please select the expiry year on your card."
+msgstr "Vul datum van de kaart de vervaldatum in te voeren"
+
+msgid "For a maintenance request a payment id must be set on the transaction."
+msgstr "Voor een verzoek om onderhoud een betaling id moet worden ingesteld op de transactie."
+
+msgid "API Username"
+msgstr "API Gebruikersnaam"
+
+msgid "Direct Link"
+msgstr "Direct Link"
+
+msgid "The SHA signatures do not match."
+msgstr "De SHA handtekeningen komen niet overeen."
+
+msgid "The authorization is refused."
+msgstr "De autorisatie wordt geweigerd."
+
+msgid "Refunds"
+msgstr "Terugbetalingen"
+
+msgid "API Password"
+msgstr "API Wachtwoord"
+
+msgid "The payment could not be authorized, because it is not certain."
+msgstr "De betaling kan niet worden toegestaan​​, omdat het niet zeker is."
+
+msgid "An expiry year must be selected."
+msgstr "Een vervaldatum jaar moet worden gekozen."
+
+msgid "The transaction is cancelled."
+msgstr "De transactie wordt geannuleerd."
+
+msgid "Enter the test PSPID of PostFinance."
+msgstr "Vul hier je test PSPID van PostFinance ingeven."
+
+msgid "3D Secure"
+msgstr "3D Secure"
+
+msgid "Cancel Transaction"
+msgstr "Annuleer transactie"
+
+msgid "Acceptance"
+msgstr "Aanvaarding"
+
+msgid "Alias"
+msgstr "Alias"
+
+msgid "A authorized transaction cannot be marked as failed."
+msgstr "Een geautoriseerde transactie kan niet worden gemarkeerd als mislukt."
+
+msgid "Continue"
+msgstr "Voortzetten"
+
+msgid "CVC Code"
+msgstr "CVC Code"
+
+msgid "The card number contains invalid chars."
+msgstr "Het kaartnummer bevat ongeldige tekens."
+
+msgid "SHA-256"
+msgstr "SHA-256"
+
+msgid "The capturing is in progress."
+msgstr "De boeking is aan de gang."
+
+msgid "The SHA signature of the 3D Secure callback was not valid."
+msgstr "De SHA ondertekening van het 3D Secure callback was niet geldig."
+
+msgid "Enter the test SHA-OUT passphrase. This value must be identical to the one in the back-end of PostFinance."
+msgstr "Voer de test SHA-OUT passphrase in te voeren. Deze waarde moet gelijk zijn aan die in de back-end van PostFinance."
+
+msgid "Discount"
+msgstr "Discount"
+
+msgid "Cancelled Status"
+msgstr "Cancelled Status"
+
+msgid "Set here the minimal order total for which this payment method is available. If it is set to zero, it is always available."
+msgstr "De betaalmethode is alleen beschikbaar wanneer de bestelling totaal minder is dan het hier genoemde bedrag. Als deze is ingesteld op nul, het is altijd beschikbaar."
+
+msgid "Payment Method"
+msgstr "Betalingsmethode"
+
+msgid "Action"
+msgstr "Actie"
+
+msgid "Invalid CVC format."
+msgstr "Ongeldige CVC-formaat."
+
+msgid "The cardholder name is too long."
+msgstr "De kaarthouder naam is te lang."
+
+msgid "Test Account SHA-IN Passphrase"
+msgstr "Test Account SHA-IN Passphrase"
+
+msgid "Maximal Refundable Amount"
+msgstr "Maximum terugbetaalbaare bedrag"
+
+msgid "Please enter here the bank code of your bank."
+msgstr "Vul hier de bankcode van uw bank in te voeren"
+
+msgid "The cardholder name is missing."
+msgstr "De kaarthouder naam ontbreekt."
+
+msgid "The credit card is expired."
+msgstr "De creditcard is verlopen."
+
+msgid "The acquiring system is not available. Hence the authorization is not completed."
+msgstr "Het acquiring systeem is niet beschikbaar, de machtiging kan niet worden voltooid."
+
+msgid "You have to enter bank code of your bank."
+msgstr "Je moet bankcode van uw bank in te voeren."
+
+msgid "Direct Debits"
+msgstr "Direct Debits"
+
+msgid "Please enter here the card holder name on the card."
+msgstr "Geef de kaarthouder een"
+
+msgid "The CVC code is too long."
+msgstr "De CVC-code is te lang."
+
+msgid "A failed authorization cannot be authorized."
+msgstr "Een mislukte autorisatie kan niet worden geautoriseerd."
+
+msgid "Select the authorization method to use for processing this payment method."
+msgstr "Selecteer de Autorisatie Methode voor deze betaalmethode."
+
+msgid "The 'bank code' field cannot be empty and it must be 5 digits long."
+msgstr "Het veld 'bankcode' kan niet leeg zijn en het moet 5 cijfers lang."
+
+msgid "PostFinance Settings"
+msgstr "Instellingen PostFinance"
+
+msgid "Less Details"
+msgstr "Minder Details"
+
+msgid "Please enter here the name of the account owner."
+msgstr "Vul de naam van de rekeninghouder in te voeren"
+
+msgid "Use own template"
+msgstr "Eigen template gebruiken"
+
+msgid "Enter the PSPID of PostFinance."
+msgstr "Vul hier je PSPID van PostFinance ingeven."
+
+msgid "Amount"
+msgstr "Bedrag"
+
+msgid "The transaction failed due to a unkown reason."
+msgstr "De transactie is mislukt vanwege een onbekende reden."
+
+msgid "Merchant Reference"
+msgstr "Merchant referentie"
+
+msgid "A cancelled transaction cannot be refunded."
+msgstr "Een geannuleerde transactie kan niet worden bijgeschreven."
+
+msgid "Maximal Capturable Amount"
+msgstr "Maximaal te beoken bedrag"
+
+msgid "Refunded Amount"
+msgstr "Bedrag gecrediteerd"
+
+msgid "3D Secure sucess"
+msgstr "3D Secure succes"
+
+msgid "Use shop template"
+msgstr "Gebruik Shop Template"
+
+msgid "Waiting for client payment"
+msgstr "Wachten op betaling van de klant"
+
+msgid "Failed"
+msgstr "Mislukt"
+
+msgid "Maximal Order Total"
+msgstr "Maximum Bestel Total"
+
+msgid "Here you can insert an order prefix. The prefix allows you to change the order number that is transmitted to PostFinance . The prefix must contain the tag {id}. It will then be replaced by the order number (e.g. name_{id})."
+msgstr "Hier kunt u een bestel prefix voor de order definiëren. Het voorvoegsel kunt u het ordernummer dat wordt doorgegeven aan PostFinance veranderen. Het voorvoegsel moet de tag {id} bevatten. Het zal dan worden vervangen door het ordernummer (bijv. name_{id})."
+
+msgid "Alias Token"
+msgstr "Alias Token"
+
+msgid "Set here the maximal order total for which this payment method is available. If it is set to zero, it is always available."
+msgstr "De betaalmethode is alleen beschikbaar wanneer de bestelling totaal hoger is dan het hier genoemde bedrag. Als deze is ingesteld op nul, het is altijd beschikbaar."
+
+msgid "Authorization Failed"
+msgstr "Autorisatie mislukt"
+
+msgid "Capturing"
+msgstr "Boeking"
+
+msgid "I confirm my payment"
+msgstr "Ik bevestig mijn betaling"
+
+msgid "The 'account owner' field cannot be empty."
+msgstr "De 'eigenaar van de account' veld kan niet leeg zijn."
+
+msgid "Don't change the layout of the payment page"
+msgstr "Geen verandering van de lay-out van de betaalpagina"
+
+msgid "A cancelled transaction cannot be captured."
+msgstr "Een geannuleerde transactie kan niet worden weer opgenomen."
+
+msgid "The capturing is in uncertain."
+msgstr "De boeking is in onzekere."
+
+msgid "Refund Transaction"
+msgstr "Transactie terugbetalen"
+
+msgid "The 'bank code' field cannot be empty and it must be 8 digits long."
+msgstr "Het veld 'bankcode' kan niet leeg zijn en het moet 8 cijfers lang."
+
+msgid "This transaction is already closed for further captures."
+msgstr "Deze transactie is gesloten en geen verdere gegevens worden gemaakt."
+
+msgid "Alias Gateway"
+msgstr "Alias Gateway"
+
+msgid "The URL indicated here is rendered as Template. For this you must select option 'Use own template'. The URL must point to an HTML page that contains the string '$$$PAYMENT ZONE$$$'. This part of the HTML file is replaced with the form for the credit card input."
+msgstr "De hier beschikbare URL wordt doorgegeven als template. Hiervoor moet je selecteren optie 'Eigen template gebruiken'. De URL moet verwijzen naar een HTML-pagina die de string '$$$BETALING ZONE$$$' bevat. Dit deel van de HTML file vervangen door de vorm van de credit card input."
+
+msgid "You have to enter a card number."
+msgstr "Je moet een kaartnummer in te voeren."
+
+msgid "Only captured transaction can be refunded."
+msgstr "Alleen opgenomen transacties kunnen worden bijgeschreven."
+
+msgid "Test Account SHA-OUT Passphrase"
+msgstr "Test Account SHA-OUT Passphrase"
+
+msgid "The validation of the payment can be carried out at various points during the order process. The validation can be controlled with this option."
+msgstr "De validatie van de betaling kan worden gedaan op verschillende momenten tijdens het bestelproces. Met deze optie kan de validatie worden gecontroleerd."
+
+msgid "Enter the test SHA-IN passphrase. This value must be identical to the one in the back-end of PostFinance."
+msgstr "Voer de test SHA-IN passphrase in te voeren. Deze waarde moet gelijk zijn aan die in de back-end van PostFinance."
+
+msgid "Paid Status"
+msgstr "Betaalde Status"
+
+msgid "The authorization could not be completed, due to a delayed external validation of the payment."
+msgstr "De vergunning kan niet worden voltooid vanwege een vertraging met de externe validatie van de betaling."
+
+msgid "The expiry date is invalid."
+msgstr "De vervaldatum is ongeldig."
+
+msgid "Direct EBanking"
+msgstr "Direct EBanking"
+
+msgid "Card Holder Name"
+msgstr "Kaarthouder"
+
+msgid "SHA-OUT Passphrase"
+msgstr "SHA-OUT Passphrase"
+
+msgid "The 'account_number' field must be 11 digits long."
+msgstr "De 'account_number' veld moet 11 cijfers lang zijn."
+
+msgid "Amount to refund"
+msgstr "Kredietbedrag"
+
+msgid "The payment is refused."
+msgstr "De betaling wordt geweigerd."
+
+msgid "The PSPID as given by the PostFinance."
+msgstr "PSPID van PostFinance."
+
+msgid "The authorization declined by the aquirer."
+msgstr "De autorisatie werd geweigerd door de acquirer"
+
+msgid "Year"
+msgstr "Jaar"
+
+msgid "SHA-1"
+msgstr "SHA-1"
+
+msgid "Live Mode"
+msgstr "Live Mode"
+
+msgid "No API username was provided."
+msgstr "Geen API gebruikersnaam werd opgegeven."
+
+msgid "A manual renewal debits the customer directly for this subscription. This by pass any time restriction of the automatic subscription plugin."
+msgstr "Een handmatige vernieuwing debiteert de klant direct voor dit abonnement. Met deze optie kunt omzeilen de automatische mechanisme van het abonnement plugin."
+
+msgid "Operation is not allowed."
+msgstr "Bediening is niet toegestaan​​."
+
+msgid "Card Number"
+msgstr "Kaartnummer"
+
+msgid "Are you a German merchant?"
+msgstr "Bent u een Duitse koopman?"
+
+msgid "You have to enter the card holder name on the card."
+msgstr "U moet de kaarthouder in te voeren."
+
+msgid "Validation"
+msgstr "Bevestiging"
+
+msgid "You have to enter the card holder."
+msgstr "Je moet de kaarthouder in te voeren."
+
+msgid "The refund is in progress."
+msgstr "De terugbetaling aan de gang is."
+
+msgid "Active"
+msgstr "Actief"
+
+msgid "The test PSPID as given by the PostFinance."
+msgstr "PSPID test van PostFinance."
+
+msgid "Directly after order"
+msgstr "Direct na bestelling"
+
+msgid "A authorized transaction cannot be authorized again."
+msgstr "Een geautoriseerde transactie kan niet worden weer geautoriseerd."
+
+msgid "Select the date on which your card expires."
+msgstr "Selecteer de datum waarop uw kaart verloopt."
+
+msgid "Deferred"
+msgstr "Uitgesteld"
+
+msgid "Enable %s"
+msgstr "Enabe %s"
+
+msgid "The card number is too long."
+msgstr "Het kaartnummer is te lang."
+
+msgid "Transaction Captured"
+msgstr "Transactie opgenomen"
+
+msgid "Currency"
+msgstr "Valuta"
+
+msgid "Transaction Uncertain"
+msgstr "Transactie is onzeker"
+
+msgid "Alias Manager"
+msgstr "Alias Manager"
+
+msgid "More Details"
+msgstr "Meer details"
+
+msgid "Payment Notification"
+msgstr "Payment Notification"
+
+msgid "Germany"
+msgstr "Duitsland"
+
+msgid "Password for the API user."
+msgstr "Wachtwoord voor de API gebruiker."
+
+msgid "During the authorization"
+msgstr "Tijdens de autorisatie"
+
+msgid "Hash calculation method"
+msgstr "Hash berekening"
+
+msgid "A captured transaction cannot be cancelled."
+msgstr "Een opgenomen transactie kan niet worden geannuleerd."
+
+msgid "Which status should be set when a transaction is labelled as paid? For payments by invoice a payment the labelling might occur with a delay; in this case this status helps keep apart paid from unpaid invoices."
+msgstr "Waarvan de status moet worden ingesteld wanneer een transactie is gemarkeerd als betaald? Bij het plaatsen van een bestelling met een factuur, kan de betaling worden uitgesteld gemarkeerd als betaald, in dat geval kan helpen om de onbetaalde facturen door deze staat betaalde onderscheiden."
+
+msgid "Payment ID"
+msgstr "Betaling ID"
+
+msgid "Unknown reason"
+msgstr "Onbekende reden"
+
+msgid "Live PSPID"
+msgstr "Live PSPID"
+
+msgid "If the Alias Manager is used, the intended purpose is shown to the customer on the payment page. Through this the customer knows why his data is saved."
+msgstr "Als de Alias ​​Manager wordt gebruikt, wordt de doel weergegeven aan de klant op de betaalpagina. Zo weet de klant waarom de gegevens zijn opgeslagen."
+
+msgid "Which status should be set if a problem with the authorisation has occurred? In these cases you must manually verify if the customer has been charged with the amount."
+msgstr "Die de status van de bestelling te worden ingesteld wanneer er een probleem is opgetreden bij het toelaten? Als er geen statuswijziging optreedt, selecteer dan optie 'niet de status van de bestelling te veranderen'."
+
+msgid "The card number is too short."
+msgstr "Het kaartnummer is te kort."
+
+msgid "With the Dynamic Template you can design the layout of the payment page yourself. For the option 'Own template' the URL to the template file must be entered into the following box."
+msgstr "Met de Dynamic sjabloon kunt u het ontwerp van de lay-out van de betaalpagina. Voor de optie 'Eigen template', moet de URL voor het templatebestand worden ingevoerd in het veld hiernaast in."
+
+msgid "The result of the authorization is not known."
+msgstr "Het resultaat van de vergunning is niet bekend."
+
+msgid "Bank code number"
+msgstr "Bankcode"
+
+msgid "Operation is not supported."
+msgstr "Bediening wordt niet ondersteund."
+
+msgid "Your card number is invalid. May be you choose the wrong credit card type."
+msgstr "Uw kaart is ongeldig. Je zou de verkeerde soort creditcard hebben gekozen"
+
+msgid "The 'account_number' field cannot be longer than 10 digits."
+msgstr "De 'account_number' veld mag niet langer zijn dan 10 cijfers."
+
+msgid "The cancellation is processed offline."
+msgstr "De annulering wordt verwerkt offline."
+
+msgid "Minimal Order Total"
+msgstr "Minimum Bestel Total"
+
+msgid "An expiry month must be selected."
+msgstr "Een vervaldatum maand moet worden gekozen."
+
+msgid "Test Mode"
+msgstr "Test Mode"
+
+msgid "Transaction Authorized"
+msgstr "Geautoriseerde transactie"
+
+msgid "Expiry date is in wrong format."
+msgstr "Vervaldatum is in de verkeerde indeling."
+
+msgid "Authorized Status"
+msgstr "Geautoriseerde Status"
+
+msgid "Uncertain Status"
+msgstr "Onzekere Status"
+
+msgid "Card Expiration"
+msgstr "Kaart vervaldatum"
+
+msgid "The customer is now in the payment process of PostFinance."
+msgstr "De klant is nu in het betalingsproces van PostFinance."
+
+msgid "Only authorized transaction can be cancelled."
+msgstr "Alleen geautoriseerde transacties kan worden geannuleerd."
+
+msgid "If the test mode is selected the test PSPID is used and the test SHA passphrases."
+msgstr "In de testmodus de test PSPID en de test SHA test passphrase worden automatisch gebruikt"
+
+msgid "Message"
+msgstr "Bericht"
+
+msgid "Refund"
+msgstr "Terugebetalen"
+
+msgid "You have to enter the CVC code from the back of your credti card."
+msgstr "Voer hier het CVC uw kaart in te voeren. U kunt dit vinden op de achterkant van uw creditcard."
+
+msgid "The configuration values for PostFinance can be set under:"
+msgstr "De configuratie waarden voor PostFinance kan worden ingesteld onder:"
+
+msgid "Intended purpose of alias"
+msgstr "Doel van de alias"
+
+msgid "You have to enter the name of the account owner."
+msgstr "Je moet de rekeninghouder te voeren."
+
+msgid "Here you can define a Shop ID. This is only necessary if you wish to operate several shops with one PSPID. In order to use this module, an additional module is required."
+msgstr "Hier kunt u een Winkel ID definiëren. Dit is alleen nodig als je wilt om verschillende winkels te werken met een PSPID. Om deze module is een extra module vereist."
+
+msgid "Transaction Paid"
+msgstr "Transactie betaald"
+
+msgid "You have to enter the year of the card expiry."
+msgstr "Je moet het jaar van de kaart vervaldatum in te voeren."
+
+msgid "Please enter here the account number of your bank account."
+msgstr "Vul het rekeningnummer van uw bankrekening in te voeren"
+
+msgid "Capture Transaction"
+msgstr "Transactie boeken"
+
+msgid "A captured transaction cannot be authorized."
+msgstr "Een opgenomen transactie kan niet worden geautoriseerd."
+
+msgid "You have to enter your bank account number."
+msgstr "Je moet het rekeningnummer van uw bankrekening in te voeren."
+
+msgid "Captured Status"
+msgstr "Geboekene Status"
+
+msgid "A cancelled transaction cannot be authorized."
+msgstr "Een geannuleerde transactie kan niet worden geautoriseerd."
+
+msgid "Date"
+msgstr "Datum"
+
+msgid "You have to enter the CVC code from your card."
+msgstr "U moet de CVC uw kaart in te voeren."
+
+msgid "Redirection"
+msgstr "Omleiding"
+
+msgid "Order prefix"
+msgstr "Bestel prefix"
+
+msgid "The payment is not finished. Hence it must be manually checked."
+msgstr "De betaling is niet voltooid en moet dus handmatig worden gecontroleerd."
+
+msgid "Brand and card number do not match."
+msgstr "Kaarttype en kaartnummer niet overeenkomen."
+
+msgid "Authorization Amount"
+msgstr "Autorisatie bedrag"
+
+msgid "Wrong bank account format."
+msgstr "Verkeerde bankrekening formaat."
+
+msgid "Please enter here the number on your card."
+msgstr "Vul het kaartnummer van uw creditcard in te voeren"
+
+msgid "3D Secure failed"
+msgstr "3D Secure mislukt"
+
+msgid "Test PSPID"
+msgstr "Test PSPID"
+
+msgid "Enter the live SHA-IN passphrase. This value must be identical to the one in the back-end of PostFinance."
+msgstr "Voer de live SHA-IN passphrase in te voeren. Deze waarde moet gelijk zijn aan die in de back-end van PostFinance."
+
+msgid "The alias manager allows the customer to select from a credit card previously stored. The credit card data is stored by PostFinance."
+msgstr "De alias manager kan de klant om te betalen met een vooraf opgeslagen creditcard. De creditcard gegevens worden opgeslagen door PostFinance."
+
+msgid "PostFinance Transactions"
+msgstr "PostFinance transacties"
+
+msgid "SHA-IN Passphrase"
+msgstr "SHA-IN Passphrase"
+
+msgid "Month"
+msgstr "Maand"
+
+msgid "Expiry date contains non-numeric data."
+msgstr "Vervaldatum bevat niet-numerieke gegevens."
+
+msgid "Captures"
+msgstr "Boekingen"
+
+msgid "Enter the live SHA-OUT passphrase. This value must be identical to the one in the back-end of PostFinance."
+msgstr "Voer de live SHA-OUT passphrase in te voeren. Deze waarde moet gelijk zijn aan die in de back-end van PostFinance."
+
+msgid "You have to enter the a card number."
+msgstr "Je moet het een kaartnummer in te voeren."
+
+msgid "Your card number is invalid."
+msgstr "Uw kaart is ongeldig."
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid "Error Message:"
+msgstr "Foutmelding:"
+
+msgid "Capture"
+msgstr "Boeken"
+
+msgid "Add manual renewal"
+msgstr "Voeg handmatige vernieuwing"
+
+msgid "Dynamic Template"
+msgstr "Dynamische Template"
+
+msgid "A cancelled transaction cannot be cancelled again."
+msgstr "Een geannuleerde transactie kan niet worden weer geannuleerd."
+
+msgid "Shop ID"
+msgstr "Winkel ID"
+
+msgid "Only authorized transaction can be captured."
+msgstr "Alleen geautoriseerde transacties kunnen worden geregistreerd"
+
+msgid "A captured transaction cannot be marked as failed."
+msgstr "Een opgenomen transactie kan niet worden gemarkeerd als mislukt."
+
+msgid "Is Authorized"
+msgstr "Is geaturoriseerde"
+
+msgid "Which status should be set if the payment has been successfully authorised?"
+msgstr "Waarvan de status moet worden ingesteld wanneer de betaling succesvol is geautoriseerde?"
+
+msgid "Wrong 'BRAND' was specified."
+msgstr "Wrong 'BRAND' werd opgegeven."
+
+msgid "Close transaction for further captures."
+msgstr "Sluit transactie voor verdere boekingen."
+
+msgid "Operation Mode"
+msgstr "Bedrijfsmodus"
+
+msgid "Successful"
+msgstr "Met goed gevolg"
+
+msgid "You can create an API username in the back-end of PostFinance . The API user is necessary for the direct communication between the shop and the service of PostFinance ."
+msgstr "U kunt een API gebruikersnaam in de backend van PostFinance opstellen. De API gebruiker is vereist voor directe communicatie tussen de winkel en de service van PostFinance."
+
+msgid "Some input was invalid."
+msgstr "Ongeldige invoer"
+
+msgid "The 'account number' field cannot be empty."
+msgstr "Het 'rekeningnummer' veld kan niet leeg zijn."
+
+msgid "SHA-512"
+msgstr "SHA-512"
+
+msgid "Amount to capture"
+msgstr "Bedrag dat moet worden gecompenseerd"
+
+msgid "Inactive"
+msgstr "Inactief"
+
+msgid "The whole transaction is cancelled."
+msgstr "De gehele transactie is geannuleerd."
+
+msgid "No API password was provided."
+msgstr "Geen API wachtwoord werd opgegeven."
+
+msgid "You can choose a previous used card:"
+msgstr "U kunt kiezen uit een eerder gebruikte kaart:"
+
+msgid "Order is stored, but not finally authorized or captured."
+msgstr "Order wordt opgeslagen, maar niet definitief geautoriseerd of opgenomen."
+
+msgid "Subscription Payment Failed with error:"
+msgstr "Betaling voor de subscription is mislukt met fout:"
+
+msgid "You have to enter the month of the card expiry."
+msgstr "Je moet de maand van de kaart vervaldatum in te voeren."
+
+msgid "No"
+msgstr "Geen"
+
+msgid "Transaction Cancelled"
+msgstr "Transactie geannuleerd"
+
+msgid "The CVC contains invalid chars."
+msgstr "De CVC bevat ongeldige tekens."
+
+msgid "Should the amount be captured automatically after the order (direct) or should the amount only be reserved (deferred)?"
+msgstr "Indien het bedrag automatisch wordt afgeschreven van de klant na de bestelling (direct) of het bedrag alleen worden gereserveerd (vertraagde)?"
+
+msgid "This transaction is already closed for further refunds."
+msgstr "Deze transactie werd gesloten voor meer credits."
+
+msgid "Figure number"
+msgstr "Figure number"
+
+msgid "A transaction may be uncertain, when the payment is not guaranteed. For example in case the credit card does not participate in the 3D procedure."
+msgstr "Een transactie kan onveilig zijn als de betaling niet is gegarandeerd. Bijvoorbeeld, als de credit card niet tot het 3D Secure proces."
+
+msgid "The transaction id is incorrect."
+msgstr "De transactie ID is verkeerd."
+
+msgid "SAH IN signature is wrong."
+msgstr "SHA IN handtekening is verkeerd."
+
+msgid "Select the hash calculation method to use. This value must correspond with the selected value in the back-end of PostFinance."
+msgstr "Selecteer de methode voor het berekenen van de hash. Deze waarde moet overeenkomen met het einde van de PostFinance."
+
+msgid "A cancelled transaction cannot be marked as failed."
+msgstr "Een geannuleerde transactie kan niet worden gemarkeerd als mislukt."
+
+msgid "Bank account number"
+msgstr "Bankrekeningnummer"
+
+msgid "Please select the expiry month on your card."
+msgstr "Selecteer de mot van vervaldatum op uw kaart."
+
+msgid "Authorization Method"
+msgstr "Autorisatie Methode"
+
+msgid "Expiry date must be in the future."
+msgstr "Vervaldatum moet in de toekomst."
+

@@ -1,0 +1,63 @@
+.postfinancecw-control-group {
+	margin-bottom: 15px;
+}
+
+.postfinancecw-control-label {
+	font-size: 14px;
+	display: inline-block;
+	padding: 6px 15px;
+	width: 200px;
+	font-size: 14px;
+	text-align: right;
+	float: left;
+}
+.postfinancecw-control-label .postfinancecw-required {
+	color: #990000;
+}
+
+.postfinancecw-control-group > .postfinancecw-controls {
+	margin-left: 220px;
+}
+ul.payment_methods .postfinancecw-control-group > .postfinancecw-controls {
+	margin-left: 220px;
+}
+
+.postfinancecw-description {
+	margin-left: 220px;
+}
+
+.postfinancecw-error {
+	margin-left: 220px;
+	color: #D8000C;
+}
+
+.postfinancecw-element-error input[type='text'], .postfinancecw-element-error input[type='password'], .postfinancecw-element-error select{
+	border-color: #D8000C;
+}
+
+.postfinancecw-card-cvc input[type='text']{
+	width: 40px;
+}
+
+.postfinancecw-multi-control .postfinancecw-controls { 
+	float: left;
+}
+
+.postfinancecw-multi-control {
+	overflow: auto;
+}
+.postfinancecw-payment-form-confirm {
+	margin-left: 220px;
+}
+
+
+.postfinancecw-iframe {
+	height: 525px;
+	width: 100%;
+	border: none;
+}
+
+
+.postfinancecw-alias-input-box {
+	margin-bottom: 20px;
+}

@@ -1,0 +1,73 @@
+.postfinancecw-renewal {
+	margin-top: 5px;
+	margin-botton: 5px;
+}
+
+.postfinancecw-transaction-table .postfinancecw-details-row {
+	display: none;
+}
+
+.postfinancecw-transaction-table .postfinancecw-main-row .postfinancecw-more-details-button {
+	cursor: pointer;
+}
+
+.postfinancecw-transaction-table .postfinancecw-main-row.active .postfinancecw-more-details-button {
+	display: none;
+}
+
+.postfinancecw-transaction-table .postfinancecw-main-row.active td {
+	border-bottom-color: #f0f0f0;
+}
+
+.postfinancecw-transaction-table .postfinancecw-details-row.active {
+	display: table-row;
+}
+
+.postfinancecw-transaction-table label {
+	float: none;
+	font-weight: normal;
+}
+
+.postfinancecw-transaction-table .postfinancecw-less-details-button {
+	display: none;
+	cursor: pointer;
+}
+
+.postfinancecw-transaction-table .postfinancecw-main-row.active .postfinancecw-less-details-button {
+	display: inline-block;
+}
+
+.postfinancecw-transaction-table .label-box {
+	float: left;
+	width: 380px;
+	margin-right: 75px;
+	padding: 3px;
+}
+
+.postfinancecw-transaction-table .label-box .label-title {
+	width: 50%;
+	font-weight: bold;
+	float: left;
+}
+
+.postfinancecw-transaction-table .label-box .label-value {
+	width: 50%;
+	float: right;
+}
+
+.postfinancecw-box-labels {
+	overflow: auto;
+	width: 100%;
+	margin-bottom: 2em;
+}
+
+.postfinancecw-transaction-table .box {
+	border-top: solid 1px #FFF;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	padding: 0.1em 0.8em 0.8em 0.8em;
+}
+
+.postfinancecw-transaction-table .box h4 {
+	margin: 0.6em 0;
+}

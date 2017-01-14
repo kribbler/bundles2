@@ -1,0 +1,14 @@
+Die folgenden Logins können zu Test-Zwecken verwendet werden:
+
+Produktions-Plattform:
+User:               xxxxxxxxx
+Password:        	xxxxxxxxx
+FRLZ:               xxxxxxxxx
+Endpoint :        	https://www.mypostbusiness.ch/wsbc/barcode/v2_2
+
+Integrations-Plattform:
+User:               xxxxxxxxx
+Password:        	xxxxxxxxx
+FRLZ:               xxxxxxxxx
+Endpoint :        	https://int.mypostbusiness.ch/wsbc/barcode/v2_2
+
