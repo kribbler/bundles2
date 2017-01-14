@@ -1,0 +1,37 @@
+#boxed #footer-meta,
+#boxed #footer-bottom,
+#boxed #footer,
+#boxed #main,
+#boxed #page-breadcrumb,
+#boxed #page-header,
+#boxed #page-tagline,
+#boxed #header,
+#boxed #meta{
+    padding: 0 30px;
+    width: 1170px;
+}
+	#page-breadcrumb .span6{
+		margin-right: 30px;
+	}
+	#page-tagline br{display: block}
+.sidebar{
+    padding-left: 30px;
+}
+.left-sidebar-template .sidebar{
+	padding-right: 30px !important;
+}
+.post.portfolio {
+    margin-bottom: 30px;
+}
+#page-header #front-page-caption{
+	top: 240px;
+}
+#featured-widget .featured-label{
+	width: 25.641%
+}
+.grid_960{
+	display: none !important;
+}
+.visible-desktop.grid_1170{
+	display: block !important;
+}

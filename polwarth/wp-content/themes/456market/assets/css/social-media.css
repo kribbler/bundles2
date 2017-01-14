@@ -1,0 +1,793 @@
+.social-media a.icon._500px span{
+	background-image: url(../Mono_Social_Icons/white_500px.png)
+}
+.social-media a.icon._500px:hover{
+	 background: #00aeef;
+}
+.social-media a.icon.about_me span{
+	background-image: url(../Mono_Social_Icons/white_about_me.png)
+}
+.social-media a.icon.about_me:hover{
+	 background: #004f75;
+}
+.social-media a.icon.add_this span{
+	background-image: url(../Mono_Social_Icons/white_add_this.png)
+}
+.social-media a.icon.add_this:hover{
+	 background: #f57248;
+}
+.social-media a.icon.amazon span{
+	background-image: url(../Mono_Social_Icons/white_amazon.png)
+}
+.social-media a.icon.amazon:hover{
+	 background: #ff9a04;
+}
+.social-media a.icon.aol span{
+	background-image: url(../Mono_Social_Icons/white_aol.png)
+}
+.social-media a.aol:hover{
+	 background: #252525;
+}
+.social-media a.icon.app_store_alt span{
+	background-image: url(../Mono_Social_Icons/white_app_store_alt.png)
+}
+.social-media a.icon.app_store_alt:hover{
+	 background: #0269e2;
+}
+.social-media a.icon.app_store span{
+	background-image: url(../Mono_Social_Icons/white_app_store.png)
+}
+.social-media a.icon.app_store:hover{
+	 background: #0269e2;
+}
+.social-media a.icon.apple span{
+	background-image: url(../Mono_Social_Icons/white_apple.png)
+}
+.social-media a.icon.apple:hover{
+	 background: #252525;
+}
+.social-media a.icon.behance span{
+	background-image: url(../Mono_Social_Icons/white_behance.png)
+}
+.social-media a.icon.behance:hover{
+	 background: #2f9ad2;
+}
+.social-media a.icon.bing span{
+	background-image: url(../Mono_Social_Icons/white_bing.png)
+}
+.social-media a.icon.bing:hover{
+	 background: #0083d5;
+}
+.social-media a.icon.blip span{
+	background-image: url(../Mono_Social_Icons/white_blip.png)
+}
+.social-media a.icon.blip:hover{
+	 background: #959595;
+}
+.social-media a.icon.blogger span{
+	background-image: url(../Mono_Social_Icons/white_blogger.png)
+}
+.social-media a.icon.blogger:hover{
+	 background: #fe6601;
+}
+.social-media a.icon.coroflot span{
+	background-image: url(../Mono_Social_Icons/white_coroflot.png)
+}
+.social-media a.icon.coroflot:hover{
+	 background: #959595;
+}
+.social-media a.icon.daytum span{
+	background-image: url(../Mono_Social_Icons/white_daytum.png)
+}
+.social-media a.icon.daytum:hover{
+	 background: #8d8e92;
+}
+.social-media a.icon.delicious span{
+	background-image: url(../Mono_Social_Icons/white_delicious.png)
+}
+.social-media a.icon.delicious:hover{
+	 background: #0000fe;
+}
+.social-media a.icon.design_bump span{
+	background-image: url(../Mono_Social_Icons/white_design_bump.png)
+}
+.social-media a.icon.design_bump:hover{
+	 background: #252525;
+}
+.social-media a.icon.designfloat span{
+	background-image: url(../Mono_Social_Icons/white_designfloat.png)
+}
+.social-media a.icon.designfloat:hover{
+	 background: #fba830;
+}
+.social-media a.icon.deviant_art span{
+	background-image: url(../Mono_Social_Icons/white_deviant_art.png)
+}
+.social-media a.icon.deviant_art:hover{
+	 background: #4b5d4f;
+}
+.social-media a.icon.digg_alt span{
+	background-image: url(../Mono_Social_Icons/white_digg_alt.png)
+}
+.social-media a.icon.digg_alt:hover{
+	 background: #2169a8;
+}
+.social-media a.icon.digg span{
+	background-image: url(../Mono_Social_Icons/white_digg.png)
+}
+.social-media a.icon.digg:hover{
+	 background: #2169a8;
+}
+.social-media a.icon.dribbble span{
+	background-image: url(../Mono_Social_Icons/white_dribbble.png)
+}
+.social-media a.icon.dribbble:hover{
+	 background: #c5386d;
+}
+.social-media a.icon.drupal span{
+	background-image: url(../Mono_Social_Icons/white_drupal.png)
+}
+.social-media a.icon.drupal:hover{
+	 background: #2aa9e0;
+}
+.social-media a.icon.ebay span{
+	background-image: url(../Mono_Social_Icons/white_ebay.png)
+}
+.social-media a.icon.ebay:hover{
+	 background: #252525;
+}
+.social-media a.icon.email span{
+	background-image: url(../Mono_Social_Icons/white_email.png)
+}
+.social-media a.icon.email:hover{
+	 background: #959595;
+}
+.social-media a.icon.ember_app span{
+	background-image: url(../Mono_Social_Icons/white_ember_app.png)
+}
+.social-media a.icon.ember_app:hover{
+	 background: #f54300;
+}
+.social-media a.icon.etsy span{
+	background-image: url(../Mono_Social_Icons/white_etsy.png)
+}
+.social-media a.icon.etsy:hover{
+	 background: #d45802;
+}
+.social-media a.icon.facebook span{
+	background-image: url(../Mono_Social_Icons/white_facebook.png)
+}
+.social-media a.icon.facebook:hover{
+	 background: #3b5998;
+}
+.social-media a.icon.feed_burner span{
+	background-image: url(../Mono_Social_Icons/white_feed_burner.png)
+}
+.social-media a.icon.feed_burner:hover{
+	 background: #0070d2;
+}
+.social-media a.icon.flickr span{
+	background-image: url(../Mono_Social_Icons/white_flickr.png)
+}
+.social-media a.icon.flickr:hover{
+	 background: #ff0084;
+}
+.social-media a.icon.foodspotting span{
+	background-image: url(../Mono_Social_Icons/white_foodspotting.png)
+}
+.social-media a.icon.foodspotting:hover{
+	 background: #1b0f00;
+}
+.social-media a.icon.forrst span{
+	background-image: url(../Mono_Social_Icons/white_forrst.png)
+}
+.social-media a.icon.forrst:hover{
+	 background: #32723e;
+}
+.social-media a.icon.foursquare span{
+	background-image: url(../Mono_Social_Icons/white_foursquare.png)
+}
+.social-media a.icon.foursquare:hover{
+	 background: #3a6ec2;
+}
+.social-media a.icon.friendsfeed span{
+	background-image: url(../Mono_Social_Icons/white_friendsfeed.png)
+}
+.social-media a.icon.friendsfeed:hover{
+	 background: #4680c5;
+}
+.social-media a.icon.friendstar span{
+	background-image: url(../Mono_Social_Icons/white_friendstar.png)
+}
+.social-media a.icon.friendstar:hover{
+	 background: #12923b;
+}
+.social-media a.icon.gdgt span{
+	background-image: url(../Mono_Social_Icons/white_gdgt.png)
+}
+.social-media a.icon.gdgt:hover{
+	 background: #cc0001;
+}
+.social-media a.icon.github span{
+	background-image: url(../Mono_Social_Icons/white_github.png)
+}
+.social-media a.icon.github:hover{
+	 background: #252525;
+}
+.social-media a.icon.google_buzz span{
+	background-image: url(../Mono_Social_Icons/white_google_buzz.png)
+}
+.social-media a.icon.google_buzz:hover{
+	 background: #252525;
+}
+.social-media a.icon.google_talk span{
+	background-image: url(../Mono_Social_Icons/white_google_talk.png)
+}
+.social-media a.icon.google_talk:hover{
+	 background: #252525;
+}
+.social-media a.icon.gowalla_pin span{
+	background-image: url(../Mono_Social_Icons/white_gowalla_pin.png)
+}
+.social-media a.icon.gowalla_pin:hover{
+	 background: #f89223;
+}
+.social-media a.icon.gowalla span{
+	background-image: url(../Mono_Social_Icons/white_gowalla.png)
+}
+.social-media a.icon.gowalla:hover{
+	 background: #f89223;
+}
+.social-media a.icon.grooveshark span{
+	background-image: url(../Mono_Social_Icons/white_grooveshark.png)
+}
+.social-media a.icon.grooveshark:hover{
+	 background: #252525;
+}
+.social-media a.icon.heart span{
+	background-image: url(../Mono_Social_Icons/white_heart.png)
+}
+.social-media a.icon.heart:hover{
+	 background: #959595;
+}
+.social-media a.icon.hyves span{
+	background-image: url(../Mono_Social_Icons/white_hyves.png)
+}
+.social-media a.icon.hyves:hover{
+	 background: #feb72b;
+}
+.social-media a.icon.icondock span{
+	background-image: url(../Mono_Social_Icons/white_icondock.png)
+}
+.social-media a.icon.icondock:hover{
+	 background: #959595;
+}
+.social-media a.icon.icq span{
+	background-image: url(../Mono_Social_Icons/white_icq.png)
+}
+.social-media a.icon.icq:hover{
+	 background: #959595;
+}
+.social-media a.icon.identica span{
+	background-image: url(../Mono_Social_Icons/white_identica.png)
+}
+.social-media a.icon.identica:hover{
+	 background: #959595;
+}
+.social-media a.icon.imessage span{
+	background-image: url(../Mono_Social_Icons/white_imessage.png)
+}
+.social-media a.icon.imessage:hover{
+	 background: #959595;
+}
+.social-media a.icon.itune span{
+	background-image: url(../Mono_Social_Icons/white_itune.png)
+}
+.social-media a.icon.itune:hover{
+	 background: #959595;
+}
+.social-media a.icon.last_fm span{
+	background-image: url(../Mono_Social_Icons/white_last.fm.png)
+}
+.social-media a.icon.last_fm:hover{
+	 background: #d60148;
+}
+.social-media a.icon.linkedin span{
+	background-image: url(../Mono_Social_Icons/white_linkedin.png)
+}
+.social-media a.icon.linkedin:hover{
+	 background: #006699;
+}
+.social-media a.icon.meetup span{
+	background-image: url(../Mono_Social_Icons/white_meetup.png)
+}
+.social-media a.icon.meetup:hover{
+	 background: #f20018;
+}
+.social-media a.icon.metacafe span{
+	background-image: url(../Mono_Social_Icons/white_metacafe.png)
+}
+.social-media a.icon.metacafe:hover{
+	 background: #fba864;
+}
+.social-media a.icon.mixx span{
+	background-image: url(../Mono_Social_Icons/white_mixx.png)
+}
+.social-media a.icon.mixx:hover{
+	 background: #bc2c2c;
+}
+.social-media a.icon.mobileme span{
+	background-image: url(../Mono_Social_Icons/white_mobileme.png)
+}
+.social-media a.icon.mobileme:hover{
+	 background: #959595;
+}
+.social-media a.icon.mr_wong span{
+	background-image: url(../Mono_Social_Icons/white_mr_wong.png)
+}
+.social-media a.icon.mr_wong:hover{
+	 background: #b10515;
+}
+.social-media a.icon.msn span{
+	background-image: url(../Mono_Social_Icons/white_msn.png)
+}
+.social-media a.icon.msn:hover{
+	 background: #959595;
+}
+.social-media a.icon.myspace span{
+	background-image: url(../Mono_Social_Icons/white_myspace.png)
+}
+.social-media a.icon.myspace:hover{
+	 background: #252525;
+}
+.social-media a.icon.newsvine span{
+	background-image: url(../Mono_Social_Icons/white_newsvine.png)
+}
+.social-media a.icon.newsvine:hover{
+	 background: #005221;
+}
+.social-media a.icon.paypal span{
+	background-image: url(../Mono_Social_Icons/white_paypal.png)
+}
+.social-media a.icon.paypal:hover{
+	 background: #00498e;
+}
+.social-media a.icon.photobucket span{
+	background-image: url(../Mono_Social_Icons/white_photobucket.png)
+}
+.social-media a.icon.photobucket:hover{
+	 background: #1969be;
+}
+.social-media a.icon.picasa span{
+	background-image: url(../Mono_Social_Icons/white_picasa.png)
+}
+.social-media a.icon.picasa:hover{
+	 background: #959595;
+}
+.social-media a.icon.pinterest span{
+	background-image: url(../Mono_Social_Icons/white_pinterest.png)
+}
+.social-media a.icon.pinterest:hover{
+	 background: #cc2129;
+}
+.social-media a.icon.podcast span{
+	background-image: url(../Mono_Social_Icons/white_podcast.png)
+}
+.social-media a.icon.podcast:hover{
+	 background: #959595;
+}
+.social-media a.icon.posterous span{
+	background-image: url(../Mono_Social_Icons/white_posterous.png)
+}
+.social-media a.icon.posterous:hover{
+	 background: #ffd841;
+}
+.social-media a.icon.qik span{
+	background-image: url(../Mono_Social_Icons/white_qik.png)
+}
+.social-media a.icon.qik:hover{
+	 background: #18c1d6;
+}
+.social-media a.icon.quora span{
+	background-image: url(../Mono_Social_Icons/white_quora.png)
+}
+.social-media a.icon.quora:hover{
+	 background: #a82300;
+}
+.social-media a.icon.reddit span{
+	background-image: url(../Mono_Social_Icons/white_reddit.png)
+}
+.social-media a.icon.reddit:hover{
+	 background: #252525;
+}
+.social-media a.icon.retweet span{
+	background-image: url(../Mono_Social_Icons/white_retweet.png)
+}
+.social-media a.icon.retweet:hover{
+	 background: #959595;
+}
+.social-media a.icon.rss span{
+	background-image: url(../Mono_Social_Icons/white_rss.png)
+}
+.social-media a.icon.rss:hover{
+	 background: #fa9d39;
+}
+.social-media a.icon.scribd span{
+	background-image: url(../Mono_Social_Icons/white_scribd.png)
+}
+.social-media a.icon.scribd:hover{
+	 background: #252525;
+}
+.social-media a.icon.share_this span{
+	background-image: url(../Mono_Social_Icons/white_share_this.png)
+}
+.social-media a.icon.share_this:hover{
+	 background: #098b21;
+}
+.social-media a.icon.skype span{
+	background-image: url(../Mono_Social_Icons/white_skype.png)
+}
+.social-media a.icon.skype:hover{
+	 background: #0ca6df;
+}
+.social-media a.icon.slashdot span{
+	background-image: url(../Mono_Social_Icons/white_slashdot.png)
+}
+.social-media a.icon.slashdot:hover{
+	 background: #036564;
+}
+.social-media a.icon.slideshare span{
+	background-image: url(../Mono_Social_Icons/white_slideshare.png)
+}
+.social-media a.icon.slideshare:hover{
+	 background: #959595;
+}
+.social-media a.icon.smugmug span{
+	background-image: url(../Mono_Social_Icons/white_smugmug.png)
+}
+.social-media a.icon.smugmug:hover{
+	 background: #94ca34;
+}
+.social-media a.icon.sound_cloud span{
+	background-image: url(../Mono_Social_Icons/white_sound_cloud.png)
+}
+.social-media a.icon.sound_cloud:hover{
+	 background: #ff680d;
+}
+.social-media a.icon.spotify span{
+	background-image: url(../Mono_Social_Icons/white_spotify.png)
+}
+.social-media a.icon.spotify:hover{
+	 background: #7cc011;
+}
+.social-media a.icon.squidoo span{
+	background-image: url(../Mono_Social_Icons/white_squidoo.png)
+}
+.social-media a.icon.squidoo:hover{
+	 background: #00529b;
+}
+.social-media a.icon.stackoverflow span{
+	background-image: url(../Mono_Social_Icons/white_stackoverflow.png)
+}
+.social-media a.icon.stackoverflow:hover{
+	 background: #f47838;
+}
+.social-media a.icon.star span{
+	background-image: url(../Mono_Social_Icons/white_star.png)
+}
+.social-media a.icon.star:hover{
+	 background: #959595;
+}
+.social-media a.icon.stumbleupon span{
+	background-image: url(../Mono_Social_Icons/white_stumbleupon.png)
+}
+.social-media a.icon.stumbleupon:hover{
+	 background: #eb4823;
+}
+.social-media a.icon.technorati span{
+	background-image: url(../Mono_Social_Icons/white_technorati.png)
+}
+.social-media a.icon.technorati:hover{
+	 background: #3baf02;
+}
+.social-media a.icon.tumblr span{
+	background-image: url(../Mono_Social_Icons/white_tumblr.png)
+}
+.social-media a.icon.tumblr:hover{
+	 background: #2c4762;
+}
+.social-media a.icon.twitter_bird span{
+	background-image: url(../Mono_Social_Icons/white_twitter_bird.png)
+}
+.social-media a.icon.twitter_bird:hover{
+	 background: #1ec7ff;
+}
+.social-media a.icon.twitter span{
+	background-image: url(../Mono_Social_Icons/white_twitter.png)
+}
+.social-media a.icon.twitter:hover{
+	 background: #1ec7ff;
+}
+.social-media a.icon.viddler span{
+	background-image: url(../Mono_Social_Icons/white_viddler.png)
+}
+.social-media a.icon.viddler:hover{
+	 background: #252525;
+}
+.social-media a.icon.vimeo span{
+	background-image: url(../Mono_Social_Icons/white_vimeo.png)
+}
+.social-media a.icon.vimeo:hover{
+	 background: #44bbff;
+}
+.social-media a.icon.virb span{
+	background-image: url(../Mono_Social_Icons/white_virb.png)
+}
+.social-media a.icon.virb:hover{
+	 background: #252525;
+}
+.social-media a.icon.w3 span{
+	background-image: url(../Mono_Social_Icons/white_w3.png)
+}
+.social-media a.icon.w3:hover{
+	 background: #959595;
+}
+.social-media a.icon.wikipedia span{
+	background-image: url(../Mono_Social_Icons/white_wikipedia.png)
+}
+.social-media a.icon.wikipedia:hover{
+	 background: #252525;
+}
+.social-media a.icon.windows span{
+	background-image: url(../Mono_Social_Icons/white_windows.png)
+}
+.social-media a.icon.windows:hover{
+	 background: #959595;
+}
+.social-media a.icon.wordpress span{
+	background-image: url(../Mono_Social_Icons/white_wordpress.png)
+}
+.social-media a.icon.wordpress:hover{
+	 background: #252525;
+}
+.social-media a.icon.xing span{
+	background-image: url(../Mono_Social_Icons/white_xing.png)
+}
+.social-media a.icon.xing:hover{
+	 background: #015965;
+}
+.social-media a.icon.yahoo_buzz span{
+	background-image: url(../Mono_Social_Icons/white_yahoo_buzz.png)
+}
+.social-media a.icon.yahoo_buzz:hover{
+	 background: #65106d;
+}
+.social-media a.icon.yahoo span{
+	background-image: url(../Mono_Social_Icons/white_yahoo.png)
+}
+.social-media a.icon.yahoo:hover{
+	 background: #65106d;
+}
+.social-media a.icon.yelp span{
+	background-image: url(../Mono_Social_Icons/white_yelp.png)
+}
+.social-media a.icon.yelp:hover{
+	 background: #c41301;
+}
+.social-media a.icon.youtube span{
+	background-image: url(../Mono_Social_Icons/white_youtube.png)
+}
+.social-media a.icon.youtube:hover{
+	 background: #c4302b;
+}
+
+#footer .ccard li span.amazon{
+	background: url(../Credit_Card_Icons/amazon.png) no-repeat 0 0;
+}
+#footer .ccard li span.amazon:hover{
+	background: url(../Credit_Card_Icons/bw-icons/amazon.png) no-repeat 0 0;
+}
+#footer .ccard li span.amex_alt{
+	background: url(../Credit_Card_Icons/amex_alt.png) no-repeat 0 0;
+}
+#footer .ccard li span.amex_alt:hover{
+	background: url(../Credit_Card_Icons/bw-icons/amex_alt.png) no-repeat 0 0;
+}
+#footer .ccard li span.amex_gold{
+	background: url(../Credit_Card_Icons/amex_gold.png) no-repeat 0 0;
+}
+#footer .ccard li span.amex_gold:hover{
+	background: url(../Credit_Card_Icons/bw-icons/amex_gold.png) no-repeat 0 0;
+}
+#footer .ccard li span.amex_green{
+	background: url(../Credit_Card_Icons/amex_green.png) no-repeat 0 0;
+}
+#footer .ccard li span.amex_green:hover{
+	background: url(../Credit_Card_Icons/bw-icons/amex_green.png) no-repeat 0 0;
+}
+#footer .ccard li span.amex_silver{
+	background: url(../Credit_Card_Icons/amex_silver.png) no-repeat 0 0;
+}
+#footer .ccard li span.amex_silver:hover{
+	background: url(../Credit_Card_Icons/bw-icons/amex_silver.png) no-repeat 0 0;
+}
+#footer .ccard li span.amex{
+	background: url(../Credit_Card_Icons/amex.png) no-repeat 0 0;
+}
+#footer .ccard li span.amex:hover{
+	background: url(../Credit_Card_Icons/bw-icons/amex.png) no-repeat 0 0;
+}
+#footer .ccard li span.apple{
+	background: url(../Credit_Card_Icons/apple.png) no-repeat 0 0;
+}
+#footer .ccard li span.apple:hover{
+	background: url(../Credit_Card_Icons/bw-icons/apple.png) no-repeat 0 0;
+}
+#footer .ccard li span.bank{
+	background: url(../Credit_Card_Icons/bank.png) no-repeat 0 0;
+}
+#footer .ccard li span.bank:hover{
+	background: url(../Credit_Card_Icons/bw-icons/bank.png) no-repeat 0 0;
+}
+#footer .ccard li span.cash{
+	background: url(../Credit_Card_Icons/cash.png) no-repeat 0 0;
+}
+#footer .ccard li span.cash:hover{
+	background: url(../Credit_Card_Icons/bw-icons/cash.png) no-repeat 0 0;
+}
+#footer .ccard li span.chase{
+	background: url(../Credit_Card_Icons/chase.png) no-repeat 0 0;
+}
+#footer .ccard li span.chase:hover{
+	background: url(../Credit_Card_Icons/bw-icons/chase.png) no-repeat 0 0;
+}
+#footer .ccard li span.coupon{
+	background: url(../Credit_Card_Icons/coupon.png) no-repeat 0 0;
+}
+#footer .ccard li span.coupon:hover{
+	background: url(../Credit_Card_Icons/bw-icons/coupon.png) no-repeat 0 0;
+}
+#footer .ccard li span.credit{
+	background: url(../Credit_Card_Icons/credit.png) no-repeat 0 0;
+}
+#footer .ccard li span.credit:hover{
+	background: url(../Credit_Card_Icons/bw-icons/credit.png) no-repeat 0 0;
+}
+#footer .ccard li span.debit{
+	background: url(../Credit_Card_Icons/debit.png) no-repeat 0 0;
+}
+#footer .ccard li span.debit:hover{
+	background: url(../Credit_Card_Icons/bw-icons/debit.png) no-repeat 0 0;
+}
+#footer .ccard li span.discover_alt{
+	background: url(../Credit_Card_Icons/discover_alt.png) no-repeat 0 0;
+}
+#footer .ccard li span.discover_alt:hover{
+	background: url(../Credit_Card_Icons/bw-icons/discover_alt.png) no-repeat 0 0;
+}
+#footer .ccard li span.discover_novus{
+	background: url(../Credit_Card_Icons/discover_novus.png) no-repeat 0 0;
+}
+#footer .ccard li span.discover_novus:hover{
+	background: url(../Credit_Card_Icons/bw-icons/discover_novus.png) no-repeat 0 0;
+}
+#footer .ccard li span.discover{
+	background: url(../Credit_Card_Icons/discover.png) no-repeat 0 0;
+}
+#footer .ccard li span.discover:hover{
+	background: url(../Credit_Card_Icons/bw-icons/discover.png) no-repeat 0 0;
+}
+#footer .ccard li span.echeck{
+	background: url(../Credit_Card_Icons/echeck.png) no-repeat 0 0;
+}
+#footer .ccard li span.echeck:hover{
+	background: url(../Credit_Card_Icons/bw-icons/echeck.png) no-repeat 0 0;
+}
+#footer .ccard li span.generic_1{
+	background: url(../Credit_Card_Icons/generic_1.png) no-repeat 0 0;
+}
+#footer .ccard li span.generic_1:hover{
+	background: url(../Credit_Card_Icons/bw-icons/generic_1.png) no-repeat 0 0;
+}
+#footer .ccard li span.generic_2{
+	background: url(../Credit_Card_Icons/generic_2.png) no-repeat 0 0;
+}
+#footer .ccard li span.generic_2:hover{
+	background: url(../Credit_Card_Icons/bw-icons/generic_2.png) no-repeat 0 0;
+}
+#footer .ccard li span.generic_3{
+	background: url(../Credit_Card_Icons/generic_3.png) no-repeat 0 0;
+}
+#footer .ccard li span.generic_3:hover{
+	background: url(../Credit_Card_Icons/bw-icons/generic_3.png) no-repeat 0 0;
+}
+#footer .ccard li span.gift_alt{
+	background: url(../Credit_Card_Icons/gift_alt.png) no-repeat 0 0;
+}
+#footer .ccard li span.gift_alt:hover{
+	background: url(../Credit_Card_Icons/bw-icons/gift_alt.png) no-repeat 0 0;
+}
+#footer .ccard li span.gift{
+	background: url(../Credit_Card_Icons/gift.png) no-repeat 0 0;
+}
+#footer .ccard li span.gift:hover{
+	background: url(../Credit_Card_Icons/bw-icons/gift.png) no-repeat 0 0;
+}
+#footer .ccard li span.gold{
+	background: url(../Credit_Card_Icons/gold.png) no-repeat 0 0;
+}
+#footer .ccard li span.gold:hover{
+	background: url(../Credit_Card_Icons/bw-icons/gold.png) no-repeat 0 0;
+}
+#footer .ccard li span.googleckout{
+	background: url(../Credit_Card_Icons/googleckout.png) no-repeat 0 0;
+}
+#footer .ccard li span.googleckout:hover{
+	background: url(../Credit_Card_Icons/bw-icons/googleckout.png) no-repeat 0 0;
+}
+#footer .ccard li span.itunes_2{
+	background: url(../Credit_Card_Icons/itunes_2.png) no-repeat 0 0;
+}
+#footer .ccard li span.itunes_2:hover{
+	background: url(../Credit_Card_Icons/bw-icons/itunes_2.png) no-repeat 0 0;
+}
+#footer .ccard li span.itunes_3{
+	background: url(../Credit_Card_Icons/itunes_3.png) no-repeat 0 0;
+}
+#footer .ccard li span.itunes_3:hover{
+	background: url(../Credit_Card_Icons/bw-icons/itunes_3.png) no-repeat 0 0;
+}
+#footer .ccard li span.itunes{
+	background: url(../Credit_Card_Icons/itunes.png) no-repeat 0 0;
+}
+#footer .ccard li span.itunes:hover{
+	background: url(../Credit_Card_Icons/bw-icons/itunes.png) no-repeat 0 0;
+}
+#footer .ccard li span.mastercard_alt{
+	background: url(../Credit_Card_Icons/mastercard_alt.png) no-repeat 0 0;
+}
+#footer .ccard li span.mastercard_alt:hover{
+	background: url(../Credit_Card_Icons/bw-icons/mastercard_alt.png) no-repeat 0 0;
+}
+#footer .ccard li span.mastercard{
+	background: url(../Credit_Card_Icons/mastercard.png) no-repeat 0 0;
+}
+#footer .ccard li span.mastercard:hover{
+	background: url(../Credit_Card_Icons/bw-icons/mastercard.png) no-repeat 0 0;
+}
+#footer .ccard li span.mileage{
+	background: url(../Credit_Card_Icons/mileage.png) no-repeat 0 0;
+}
+#footer .ccard li span.mileage:hover{
+	background: url(../Credit_Card_Icons/bw-icons/mileage.png) no-repeat 0 0;
+}
+#footer .ccard li span.paypal{
+	background: url(../Credit_Card_Icons/paypal.png) no-repeat 0 0;
+}
+#footer .ccard li span.paypal:hover{
+	background: url(../Credit_Card_Icons/bw-icons/paypal.png) no-repeat 0 0;
+}
+#footer .ccard li span.sapphire{
+	background: url(../Credit_Card_Icons/sapphire.png) no-repeat 0 0;
+}
+#footer .ccard li span.sapphire:hover{
+	background: url(../Credit_Card_Icons/bw-icons/sapphire.png) no-repeat 0 0;
+}
+#footer .ccard li span.solo{
+	background: url(../Credit_Card_Icons/solo.png) no-repeat 0 0;
+}
+#footer .ccard li span.solo:hover{
+	background: url(../Credit_Card_Icons/bw-icons/solo.png) no-repeat 0 0;
+}
+#footer .ccard li span.visa_alt{
+	background: url(../Credit_Card_Icons/visa_alt.png) no-repeat 0 0;
+}
+#footer .ccard li span.visa_alt:hover{
+	background: url(../Credit_Card_Icons/bw-icons/visa_alt.png) no-repeat 0 0;
+}
+#footer .ccard li span.visa{
+	background: url(../Credit_Card_Icons/visa.png) no-repeat 0 0;
+}
+#footer .ccard li span.visa:hover{
+	background: url(../Credit_Card_Icons/bw-icons/visa.png) no-repeat 0 0;
+}

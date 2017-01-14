@@ -1,0 +1,17 @@
+/* bootstrap
+}*/
+.tooltip{
+	font-family: "Oswald";
+}
+
+/* application
+}*/
+.label,
+.badge,
+.btn.btn-large,
+.btn.btn-mini,
+.btn.btn-small,
+.btn.btn-normal,
+#page-breadcrumb{
+	font-family: "Oswald";
+}

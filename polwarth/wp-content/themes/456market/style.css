@@ -1,0 +1,38 @@
+/*
+==================================================
+
+	Theme Name: 456Market v1.1
+	Theme URI: http://www.lpd-themes.com
+	Description: 456Market Bootstrap Premium WooCommerce Theme
+	Author: lpd-themes
+	Author URI: http://www.lpd-themes.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.1
+
+
+================================================== */
+
+@import "assets/css/bootstrap.css";
+@import "assets/js/google-code-prettify/prettify.css";
+@import "assets/css/application.css";
+@import "assets/css/credit-card-icons.css";
+@import "assets/css/social-media.css";
+@import "assets/css/bulleted-list.css";
+
+@import "assets/glyphicons/html_halflings/css/style.css";
+@import "assets/glyphicons/html_halflings/css/halflings.css";
+@import "assets/isotope/css/style.css";
+@import "assets/prettyPhoto/prettyPhoto.css";
+
+/*@import "assets/css/dev/font-body.css";
+@import "assets/css/dev/font-body-2.css";
+@import "assets/css/dev/font-input.css";
+@import "assets/css/dev/font-elements.css";
+@import "assets/css/dev/font-navigation.css";
+
+@import "assets/css/dev/font-body-size.css";
+@import "assets/css/dev/font-input-size.css";
+@import "assets/css/dev/font-navigation-size.css";
+@import "assets/css/dev/theme-colors.css";*/
+

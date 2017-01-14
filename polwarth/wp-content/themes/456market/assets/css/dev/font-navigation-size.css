@@ -1,0 +1,24 @@
+/* application body font size
+}*/
+.shopping-cart .title,
+.navbar .menu-item-language a,
+.navbar .nav > li > a{
+	font-size: 12px;
+}
+
+/* bootstrap body font size
+}*/
+.dropdown-menu > li > a{
+	font-size: 13px;
+}
+
+/* application body font size
+}*/
+.shopping-cart .title,
+.navbar .menu-item-language a,
+.navbar.bold-font .nav > li > a{
+	font-weight: 900;
+}
+.bold-font-dropdown-menu .dropdown-menu > li > a{
+	font-weight: 900;
+}

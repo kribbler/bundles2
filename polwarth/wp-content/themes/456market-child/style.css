@@ -1,0 +1,556 @@
+/*
+Theme Name: 456Market Child Theme
+Theme URI: http://www.lpd-themes.com
+Description: This is a child theme for T456Market Bootstrap Premium WooCommerce Theme.
+Author: lpd-themes
+Author URI: http://www.lpd-themes.com
+Template: 456market
+Version: 1.6
+*/
+
+@import url("../456market/style.css");
+
+@import url(http://fonts.googleapis.com/css?family=Cabin:400,500italic,700);
+
+
+/****************************************************************/
+/*************** ADD YOUR CUSTOM CSS IN THIS AREA ***************/
+/****************************************************************/
+
+body{
+	font-family: 'Cabin', sans-serif;
+}
+#meta{
+	background-color: #fff;
+}
+
+#meta a{
+	color: #560162;
+}
+
+#header{
+	background: #fff;
+	minpheight: 160px;
+        z-index: 100 !important;
+}
+
+.shopping-cart-wrap{
+	background-color: #e0c3d5;
+}
+.shopping-cart, .shopping-cart:hover{
+	background: none;
+	border: 0 !important;
+	margin-bottom: 0;
+}
+.shopping-cart .title{
+	font-weight: 700;
+	color: #fff;
+}
+.shopping-cart .total{
+	border-top: 1px solid #fff;
+	color: #fff;
+	font-family: 'Cabin', sans-serif;
+}
+.shopping-cart .total .amount{
+	border-left: 1px solid #fff;
+	color: #fff;
+	font-family: 'Cabin', sans-serif;
+}
+
+.navbar .menu-item-language a, .navbar.uppercase .nav > li > a{
+	font-weight: 700;
+	color: #560162;
+	font-size: 16px;
+}
+
+.second-menu ul li a{
+	font-family: 'Cabin', sans-serif;
+	font-size: 14px;
+	padding: 0 20px;
+}
+
+.header_facebook{
+	display: inline-block;
+	margin-bottom: 0;
+	margin-left: 30px;
+}
+.header_facebook img{
+	margin: 0;
+	position: relative; 
+	top: 5px;
+	max-height: 20px;
+}
+#boxed #page-breadcrumb{
+	padding: 0 !important;
+}
+#page-title{
+	margin-top: 0;
+}
+
+#page-title h2{
+	margin: 10px 0;
+}
+
+.amount{
+	color: #444;
+}
+
+.btn-primary{
+	background-color: #550961 !important;
+}
+
+.product_meta a{
+	color: #444444;
+}
+
+#my_footer{
+	background-color: #B66E9C;
+	font-family: 'Cabin', sans-serif;
+}
+#my_footer .row-fluid{
+	clear: both;
+}
+#my_footer h1{
+	color: #fff;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+#my_footer .textwidget, #my_footer a{
+	color: #fff;
+}
+
+#my_footer ul li{
+	list-style: square;
+}
+
+.bellow_footer {
+	border-top: 1px solid #bababa;
+	padding-top: 20px;
+}
+.bellow_footer, .bellow_footer a{
+	font-size: 12px;
+	color: #bababa !important;
+	text-transform: uppercase;
+}
+.bellow_footer .span5{
+	margin-top: 17px;
+}
+.bellow_footer .span3{
+	margin-top: 6px;
+}
+
+#newsletter_subscribe{
+	background-color: #f4f4f4;
+	padding: 20px 0;
+	color: #52065f;
+	font-size: 15px;
+	font-weight: 700;
+	height: 60px;
+}
+
+#newsletter_subscribe .row-fluid{
+	margin-top: 10px;
+}
+#newsletter_subscribe input{
+	float: left;
+	margin-left: 10px;
+}
+
+#newsletter_subscribe input[type=submit] {
+	padding:5px 25px;
+	font-size:12px;
+	color:#fff;
+	border:0;
+	background:#550961;
+	font-weight:700;
+	text-transform:uppercase;
+	cursor:pointer;
+}
+
+#newsletter_subscribe input[type=submit]:hover {
+	background:#b66e9c;
+}
+
+#our_brands h1{
+	font-size: 15px;
+	color: #52065f;
+	text-transform: uppercase;
+	display: inline-block;
+	position: relative;
+	margin-left: 50px;
+}
+
+#our_brands h1:before{
+	border-bottom: 1px solid #ccc;
+	position: absolute;
+	top: 50%;
+	left: -50px;
+	content: "";
+	width: 40px;
+}
+
+#our_brands h1:after{
+	border-bottom: 1px solid #ccc;
+	position: absolute;
+	top: 50%;
+	width: 800px;
+	content: "";
+	left: 55%;
+	margin-left: 50px;
+}
+
+#our_brands img{
+	margin-right: 40px;
+}
+
+#page-tagline, #page-breadcrumb{
+	min-height: 220px;
+}
+
+#page-tagline{
+	margin-top: -220px;
+}
+
+.option-set a:hover, .tagcloud a:hover, .tags a:hover, .dropcap, .breadcrumb-wrap{
+	background-color: #550961 !important;
+}
+
+#page-tagline h3{
+	color: #560162;
+	font-weight: 700;
+	font-family: 'Cabin', sans-serif;
+}
+
+.mybar1{
+	font-weight: 700;
+	font-family: 'Cabin', sans-serif;
+	color: #b56f9b;
+	font-size: 17px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+    padding: 10px 0 0;
+}
+
+.mybar1 a{
+	color: #550961;
+}
+.row-fluid{
+	font-family: 'Cabin', sans-serif;
+}
+.row-fluid h2{
+	color: #52065f;
+	font-family: 'Cabin', sans-serif !important;
+	font-weight: 700;
+	font-size: 16px;
+}
+.span8 p{
+	font-size: 14px;
+	line-height: 18px;
+}
+.span8 h3{
+	color: #b46e9a;
+	font-style: italic;
+	font-size: 23px;
+	font-weight: 400px;
+}
+
+h4.heading-title{
+	color: #52065f;
+	font-family: 'Cabin', sans-serif;
+}
+
+.meet_the_team img{
+	border: 1px solid #ccc;
+}
+
+#page-header{
+	height: 470px;
+}
+
+#page-header{
+	margin-top: -200px;
+	max-height: 200px;
+}
+
+#page-header.front-page-header-no-featured-callout{
+	height: 470px;
+}
+
+#page-header.front-page-header{
+	margin-top: 20px;
+	max-height: 370px;
+}
+
+#page-header #front-page-caption{
+	top: 30px !important;
+}
+
+#front-page-caption h1{
+	color: #560162;
+	text-shadow: 0;
+	font-size: 44px;
+}
+#front-page-caption p{
+	color: #555;
+	
+}
+
+#front-page-caption p a{
+	background-color: #550961;
+	color: #fff;
+	padding: 10px 20px;
+	margin-top: 20px;
+	display: inline-block;
+}
+
+
+
+.purple_box{
+	margin-top: 30px;
+	background-color: #560162;
+	padding: 20px;
+	color: #fff;
+}
+
+.purple_box h2{
+	color: #fff;
+    font-size: 21px;
+    line-height: 30px;
+    margin: 0 0 10px;
+}
+
+.our-brands img{
+	margin-right: 25px;
+	vertical-align: middle;
+}
+
+.showbiz .product h3, .woocommerce-456market .woocommerce ul.products li.product h3, .woocommerce-456market.woocommerce ul.products li.product h3, .woocommerce-456market.woocommerce-page ul.products li.product h3{
+	font-weight: 700 !important;
+	color: #52065f !important;
+	font-family: 'Cabin', sans-serif !important;
+	font-size: 16px !Important;
+}
+
+.product-item .btn, .btn-primary{
+	font-weight: 700;
+	color: #fff;
+	background-color: #52065f;
+	font-family: 'Cabin', sans-serif !important;
+	font-size: 14px;
+	
+}
+
+.btn-default{
+	background-color: #b76c9d;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Cabin', sans-serif;
+	font-size: 14px;
+}
+
+.widget_custom_post_widget h2{
+	font-size: 18px;
+}
+
+.widget_custom_post_widget {
+	font-family: 'Cabin', sans-serif;
+}
+
+.sidebar .widget_custom_post_widget p{
+	padding-left: 20px;
+	border-left: 1px solid #ccc;
+}
+
+.sidebar h4.title{
+	font-family: 'Cabin', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.widget_product_categories ul li a{
+	background: none !important;
+	padding: 5px 0 5px 0 !important;
+	font-family: 'Cabin', sans-serif;
+	font-weight: 700;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+.my_pages .row-fluid{
+	font-family: 'Cabin', sans-serif;
+	font-size: 14px;
+}
+.my_pages h4{
+	color: #52065f;
+}
+.my_pages .row-fluid .span3{
+	width: 22% !important;
+}
+.my_pages .row-fluid .span4{
+	width: 28.624% !important;
+}
+
+.onsale_456market{
+	background-color: #b56f9b !important;
+}
+
+#simple-page-caption{
+	position: relative;
+	z-index: 2000;
+	min-height: 220px;
+}
+#simple-page-caption h3{
+	color: #550061;
+	font-size: 30px;
+}
+
+#simple-page-caption .description .highlight{
+	font-size: 14px;
+	color: #545454;
+	text-shadow: none;
+}
+/****************************************************************/
+/****************************************************************/
+
+/* ************************************************************** */
+/* All Screens under 960px */
+/* ************************************************************** */
+@media screen and (max-width: 959px) {
+	.navbar .btn-navbar{
+		display: none !important;
+	}
+	.nav-collapse.collapse{
+		height: auto !important;
+	}
+
+	.first-menu.second-menu-active .navbar{
+		border-bottom: 0 !important;
+	}
+
+	.nav-collapse .nav > li > a, .nav-collapse .dropdown-menu a{
+		border: 0 !important;
+		border-bottom: 1px solid #ebebeb !important;
+	}
+
+	.gbtr_header_wrapper .header_phones{
+		display: none;
+	}
+	
+	.c_block_your_local{
+		background: none;
+		margin-bottom: 20px;
+	}
+	.c_block_your_local .content_wrapper{
+		padding: 0;
+	}
+	.blue_content{
+		width: 100% !important;
+	}
+	
+	.c_our_vet_s{
+		margin-top: 20px;
+	}
+	
+	#quoterotator{
+		margin-left: 200px;
+		text-shadow: 1px 1px #555;
+	}
+	
+	#our_brands h1:after{
+		border-bottom: none;
+	}
+	
+	#newsletter_subscribe{
+		height: auto;
+	}
+	.my_pages .row-fluid .span3{
+		width: 100% !important;
+	}
+	
+	.my_pages .row-fluid .span4{
+		width: 100% !important;
+	}
+	
+	#my_footer, #newsletter_subscribe{
+		padding: 0 10px;
+	}
+}
+
+/* ************************************************************** */
+/* Big Screens > 960px */
+/* ************************************************************** */
+@media screen and (min-width: 960px) {
+
+}
+
+/* ************************************************************** */
+/* Tablet 720px - 960px */
+/* ************************************************************** */
+@media only screen and (min-width: 720px) and (max-width: 959px) {
+	.above_footer .grid_4{
+		max-height: auto;
+	    overflow: hidden;
+	}
+}
+
+/* ************************************************************** */
+/* Mobile 0px - 720px */
+/* ************************************************************** */
+@media only screen and (max-width: 719px) {
+	.special_block_content{
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	.testimonials1{
+		clear: both;
+	}
+	.testimonials{
+		background: none;
+		position: inherit;
+		margin-top: 20px;
+		clear: both;
+		height: auto !important;
+	}
+	#quoterotator{
+		margin: 0;
+		padding: 20px;
+		width: 80%;
+	}
+	
+	.above_footer{
+		padding-top: 0;
+	}
+	
+	#footer_news .grid_2{
+		width: 100%;
+	}
+	
+	.gray_li_wide{
+		width: 100% !important;
+	}
+	
+	.widget_wp_news_events_widget h1{
+		bottom: 23px;
+	    font-size: 17px;
+	    left: 20px;
+	    position: absolute !important;
+	    text-transform: uppercase;
+	    width: 11%;
+	}
+	
+}
+
+@media only screen and (max-width: 767px) {
+.home-banner-custom { display: none; }
+}
+
+/* ************************************************************** */
+/* Mobile 480px - 720px */
+/* ************************************************************** */
+@media only screen and (min-width: 480px) and (max-width: 719px) {
+	
+}

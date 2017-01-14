@@ -1,0 +1,19 @@
+		@media only screen and (min-width: 768px) and (max-width: 979px) {
+				}
+
+		@media only screen and (max-width: 767px) {
+			.sb_one_half,
+			.sb_one_third,
+			.sb_two_third,
+			.sb_one_fourth,
+			.sb_one_fifth,
+			.sb_one_sixth,
+			.sb_two_fifth,
+			.sb_three_fifth		{ width: 100%; margin-bottom:30px;}
+			.sb_lastcolumn			{	margin-bottom:0px;}
+			.sb_mobilecentered		{	text-align:center;}
+		}
+		
+		@media only screen and (max-width: 480px) {
+			.tofullwidth  .reveal_wrapper .table-cell				{	display:table-row;}
+		}

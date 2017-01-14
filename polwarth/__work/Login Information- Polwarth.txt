@@ -1,0 +1,19 @@
+Polwarth Development : Notes
+
+Based on this theme and this layout : http://themes.lpd-themes.com/456market/front-version-vi/
+(is Home -> Shop -> Option 6)
+Theme purchased and in dropbox. Not yet installed on the site.
+
+Hosting login information : 
+
+s11polwarthdesign.co.nz /cpanel
+soneonep
+=4UC3DBAw48v*^g
+
+
+Wordpress login information : 
+
+Site URL: http://www.s11polwarthdesign.co.nz
+Login URL: http://www.s11polwarthdesign.co.nz/wp-admin
+Username: StudioEleven
+Password: Sundown1234!

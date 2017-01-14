@@ -1,0 +1,581 @@
+#componentWrapper{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	/*hide component on beginning until all is set up*/
+	opacity: 0; 
+	filter: alpha(opacity=0); 
+	-ms-filter: "alpha(opacity=0)"; 
+	-khtml-opacity: 0; 
+	-moz-opacity: 0; 
+}
+
+/*horizontal thumbnails */	
+#componentWrapper .mediaWrapper{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	/*height set in code (componentWrapper height - thumbHolder height), it cant be 100%!, video MUSTNT lie below playlist, ios webview issue!*/
+}	
+
+/*vertical thumbnails */	
+#componentWrapper .mediaWrapper_v{
+	position:absolute;
+	top:0px;
+	left:0px;
+	height:100%;
+	/*width set in code (componentWrapper width - thumbHolder width), it cant be 100%!, video MUSTNT lie below playlist, ios webview issue!*/
+}		
+
+/* video holders, 100% the size of '.mediaWrapper' */
+#componentWrapper .mediaHolder, 
+#componentWrapper .previewHolder, 
+#componentWrapper .youtubeHolder, 
+#componentWrapper #flashPreview{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	display:none;
+	outline:none;
+}
+
+/* playlist data, remains hidden! */
+#componentWrapper .componentPlaylist{
+	display:none;
+}
+
+/* horizontal thumbnails */
+#componentWrapper .thumbHolder{
+	position:absolute;
+	width:100%;
+	height:123px;
+	left:0px;
+	bottom:0px;
+	background:#222;
+	overflow:hidden;
+}
+
+/* vertical thumbnails */
+#componentWrapper .thumbHolder_v{
+	position:absolute;
+	height:100%;
+	width:156px;
+	top:0px;
+	right:0px;
+	background:#222;
+	overflow:hidden;
+}
+
+/* horizontal thumbnails */
+#componentWrapper .thumbContainer{
+	position:relative;
+	height:83px;
+	top:40px;
+	left:0px;
+	/*left, width set in jquery*/
+}
+
+/* vertical thumbnails */
+#componentWrapper .thumbContainer_v{
+	position:relative;
+	top:0px;
+	left:40px;
+	width:116px;
+	height:100%;
+}
+
+/* horizontal thumbnails */
+#componentWrapper .thumbInnerContainer{
+	position:relative;
+	top:0px;
+	left:0px;
+}
+
+/* vertical thumbnails */
+#componentWrapper .thumbInnerContainer_v{
+	position:relative;
+	top:0px;
+	left:0px;
+}
+
+/* horizontal thumbnails */
+#componentWrapper .thumbBackward{
+	position:absolute;
+	width:50px;
+	height:67px;
+	top:40px;
+	left:0px;
+	background: rgb(0, 0, 0) url('../data/icons/thumb_prev.png') no-repeat center center;
+	background: rgba(0, 0, 0, 0.6) url('../data/icons/thumb_prev.png') no-repeat center center;
+	display:none;
+}
+
+/* vertical thumbnails */
+#componentWrapper .thumbBackward_v{
+	position:absolute;
+	height:50px;
+	width:100px;
+	left:40px;
+	top:0px;
+	background: rgb(0, 0, 0) url('../data/icons/thumb_prev_v.png') no-repeat center center;
+	background: rgba(0, 0, 0, 0.6) url('../data/icons/thumb_prev_v.png') no-repeat center center;
+	display:none;
+}
+
+/* horizontal thumbnails */
+#componentWrapper .thumbForward{
+	position:absolute;
+	width:50px;
+	height:67px;
+	top:40px;
+	right:0px;
+	background: rgb(0, 0, 0) url('../data/icons/thumb_next.png') no-repeat center center;
+	background: rgba(0, 0, 0, 0.6) url('../data/icons/thumb_next.png') no-repeat center center;
+	display:none;
+}
+
+/* vertical thumbnails */
+#componentWrapper .thumbForward_v{
+	position:absolute;
+	height:50px;
+	width:100px;
+	left:40px;
+	bottom:0px;
+	background: rgb(0, 0, 0) url('../data/icons/thumb_next_v.png') no-repeat center center;
+	background: rgba(0, 0, 0, 0.6) url('../data/icons/thumb_next_v.png') no-repeat center center;
+	display:none;
+}
+
+/* horizontal thumbnails */
+#componentWrapper .thumbs{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:100px;
+	height:67px;
+	float:left;
+	background:#111;
+}
+
+/* vertical thumbnails */
+#componentWrapper .thumbs_v{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:100px;
+	height:67px;
+	background:#111;
+}
+
+/* thumb images */
+#componentWrapper .thumb_img{
+	position:relative;
+	display:block;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+}
+
+/*horizontal thumbnails*/
+#componentWrapper .playlistControls{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:40px;
+	background:#111;
+}
+
+/*vertical thumbnails*/
+#componentWrapper .playlistControls_v{
+	position:absolute;
+	left:0px;
+	top:0px;
+	height:100%;
+	width:40px;
+	background:#111;
+}
+
+/*horizontal thumbnails*/
+#componentWrapper .playlist_toggle{
+	position:absolute;
+	width:30px;
+	height:40px;
+	left:50%;
+	top:0px;
+	margin-left:-15px;
+	background: #111 url('../data/icons/thumb_prev_v.png') no-repeat center center;
+}
+
+/*horizontal thumbnails, small screen*/
+#componentWrapper .playlist_toggle_left{
+	position:absolute;
+	width:30px;
+	height:40px;
+	left:20px;
+	top:0px;
+	background: #111 url('../data/icons/thumb_prev_v.png') no-repeat center center;
+}
+
+/*vertical thumbnails*/
+#componentWrapper .playlist_toggle_v{
+	position:absolute;
+	height:30px;
+	width:40px;
+	top:50%;
+	left:0px;
+	margin-top:-15px;
+	background: #111 url('../data/icons/thumb_prev.png') no-repeat center center;
+}
+
+/*vertical thumbnails, small screen*/
+#componentWrapper .playlist_toggle_v_bottom{
+	position:absolute;
+	height:30px;
+	width:40px;
+	bottom:20px;
+	left:0px;
+	background: #111 url('../data/icons/thumb_prev.png') no-repeat center center;
+}
+
+/*horizontal thumbnails*/
+#componentWrapper .playlist_switch{
+	position:absolute;
+	width:30px;
+	height:40px;
+	right:20px;
+	top:0px;
+	background: #111 url('../data/icons/switch.png') no-repeat center center;
+}
+
+/*vertical thumbnails*/
+#componentWrapper .playlist_switch_v{
+	position:absolute;
+	height:30px;
+	width:40px;
+	top:20px;
+	left:0px;
+	background: #111 url('../data/icons/switch.png') no-repeat center center;
+}
+
+
+
+
+
+
+/* controls */
+#componentWrapper .controls_prev{
+	position:relative;
+	width:33%;
+	height:40px;
+	top:0px;
+	left:0px;
+	float:left;
+	background: #111 url('../data/icons/controls_prev.png') no-repeat center center;
+}
+
+#componentWrapper .controls_toggle{
+	position:relative;
+	float: right;
+	display: block;
+	width: 24px;
+	height: 24px;
+	background-color: rgba(0, 0, 0, 0.2);
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	opacity: .65;
+    filter: alpha(opacity=65);
+    -webkit-transition: all 0.1s ease-in-out 0s;  
+    -moz-transition: all 0.1s ease-in-out 0s;  
+    -o-transition: all 0.1s ease-in-out 0s;  
+    -ms-transition: all 0.1s ease-in-out 0s;  
+    transition: all 0.1s ease-in-out 0s; 
+	background-image: url('../data/new_icons/play.png');
+}
+
+#componentWrapper .controls_next{
+	position:relative;
+	width:33%;
+	height:40px;
+	top:0px;
+	left:0px;
+	float:left;
+	background: #111 url('../data/icons/controls_next.png') no-repeat center center;
+}
+
+/* fullscreen */
+#componentWrapper .controls_fullscreen{
+	position:relative;
+	width:40px;
+	height:40px;
+	top:0px;
+	left:0px;
+	background: #111 url('../data/icons/fullscreen_enter.png') no-repeat center center;
+	margin-bottom:5px;
+}
+
+/* skip intro */
+#componentWrapper .skip_intro{
+	position:absolute;
+	right:30px;
+	top:40px;
+	
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.6);
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:17px;
+	font-weight:500;
+	color:#e5e5e5;
+	padding: 5px 10px 5px 10px;
+	
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+
+}
+
+#componentWrapper .skip_intro_on{
+	position:absolute;
+	right:30px;
+	top:40px;
+	
+	background-color: rgb(204,204,204);
+	background-color: rgba(204,204,204, 1);
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:17px;
+	font-weight:500;
+	color:#ffffff;
+	padding: 5px 10px 5px 10px;
+	
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+}
+
+/* skip intro */
+#componentWrapper .skip_intro_top{
+	position:absolute;
+	top:0px;
+	left:0px;
+	height:40px;
+	width:100%;
+	
+	background-color: #111;
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:17px;
+	font-weight:500;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 40px;     
+	color:#e5e5e5;
+}
+
+#componentWrapper .skip_intro_top_on{
+	position:absolute;
+	top:0px;
+	left:0px;
+	height:40px;
+	width:100%;
+	
+	background-color: #ccc;
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:17px;
+	font-weight:500;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 40px; 
+	color:#ffffff;
+}
+
+#componentWrapper .mediaPreloader{
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin:-25px 0px 0px -25px;
+	background:#000 url('../data/loader.gif') no-repeat center center;
+	width:50px;
+	height:50px;
+	z-index:999;
+	opacity:0.7;
+}
+	
+#publicFunctions{
+	position: absolute;
+	padding: 10px 25px 20px 20px;
+	background:#555;
+	left:150px;
+	top:50px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color:#fff;
+	list-style:circle;
+	
+	-moz-box-shadow: 2px 2px 5px #222;
+	-webkit-box-shadow: 2px 2px 5px #222;
+	box-shadow: 2px 2px 5px #222;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#222222')";
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#222222');
+	
+	display:none;
+}
+
+#publicFunctions li a{
+	color:#fff;
+}
+
+#publicFunctions li a:hover, #publicFunctions li .current{
+	text-decoration: underline;
+}
+
+
+
+
+/* cutomized 456market styles */
+#componentWrapper .controls_volume{
+	position:relative;
+	float: right;
+	width: 109px;
+	height:24px;
+}
+#componentWrapper .controls .controls_toggle{
+	width: 24px;
+	height: 24px;
+	background-color: rgba(0, 0, 0, 0.2);
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	opacity: .65;
+    filter: alpha(opacity=65);
+    -webkit-transition: all 0.1s ease-in-out 0s;  
+    -moz-transition: all 0.1s ease-in-out 0s;  
+    -o-transition: all 0.1s ease-in-out 0s;  
+    -ms-transition: all 0.1s ease-in-out 0s;  
+    transition: all 0.1s ease-in-out 0s; 
+}
+#componentWrapper .controls .controls_toggle:hover{
+	opacity: 1;
+    filter: alpha(opacity=100);
+}
+#componentWrapper .volume_toggle{
+	float: right;
+	display: block;
+	width: 24px;
+	height: 24px;
+	background-color: rgba(0, 0, 0, 0.2);
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	opacity: .65;
+    filter: alpha(opacity=65);
+    -webkit-transition: all 0.1s ease-in-out 0s;  
+    -moz-transition: all 0.1s ease-in-out 0s;  
+    -o-transition: all 0.1s ease-in-out 0s;  
+    -ms-transition: all 0.1s ease-in-out 0s;  
+    transition: all 0.1s ease-in-out 0s; 
+}
+#componentWrapper .volume_toggle:hover{
+	opacity: 1;
+    filter: alpha(opacity=100);
+}
+#componentWrapper .volume_seekbar{
+	float: right;
+	display: block;
+	width:80px;
+	height:24px;
+	margin-right: 5px;
+	background-color: rgba(0, 0, 0, 0.2);
+	display:none;
+}
+#componentWrapper .volume_bg{
+	position:absolute;
+	top:10px;
+	left:10px;
+	width:60px;
+	height:3px;
+	background:#ffffff;
+}
+
+#componentWrapper .volume_level{
+	position:absolute;
+	top:10px;
+	left:10px;
+	width:0px;
+	height:3px;
+	background:#999;
+}
+#componentWrapper .big_play{
+	position:absolute;
+	width:64px;
+	height:64px;
+	top: 330px;
+	left: 50%;
+	margin-left: -32px;
+	margin-top: -32px;
+	-moz-border-radius: 32px;
+	-webkit-border-radius: 32px;
+	border-radius: 32px;
+	background-color: rgba(0, 0, 0, 0.4);
+	opacity: .85 !important;
+    filter: alpha(opacity=85) !important;
+    -webkit-transition: all 0.1s ease-in-out 0s;  
+    -moz-transition: all 0.1s ease-in-out 0s;  
+    -o-transition: all 0.1s ease-in-out 0s;  
+    -ms-transition: all 0.1s ease-in-out 0s;  
+    transition: all 0.1s ease-in-out 0s;
+	display:none;
+}
+#componentWrapper .big_play:hover{
+	opacity: 1 !important;
+    filter: alpha(opacity=100) !important;
+}
+#componentWrapper .big_play img{
+	display:block;
+	width:64px;
+	height:64px;
+}
+/* seekbar */
+#componentWrapper .seekbar{
+	position:absolute;
+	top:160px;
+	left:0px;
+	height:15px;
+}
+
+/* hit area for seekbar */
+#componentWrapper .seekbar_hit{
+	position:absolute;
+	left:0px;
+	top:0px;
+	height:15px;
+}
+
+
+#componentWrapper .load_progress{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:0px;
+	height:10px;
+	background:rgba(255, 255, 255, 0.6)
+}
+
+#componentWrapper .play_progress{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:0px;
+	height:10px;
+	background:rgba(0, 0, 0, 0.25)
+}

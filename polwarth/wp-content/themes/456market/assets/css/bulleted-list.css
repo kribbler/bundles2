@@ -1,0 +1,70 @@
+.style2 ul,
+.advanced ul,
+ul.advanced{
+    margin-left: 0;
+}
+.advanced ol li,
+.advanced ul li,
+ul.advanced li{
+	padding: 5px 0;
+    list-style: none;
+    margin-left: 0;
+}
+#footer .style2 li a,
+#footer .advanced li a{
+	color: #555;
+}
+#footer .style2 li a:hover,
+#footer .advanced li a:hover{
+	color: #ea2e49;
+}
+.style2 ul li{
+    list-style: none;
+    background-position: 0 2px !important;	
+}
+.style2.ordered ul li,
+.style2.disc ul li,
+.style2.square ul li,
+.style2.circle ul li,
+.advanced.ordered ul li,
+.advanced.disc ul li,
+.advanced.square ul li,
+.advanced.circle ul li,
+ul.advanced.ordered li,
+ul.advanced.disc li,
+ul.advanced.square li,
+ul.advanced.circle li{
+	margin-left: 25px;
+}
+.circle ul li,
+.advanced.circle ul li{
+	list-style: circle;
+}
+.square ul li,
+.advanced.square ul li{
+	list-style: square;
+}
+.disc ul li,
+.advanced.disc ul li{
+	list-style: disc;
+}
+.ordered ul li,
+.advanced.ordered ul li{
+	list-style: decimal;
+}
+.none ul li{
+    background: none;
+    padding-left: 0 !important;
+}
+.livicon-bullet li{
+	position: relative;
+	padding-left: 26px !important;
+}
+	.livicon-bullet .livicon{
+	position: absolute;
+	left: 0;
+	top: 7px;
+}
+.style2.livicon-bullet .livicon{
+	top: 2px;
+}

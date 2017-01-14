@@ -1,0 +1,15 @@
+/* woocommerce
+}*/
+.woocommerce-456market .woocommerce-message a.button,
+.woocommerce-456market .woocommerce-error a.button,
+.woocommerce-456market .woocommerce-info a.button{
+	font-family: "Lato";
+}
+
+/* application
+}*/
+button,
+select,
+body{
+	font-family: "Lato";
+}

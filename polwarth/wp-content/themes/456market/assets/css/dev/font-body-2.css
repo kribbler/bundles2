@@ -1,0 +1,78 @@
+/* woocommerce
+}*/
+.woocommerce-456market a#cloud-link,
+.woocommerce-456market .woo_compare_clear_all_container a,
+.woocommerce-456market #wl-wrapper .wl-manage .row-actions small a,
+.woocommerce-456market #wl-wrapper .wl-tabs > li,
+.woocommerce-account #wl-wrapper h2,
+.woo_compare_button_container1 .woo_bt_compare_this_button,
+#wl-wrapper.woocommerce-456market .button1,
+.woocommerce-456market .woocommerce .addresses .title h3,
+.woocommerce-456market .woocommerce-page .addresses .title h3,
+.my-account-title,
+#checkout-accordion .accordion-heading,
+.woocommerce-456market .woocommerce-message,
+.woocommerce-456market .woocommerce-error,
+.woocommerce-456market .woocommerce-info,
+#order_review_heading,
+.cart_totals h4,
+.shipping_calculator h4,
+.woocommerce-456market.woocommerce div.product form.cart table small.stock,
+.woocommerce-456market.woocommerce-page div.product form.cart table small.stock,
+.woocommerce-456market.woocommerce #content div.product form.cart table small.stock,
+.woocommerce-456market.woocommerce-page #content div.product form.cart table small.stock,
+.woocommerce-456market.woocommerce div.product p.stock,
+.woocommerce-456market.woocommerce-page div.product p.stock,
+.woocommerce-456market.woocommerce #content div.product p.stock,
+.woocommerce-456market.woocommerce-page #content div.product p.stock,
+.woocommerce-456market.woocommerce .woocommerce-tabs #reviews #comments ol.commentlist li .comment-text p.meta time,
+.woocommerce-456market.woocommerce-page .woocommerce-tabs #reviews #comments ol.commentlist li .comment-text p.meta time
+.woocommerce-456market.woocommerce div.product .woocommerce-tabs ul.tabs li a,
+.woocommerce-456market.woocommerce-page div.product .woocommerce-tabs ul.tabs li a,
+.woocommerce-456market.woocommerce #content div.product .woocommerce-tabs ul.tabs li a,
+.woocommerce-456market.woocommerce-page #content div.product .woocommerce-tabs ul.tabs li a,
+.woocommerce-456market.woocommerce .woocommerce-breadcrumb,
+.woocommerce-456market.woocommerce-page .woocommerce-breadcrumb,
+.woocommerce-456market.woocommerce .woocommerce-breadcrumb a,
+.woocommerce-456market.woocommerce-page .woocommerce-breadcrumb a{
+	font-family: "Arvo";
+}
+
+/* bootstrap
+}*/
+.accordion-heading .accordion-toggle{
+	font-family: "Arvo";
+}
+
+/* application
+}*/
+.dg-add-content-wrap .dg-image-title,
+.sb-post-details,
+.sb-modern-skin .showbiz-title,
+#featured-widget .featured-label .title-wrap,
+.callout-button .title,
+.widget-container .item .post_meta a,
+.header_icon h4,
+.cart-meta .remove,
+.option-set a,
+.about-post .member .info,
+.callout h4,
+.testimonial .cite a,
+.tagcloud a,
+.tags a,
+.post_tabs_widget .content a.date,
+.posts_widget .content a.date,
+.widget_rss .rss-date,
+h4.heading-title,
+.social-media p,
+.front_meta_widget .item,
+.footer_meta_widget .item,
+#reply-title,
+.comment-info,
+.comment-title,
+.post-meta a,
+.shopping-cart .total,
+.second-menu ul,
+#page-title h2{
+	font-family: "Arvo";
+}

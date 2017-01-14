@@ -1,0 +1,17 @@
+/* woocommerce body
+}*/
+.woocommerce-456market .woocommerce table.my_account_orders,
+.woocommerce-456market .woocommerce-page table.my_account_orders,
+.woocommerce-456market .woocommerce-message a.button,
+.woocommerce-456market .woocommerce-error a.button,
+.woocommerce-456market .woocommerce-info a.button{
+	font-size: 13px;
+}
+
+/* application body
+}*/
+#lang_sel_list a,
+#lang_sel_list a:visited,
+body{
+	font-size: 13px;
+}
