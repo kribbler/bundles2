@@ -1,0 +1,53 @@
+body {
+	margin:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+}
+#progress {
+	display:none;
+	width:300px;
+	height:10px;
+	margin-bottom:5px;	
+	background:#ddd;
+}
+#progress > div {
+	width:0px;
+	height:5px;
+	background:#0C3;	
+}
+#progress > div.total {
+	background:#390;	
+}
+.uploadify-queue {
+	display:none;	
+}
+.uploadify {
+	display:inline-block;	
+}
+#choose {
+	color:#06F;
+	text-decoration:none;
+}
+.error {
+	color:red;
+	padding-right:5px;
+}
+
+.uploadify-button {
+	background-color: transparent;
+    border: none;
+    padding: 0;
+	border-radius:0px;
+}
+.uploadify:hover .uploadify-button {
+	background-color: transparent;
+}
+.frontimg .uploadify-button {
+	background-position:0px 0px;
+}
+.frontimg .uploadify:hover .uploadify-button {
+	background-position:0px 0px;
+}
+input[type="file"] {
+	width: 180px !important;	
+}

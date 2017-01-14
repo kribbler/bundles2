@@ -1,0 +1,136 @@
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;	
+}
+h4.path {
+	margin-right:25px;	
+}
+h4.path > span {
+	border:1px solid #ccc;
+	background:#fff;
+	width:90%;
+	padding:3px;
+	display:inline-block;
+	font-weight:normal;	
+}
+.up {
+	position:absolute;
+	top:10px;
+	right:13px;
+	color:#09F;
+	text-decoration:none;
+	font-size:18px;
+}
+.dirs,.files {
+	border:1px solid #ccc;
+	float:left;
+	width:100%;
+	padding:0px;
+	margin:0;
+	background:#fff;
+}
+.dirs > li,.files > li {
+	font-size:11px;
+	float:left;
+	width:31%;
+	margin:1%;
+	overflow:hidden;
+	cursor:pointer;
+}
+.files > li > span {
+	white-space:nowrap;
+	color:#666;
+	height:20px;
+	overflow:hidden;
+	display:block;
+}
+.selected {
+	position:fixed;
+	background:#fff;
+	border-top:1px solid #ddd;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	height:60px;
+}
+.files {
+	margin-bottom:60px;	
+}
+.selected > div {
+	padding:15px;	
+}
+.dirs > li > a {
+	text-decoration:none;
+	color:#666;
+	padding-left:20px;
+	background:url(/img/smfolder.png) no-repeat;
+	height:20px;
+	overflow:hidden;
+	display:block;
+}
+.files > li > span {
+	background:url(/img/file.png) no-repeat;
+	padding-left:20px;	
+}
+.files > li.ft-txt > span,
+.files > li.ft-doc > span,
+.files > li.ft-docx > span {
+	background:url(/img/doc.png) no-repeat;	
+}
+.files > li.ft-csv > span,
+.files > li.ft-xls > span,
+.files > li.ft-xlsx > span {
+	background:url(/img/xls.png) no-repeat;	
+}
+.files > li.ft-pdf > span {
+	background:url(/img/pdf.png) no-repeat;	
+}
+.files > li.ft-png > span,
+.files > li.ft-gif > span,
+.files > li.ft-png > span,
+.files > li.ft-bmp > span,
+.files > li.ft-psd > span,
+.files > li.ft-tif > span,
+.files > li.ft-tiff > span,
+.files > li.ft-jpg > span {
+	background:url(/img/image.png) no-repeat;	
+}
+.files > li.ft-zip > span,
+.files > li.ft-arc > span,
+.files > li.ft-tar > span,
+.files > li.ft-gz > span,
+.files > li.ft-rar > span {
+	background:url(/img/zip.png) no-repeat;	
+}
+.filemeta {
+	position:fixed;
+	padding:10px;
+	border-top:1px solid #ddd;
+	background:#fff;
+	z-index:100;
+	bottom:0px;
+	width:100%;
+	left:0px;
+	font-size:10px;
+}
+.filemeta pre {
+	font-size:10px !important;	
+}
+.filemeta table {
+	width:100%;
+	margin-left:-5px;	
+}
+.filemeta table td {
+	vertical-align:top;	
+}
+.filemeta ul {
+	padding:0px;
+	margin:0;
+}
+.filemeta li {
+	float:left;
+	list-style:none;
+	padding:2px;
+	margin:0;
+	font-size:11px;
+}
