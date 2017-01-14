@@ -1,0 +1,148 @@
+=== WordPress Wave CMS Members ===
+Contributors: Hassan Jahangiry
+Tags: member,register,signup,order,paypal,sell,cms,only members,custom field,contact form,form,
+Requires at least: 2.7
+Tested up to: 2.91
+Stable tag: 2.91
+
+
+== Description ==
+
+Perfect membership solution for WordPress MU. 
+
+http://wpwave.com/forum/
+http://wpwave.com/helpdesk/
+
+Let us know if you have comment or question: support@wpwave.com 
+
+
+== Screenshots ==
+
+http://wpwave.com/plugins/cms-members/
+
+
+== Frequently Asked Questions ==
+
+= How can I limit viewers of my post? =
+
+Just insert your text in these tags:
+
+1) [onlymembers]: means only registerd members can see the text e.g. [onlymembers]Something for members[/onlymembers]
+2) [onlypaid]: means only non-free plans can see the text e.g. [onlypaid]Something for golden, premium, silver members [onlypaid]
+3) [onlyplans=planID]: means only defined plans(up to 5) can see the text e.g. [onlyplans=2,3]Somthing for premium and golden members[/onlyplans]
+4) [nonmembers]: means only non-members can see the text e.g. [nonmembers] Please login to see full text! [/nonmembers]
+ 
+Note: Search engines and site admin can see all of the post 
+Note: Admin can not see [non-members] [/non-members] content
+
+= Does CMS Members use standard WordPress APIs? =
+
+Yes, CMS Members uses standard WP APIs so you can easily use WP settings or other membership plugins. For example you can define default role in WP options page or manage members in standard users page or use other membership plugins. 
+
+We suggest using theme my login plugin with CMS Members.
+http://wordpress.org/extend/plugins/theme-my-login/
+
+
+= What pages should I provide to my members ? =
+
+Here is a sample code for your theme. It's optional.
+
+<?php if (is_user_logged_in())   { ?>
+<li><a href="http://Yourdomain.com/deposit/" title="Deposit">Deposit</a></li>
+<li><a href="http://Yourdomain.com/profile/" title="Edit Profile">Edit Profile</a></li>
+<li><a href="http://Yourdomain.com/register/?action=renew_upgrade" title="Renew or Upgrade your account">Renew / Upgrade</a></li>
+<li><a href="<?php echo wp_logout_url(); ?>" title="Log out from this account">Log out</a></li>
+<?php } ?>
+
+Note: Every member will see only his/her own pages. Non-members can not see anything! 
+
+
+= How can I define default values for registration page?
+
+Simply add values to URL for example:
+http://site.com/register/?type=membership&plan=2&email=info@test.com&username=testuser&promocode=1234&custom-1=test
+
+
+== How can I enable PayPal and recurring payment?==
+
+You should have a bussiness or premium PayPal account. Customers should have a verified account.
+To enable PayPal simply go to CMS Members options page, enter you PayPal address and set PayPal mode to Live. 
+If you want recurring payment check out the box you can also define trial period (optional) please note recurring payment period is the same plan duration.
+We recommand using test mode(Sandbox) before starting the business.
+
+= How can I enable Pay Per Post?
+
+Simply enter price in add new post. 
+Users that can't see full text will see a buy now button allows them to buy it using their deposited funds.
+
+
+
+
+== How can I limit access to specific plugin? (MU version )==
+
+Simply paste below code to the top of each plugin that you want to
+provide for a specific plan. X is plan ID (e.g. 3 for golden plan)
+
+global $user_ID;
+if (X!=get_usermeta($user_ID,'planid')) {
+deactivate_plugins(dirname(plugin_basename(__FILE__)).'/'.basename(__FILE__));
+wp_die( "Please upgrade your account to get this great plugin!" ); }
+
+== How can I limit access to specific theme? (MU version )==
+
+For premium themes paste this code to functions.php
+
+global $user_ID;
+if (X!=get_usermeta($user_ID,'planid')) {
+switch_theme('default','default');
+wp_die( "Please upgrade your account to get this great theme!" ); }
+
+
+= Anything else? =
+
+If you want to provide the ability of writing/editing posts for members or want to make a deposit shopping site or anything related to WordPress please feel free to contact us and make a quote. 
+info@wpwave.com
+
+
+== Installation WordPress version ==
+
+While doing the installation procedure, it is recommended to go through all the steps first before viewing the output. If you don't, you'll get nasty error messages.
+
+1. Upload `cms-members` directory  into the `/wp-content/plugins` directory
+
+---wp-content/plugin/cms-members/
+---wp-content/plugin/cms-members/include/
+---wp-content/plugin/cms-members/wwm-register.php
+---wp-content/plugin/cms-members/ *** Other files ***
+
+2. Activate the plugin through the 'Plugins' menu in WordPress admin panel.
+
+3. That's all
+
+Now take a look at http://yoursite.com/register/.
+
+
+== Installation MU version for WPMU/BuddyPress ==
+
+1. Upload `cms-members-mu.php` into the `/wp-content/mu-plugins` directory
+
+2. Upload `cms-members` directory into the `/wp-content/mu-plugins`. 
+
+-----mu-plugin/cms-members-mu.php 
+-----mu-plugin/cms-members/include/
+-----mu-plugin/cms-members/catpcha/
+-----mu-plugin/cms-members/wwm-register.php
+-----mu-plugin/cms-members/ *** Other files ***
+
+IMPORTANT: If your directory has a version number (e.g. cms-members.16) please remove digits and dot first.
+
+3. To use with BuddyPress, go to BP directory open bp-core.php on line 55 change 'register' to something else e.g. join,signup-now,etc (But NOT signup and register)
+
+
+
+== Upgarde to new versions ==
+
+To upgrade CMS Members simply delete old files and then install new version. 
+
+IMPORTANT: Do not forget to take a database backup first.
+

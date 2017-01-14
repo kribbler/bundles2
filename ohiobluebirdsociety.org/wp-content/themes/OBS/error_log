@@ -1,0 +1,2 @@
+[29-Aug-2011 09:49:59] PHP Fatal error:  Call to undefined function  get_header() in /home/ohioblue/public_html/wp-content/themes/OBS/index.php on line 1
+[23-Oct-2011 14:11:55] PHP Fatal error:  Call to undefined function  get_header() in /home/ohioblue/public_html/wp-content/themes/OBS/index.php on line 1
