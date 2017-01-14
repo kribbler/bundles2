@@ -1,0 +1,19 @@
+label.fedex-residential{
+	float:left;
+	padding:5px 0;
+}
+p.fedex-residential .input-text{
+	float:left !important;
+	width:auto !important;
+	position:relative;
+	top:10px;
+	left:10px;
+}
+p.fedex-residential{
+	float:left;
+	padding-right:30px;
+}
+p.ajax-loading{
+	background:url('wpspin_light.gif') no-repeat right;
+	float:left;
+}

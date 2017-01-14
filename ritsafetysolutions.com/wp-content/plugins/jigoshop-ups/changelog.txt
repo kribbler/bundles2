@@ -1,0 +1,40 @@
+/*
+Plugin Name: Jigoshop UPS Shipping Method
+*/
+
+Changelog
+= 1.0.10 = 
+* Validator
+
+= 1.0.9 = 
+* Add multi-piece rate requests, add shipping filters
+
+= 1.0.8 = 
+* remove UPS "free shipping" when no rates returned.
+
+= 1.0.7 = 
+* squash PHP warning on install for services
+
+= 1.0.6 = 
+* Add dimensions if available
+
+= 1.0.5 = 
+*Patch - removed this->choose();
+
+= 1.0.4 = 
+*Patch - handling fee was added twice
+
+= 1.0.3 = 
+*Patch - when logged in, session data for customer does not contain state, postcode - values are empty. Shipping amounts are not appearing 
+   	 on page load for checkout page because the state/postcode are empty and rate is being calculated using session data postcode and country. 
+ 	 Made direct call to db to get user meta postcode if logged in until this issue can be addressed in jigoshop core. 
+
+= 1.0.2 =
+*Patch - fixed rates not displaying on cart jigoshop_shipping_calculator() function on the cart shortcode, but were appearing in the checkout.
+	 In function retrieve_rate_from_response() in ups plugin, the rate was being set to local variable $shipping_total, instead of 
+	 property of $this->shipping total. Updated function, works as expected. DW 3/2/2012
+
+= 1.0.1 = 
+* Patch - fix int rounding on weight and weight calculation on items with qty > 1 
+= 1.0 =
+* Initial release

@@ -1,0 +1,8 @@
+[25-Mar-2014 21:39:38] PHP Fatal error:  Call to undefined function  add_action() in /home/ritsafet/public_html/wp-content/plugins/hello.php on line 60
+[27-Apr-2014 04:16:29] PHP Fatal error:  Call to undefined function  add_action() in /home/ritsafet/public_html/wp-content/plugins/hello.php on line 60
+[08-May-2014 23:12:09] PHP Fatal error:  Call to undefined function  add_action() in /home/ritsafet/public_html/wp-content/plugins/hello.php on line 60
+[11-May-2014 18:59:40] PHP Fatal error:  Call to undefined function  add_action() in /home/ritsafet/public_html/wp-content/plugins/hello.php on line 60
+[12-May-2014 04:16:48] PHP Fatal error:  Call to undefined function  add_action() in /home/ritsafet/public_html/wp-content/plugins/hello.php on line 60
+[30-Jun-2014 04:47:49] PHP Fatal error:  Call to undefined function  add_action() in /home/ritsafet/public_html/wp-content/plugins/hello.php on line 60
+[20-Oct-2014 06:32:07 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/ritsafet/public_html/wp-content/plugins/hello.php on line 60
+[30-Oct-2014 10:46:53 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/ritsafet/public_html/wp-content/plugins/hello.php on line 60

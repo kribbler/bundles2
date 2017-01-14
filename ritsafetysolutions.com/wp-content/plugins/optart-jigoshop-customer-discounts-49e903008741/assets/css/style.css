@@ -1,0 +1,16 @@
+span.customer-savings, span.customer-subtotal-savings {
+    margin: 3px 10px;
+    color: #ff0000;
+    display: inline-block;
+}
+
+span.customer-product-savings {
+    margin: 0 0 0 10px;
+    color: #ff0000;
+    display: inline-block;
+    font-size: 10pt;
+}
+
+tr.customer-savings {
+    color: #ff0000;
+}

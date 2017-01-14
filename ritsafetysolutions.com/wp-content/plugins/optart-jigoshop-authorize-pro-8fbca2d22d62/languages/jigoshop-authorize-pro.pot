@@ -1,0 +1,440 @@
+# DTI Authorize.net PRO for Jigoshop translation strings
+# Copyright (C) 2013
+#
+# http://www.cssigniter.com/ignite/wordpress-poedit-translation-secrets/
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Authorize.net PRO v1.0.1\n"
+"Report-Msgid-Bugs-To: Jeff Parsons <jeff@divergeinfinity.com>\n"
+"POT-Creation-Date: 2013-08-14 02:49-0400\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Jeff Parsons <jeff.parsons@jigoshop.com>\n"
+"Language-Team: DivergeInfinity <jeff@divergeinfinity.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Textdomain-Support: yes\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../jigoshop-authorize-net-pro.php:125
+#, php-format
+msgid "Authorize.net PRO %s"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:127
+msgid ""
+"Authorize.net PRO allows merchants to accept credit card payments on their "
+"Shop securely using a variety of connection methods to your Authorize.net "
+"Merchant account.  With the Jigoshop SSL setting enabled, the most secure "
+"and PCI compliant AIM integration is used, but an SSL installation is "
+"required on your server.  Otherwise the SIM and DPM methods are used to "
+"still ensure maximim PCI compliance.  SIM will redirect the user to the "
+"Authorize.net SSL secured servers to enter Credit Card information.  DPM "
+"will post credit card information directly from the customer to the secured "
+"Authorize servers bypassing the Shop server."
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:132
+msgid "Enable Authorize.net PRO"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:139 ../jigoshop-authorize-net-pro.php:170
+#: ../jigoshop-authorize-net-pro.php:256
+msgid "No"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:140 ../jigoshop-authorize-net-pro.php:171
+#: ../jigoshop-authorize-net-pro.php:257
+msgid "Yes"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:145
+msgid "Method Title"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:147
+msgid ""
+"This controls the title which the user sees during checkout and also appears "
+"as the Payment Method on final Orders."
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:149
+msgid "Credit Card"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:154
+msgid "Description"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:156
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:158
+msgid "Pay securely using your credit card with Authorize.net"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:163
+msgid "Use Test Server"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:164
+msgid ""
+"Requires a <a href=\"https://developer.authorize.net/testaccount/"
+"\">developer account</a> on the Authorize.net testing servers."
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:165
+msgid ""
+"Transactions are sent to the Authorize.net testing server which require "
+"<strong>different</strong> <em>API Login ID's</em> and <em>Transaction "
+"Key's</em> than an actual Merchant account.  Turn this off or disable it to "
+"go LIVE and use the production servers."
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:176
+msgid "Connection Method"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:177
+msgid ""
+"If the Jigoshop General tab setting has SSL enabled, AIM will "
+"<strong>always</strong> be used."
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:178
+msgid ""
+"<strong>SIM</strong> - No SSL required, transfers customer to Authorize.net "
+"secured SSL servers to accept credit card Information.<br><strong>DPM</"
+"strong> - No SSL required.  Uses unique transaction \"fingerprint\" for "
+"security.  Customers stay on your Server, but credit card info is sent "
+"directly from the customer to the secured Authorize servers.<br><strong>AIM</"
+"strong> - SSL IS required, maximum security and full PCI compliance.  "
+"Customers stay on your Server."
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:183
+msgid "Server Integration Method (SIM)"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:184
+msgid "Direct Post Method (DPM)"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:185
+msgid "Advanced Integration Method (AIM)"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:191
+msgid "Merchant API Login ID"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:193
+msgid ""
+"This is your Authorize.net API Login ID supplied by Authorize.net and "
+"available from within your Merchant Account."
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:200
+msgid "Transaction Key"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:202
+msgid ""
+"This is the Transaction Key supplied by Authorize.net and available within "
+"your Merchant Account."
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:209
+msgid "MD5 Hash"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:210
+msgid "Optional - not used if using SSL and AIM."
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:211
+msgid ""
+"This is the optional MD5 Hash you may have entered on your Authorize.net "
+"Merchant Account for additional security with DPM and SIM transactions."
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:218
+msgid "Transaction Type"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:220
+msgid ""
+"<em>Authorize Only</em> will <strong>not</strong> actually capture funds for "
+"the Order, only Authorize the credit card for the amount.  You will have to "
+"manually capture the funds via your Merchant account when ready to do so."
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:225
+msgid "Authorize and Capture"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:226
+msgid "Authorize Only"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:231
+msgid "Credit Card Types Accepted"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:233
+msgid ""
+"Select which credit card types to accept.  These should match the settings "
+"within your Authorize.net Merchant account."
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:238
+msgid "American Express"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:239
+msgid "Diners Club"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:240
+msgid "Discover"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:241
+msgid "JCB"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:242
+msgid "MasterCard"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:243
+msgid "Visa"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:249
+msgid "Email Authorize.net Receipt"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:251
+msgid ""
+"In addition to Jigoshop emails, allow Authorize.net to also email successful "
+"payment receipts to customers."
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:262
+msgid "Debug Logging"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:264
+msgid ""
+"Transactions between the Shop and Authorize.net are logged into a file here: "
+"<em>wp-content/plugins/jigoshop-authorize-net-pro/log/authorize_pro_debug."
+"log</em>.  This file must have server write permissions."
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:269
+msgid "Off"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:270
+msgid "On"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:277
+msgid "SSL Certification"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:278
+msgid ""
+"Leave blank to display nothing if you want to display it elsewhere on the "
+"site or you are not using SSL and AIM.<br />Available HTML tags are: "
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:279
+msgid ""
+"Use limited HTML markup for links, images and javascript code to display "
+"your site's SSL certification image."
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:301
+msgid ""
+"The Authorize.net PRO gateway cannot use the AIM connection method without "
+"Jigoshop SSL enabled.  Please enable SSL to use this connection method.  The "
+"connection method has been <strong>reset back to SIM</strong> in the gateway "
+"settings."
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:306
+msgid ""
+"The Authorize.net PRO gateway will <strong>always</strong> use the AIM "
+"connection method if the Jigoshop settings for SSL are enabled.  The "
+"connection method has been <strong>reset back to AIM</strong> in the gateway "
+"settings.  If you don't want this you must disable Jigoshop's SSL setting on "
+"the General Tab."
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:311
+#, php-format
+msgid ""
+"The Authorize.net PRO gateway accepts payments in currencies of %s.  Your "
+"current currency is %s.  Authorize.net PRO won't work until you change the "
+"Jigoshop currency to an accepted one.  Authorize.net PRO is "
+"<strong>currently disabled</strong> on the Payment Gateways settings tab."
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:320
+#, php-format
+msgid ""
+"The Authorize.net PRO gateway is available to merchants from: %s.  Your "
+"country is: %s.  Authorize.net PRO won't work until you change the Jigoshop "
+"Shop Base country to an accepted one.  Authorize.net PRO is "
+"<strong>currently disabled</strong> on the Payment Gateways settings tab."
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:325
+msgid ""
+"The Authorize.net PRO gateway does not have values entered for the required "
+"fields for either Merchant API Login ID or Transaction Key and the gateway "
+"is set to enabled.  Please enter your credentials for these fields or the "
+"gateway <strong>will not</strong> be available on the Checkout.  Disable the "
+"gateway to remove this warning."
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:329
+msgid ""
+"The Authorize.net PRO gateway does not have any Credit Card Types enabled.  "
+"Please enable the Credit Cards your Authorize.net Merchant account is set up "
+"to process or the gateway <strong>will not</strong> be available on the "
+"Checkout.  Disable the gateway to remove this warning."
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:419
+msgid ""
+"Thank you for your order, please click the button below to pay with "
+"Authorize.net."
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:520 ../jigoshop-authorize-net-pro.php:579
+msgid "Pay via Authorize.net"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:525
+msgid "One moment ... contacting Authorize.net to process your order ..."
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:584
+msgid ""
+"One moment ... transfering to Authorize.net where you can securely enter "
+"your Credit Card information ..."
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:623
+msgid ""
+"Authorize.net PRO Payment Warning: The server-generated fingerprint does not "
+"match the merchant-specified fingerprint in the \"x_fp_hash\" field.  Check "
+"the MD5 Hash Setting for the Gateway and in your Authorize Merchant Account."
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:633
+msgid "Authorize dot net MD5 Hash Invalid"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:634
+msgid ""
+"Authorize dot net PRO Payment Gateway Warning: The Authorize server-"
+"generated fingerprint does not match the Merchant-specified fingerprint in "
+"the \"x_fp_hash\" field for an Order just processed.  Check the MD5 Hash "
+"Setting for the Gateway and in your Authorize Merchant Account."
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:651 ../jigoshop-authorize-net-pro.php:799
+#, php-format
+msgid ""
+"Authorize.net PRO Payment completed via %s. (Response: %s - Transaction "
+"Type: %s with Authorization Code: %s)"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:715 ../jigoshop-authorize-net-pro.php:824
+msgid "Authorize.net PRO Payment failed"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:715 ../jigoshop-authorize-net-pro.php:824
+msgid "Payment was rejected due to an error"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:718
+#, php-format
+msgid ""
+"Authorize.net Payment failed (%s:%s) -- %s Please try again or choose "
+"another gateway for your Order."
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:813
+#, php-format
+msgid "%s Please try again or choose another gateway for your Order."
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:828
+#, php-format
+msgid ""
+"Authorize.net PRO Payment failed: %s Please try again or choose another "
+"gateway for your Order."
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:886
+msgid "Credit Card Number"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:892
+msgid "Card Security Code"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:894
+msgid "3-4 digits printed on the back of the card."
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:900
+msgid "Expiration Date"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:902
+msgid "Month"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:915
+msgid "Year"
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:1096
+msgid "The Authorize.net Credit Card number entered is invalid."
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:1099
+msgid "There was an error validating your Authorize.net credit card number."
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:1105
+msgid "Authorize.net Credit Card security code entered is invalid."
+msgstr ""
+
+#: ../jigoshop-authorize-net-pro.php:1117
+msgid "Authorize.net Credit Card expiration date is invalid."
+msgstr ""
+
+#: ../classes/DTI_ANet_AIM_Response.php:40
+#, php-format
+msgid "Unrecognized response from AuthorizeNet: %s"
+msgstr ""
+
+#: ../classes/DTI_ANet_AIM_Response.php:120
+msgid "Error connecting to AuthorizeNet, no response received."
+msgstr ""

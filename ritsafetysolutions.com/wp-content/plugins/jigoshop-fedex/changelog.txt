@@ -1,0 +1,50 @@
+/*
+Plugin Name: Jigoshop FedEx Shipping Method
+*/
+==1.2.4== 
+* Fix for cart object not containing the proper weight / dimension units for item in cart.
+ 
+==1.2.3== 
+* Validator 
+
+==1.2.1== 
+* Jigoshop 1.4x compatability. Removed overload of cart calculator function for res indicator. 
+
+==1.2.0==
+* Added Rate Debugging
+* Added basic support for FedEx Freight. If an item weight more than 150lbs, FedEx will return freight rates. 
+* Added support for multi-piece shipments. If an item ships separately, you can enable this on the item and it will create a multi-piece
+  rate request. 
+
+
+==1.1.0==
+* Fixed bug in fedex v10 wsdl for production server
+* Makes one total web service call now instead of a web service call for each shipping service
+* Added limited dimensional support
+ 
+==1.0.6==
+*Patch - production web serices url was using the same url as sandbox
+*Add   - Singapore services
+
+==1.0.5==
+*Removed $this->choose();
+
+
+==1.0.4==
+*Removed dependency on PHP SOAP and replaced with nusoap
+*Added rate / cart caching - limits the number of requests to Fedex servers
+
+Changelog
+==1.0.3==
+*Added residential indicator for Home Delivery surcharges
+*Added fedex_customer class - extends customer, used to get/set residential indicator
+ 
+==1.0.2==
+*Fixed error with only the fee showing up when no rates are rturned. 
+
+==1.0.1==
+*removed reliance on php soap library and added nusoap library to plugin. Fixed bug where rates weren't being returned in the 
+cart calculator. 
+
+==1.0.0==
+* Initial release

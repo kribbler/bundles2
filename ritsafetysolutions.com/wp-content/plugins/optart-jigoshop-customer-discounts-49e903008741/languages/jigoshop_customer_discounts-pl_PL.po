@@ -1,0 +1,449 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Jigoshop Customer Discounts v2.2.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-04-25 22:06:46+0000\n"
+"Last-Translator: optart <kontakt@optart.pl>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#. translators: plugin header field 'Name'
+#: jigoshop-customer-discounts.php:0
+#@ jigoshop_customer_discounts
+msgid "Jigoshop Customer Discounts"
+msgstr "Jigoshop Zniżki"
+
+#. translators: plugin header field 'Description'
+#: jigoshop-customer-discounts.php:0
+#@ jigoshop_customer_discounts
+msgid "Define custom discounts for every customer or group of customers."
+msgstr "Definiuj zniżki dla każdego użytkownika lub grup użytkowników."
+
+#. translators: plugin header field 'Author'
+#: jigoshop-customer-discounts.php:0
+#@ jigoshop_customer_discounts
+msgid "OptArt | Amadeusz Starzykiewicz"
+msgstr ""
+
+#. translators: plugin header field 'AuthorURI'
+#: jigoshop-customer-discounts.php:0
+#@ jigoshop_customer_discounts
+msgid "http://www.optart.biz"
+msgstr "http://www.optart.pl"
+
+#: jigoshop-customer-discounts.php:51
+#@ jigoshop_customer_discounts
+msgid "Fixed Price"
+msgstr "Stała zniżka"
+
+#: jigoshop-customer-discounts.php:52
+#@ jigoshop_customer_discounts
+msgid "Percentage Price"
+msgstr "Zniżka procentowa"
+
+#: jigoshop-customer-discounts.php:56
+#@ jigoshop_customer_discounts
+msgid "Products in cart"
+msgstr "Zniżka od ilości produktów w koszyku"
+
+#: jigoshop-customer-discounts.php:53
+#@ jigoshop_customer_discounts
+msgid "Product Quantity"
+msgstr "Zniżka od ilości pojedynczego produktu"
+
+#: jigoshop-customer-discounts.php:54
+#@ jigoshop_customer_discounts
+msgid "Each X products"
+msgstr "Zniżka co X produktów"
+
+#: jigoshop-customer-discounts.php:57
+#@ jigoshop_customer_discounts
+msgid "Cart threshold"
+msgstr "Zniżka od ustalonej kwoty w koszyku"
+
+#: jigoshop-customer-discounts.php:117
+#@ jigoshop
+msgid "Customer Discounts"
+msgstr ""
+
+#: jigoshop-customer-discounts.php:124
+#@ jigoshop_customer_discounts
+msgid "Show old price"
+msgstr "Pokaż starą cenę"
+
+#: jigoshop-customer-discounts.php:125
+#@ jigoshop_customer_discounts
+msgid "Setting this to \"Yes\" will show old price of the product."
+msgstr "Ustawienie \\\"Tak\\\" wyświetli i starą i nową cenę produktu."
+
+#: jigoshop-customer-discounts.php:130
+#: jigoshop-customer-discounts.php:141
+#: jigoshop-customer-discounts.php:152
+#: jigoshop-customer-discounts.php:163
+#: jigoshop-customer-discounts.php:174
+#: jigoshop-customer-discounts.php:190
+#: jigoshop-customer-discounts.php:201
+#: jigoshop-customer-discounts.php:212
+#: jigoshop-customer-discounts.php:223
+#@ jigoshop
+msgid "No"
+msgstr ""
+
+#: jigoshop-customer-discounts.php:131
+#: jigoshop-customer-discounts.php:142
+#: jigoshop-customer-discounts.php:153
+#: jigoshop-customer-discounts.php:164
+#: jigoshop-customer-discounts.php:175
+#: jigoshop-customer-discounts.php:191
+#: jigoshop-customer-discounts.php:202
+#: jigoshop-customer-discounts.php:213
+#: jigoshop-customer-discounts.php:224
+#@ jigoshop
+msgid "Yes"
+msgstr ""
+
+#: jigoshop-customer-discounts.php:135
+#@ jigoshop_customer_discounts
+msgid "Include discount when coupon is used?"
+msgstr "Aplikować zniżkę gdy użyto kodu rabatowego?"
+
+#: jigoshop-customer-discounts.php:136
+#@ jigoshop_customer_discounts
+msgid "Setting this to \"Yes\" will enable discounts on products when using coupons. Attention! When coupon + discount means free item - discount is dropped when \"Allow free products with coupons\" is set to \"No\"."
+msgstr "Ustawienie \\\"Tak\\\" włączy zniżki dla produktów kiedy użyty jest kod rabatowy. Uwaga! Gdy kod rabatowy i zniżka dają darmowy produkt - zniżka jest usuwana w wypadku ustawienia \\\"Pozwól na darmowe produkty z kuponem\\\" na \\\"Nie\\\""
+
+#: jigoshop-customer-discounts.php:146
+#@ jigoshop_customer_discounts
+msgid "Allow free products"
+msgstr "Pozwól na darmowe produkty"
+
+#: jigoshop-customer-discounts.php:147
+#@ jigoshop_customer_discounts
+msgid "Setting this to \"Yes\" will allow you to create discounts making products free."
+msgstr "Ustawienie \\\"Tak\\\" pozwoli tworzyć zniżki sprawiające, że produkty będą darmowe."
+
+#: jigoshop-customer-discounts.php:157
+#@ jigoshop_customer_discounts
+msgid "Allow free products with coupons"
+msgstr "Pozwól na darmowe produkty z kodem rabatowym"
+
+#: jigoshop-customer-discounts.php:158
+#@ jigoshop_customer_discounts
+msgid "Setting this to \"Yes\" will allow your customers to get free products when coupons are used. When it is set to \"No\" your customers can still use coupons, but when product price when coupon is used will be 0 then coupon is discarded."
+msgstr "Ustawienie \\\"Tak\\\" pozwoli użytkownikom uzyskać darmowe produkty gdy używają kodów rabatowych. Ustawienie \\\"Nie\\\" sprawi, że użycie kodów rabatowych wciąż jest możliwe, ale kiedy cena profduktu spadnie do 0, kupon nie będzie użyty. "
+
+#: jigoshop-customer-discounts.php:83
+#: jigoshop-customer-discounts.php:84
+#: jigoshop-customer-discounts.php:266
+#@ jigoshop_customer_discounts
+msgid "Discounts"
+msgstr "Zniżki"
+
+#: jigoshop-customer-discounts.php:85
+#@ jigoshop_customer_discounts
+msgid "Discount"
+msgstr "Zniżka"
+
+#: jigoshop-customer-discounts.php:86
+#@ jigoshop_customer_discounts
+msgid "Add Discount"
+msgstr "Dodaj zniżkę"
+
+#: jigoshop-customer-discounts.php:87
+#@ jigoshop_customer_discounts
+msgid "Add New Discount"
+msgstr "Dodaj nową zniżkę"
+
+#: jigoshop-customer-discounts.php:88
+#@ jigoshop_customer_discounts
+msgid "Edit"
+msgstr "Edytuj"
+
+#: jigoshop-customer-discounts.php:89
+#@ jigoshop_customer_discounts
+msgid "Edit Discount"
+msgstr "Edytuj zniżkę"
+
+#: jigoshop-customer-discounts.php:90
+#@ jigoshop_customer_discounts
+msgid "New Discount"
+msgstr "Nowa zniżka"
+
+#: jigoshop-customer-discounts.php:91
+#@ jigoshop_customer_discounts
+msgid "View Discounts"
+msgstr "Zobacz zniżki"
+
+#: jigoshop-customer-discounts.php:92
+#@ jigoshop_customer_discounts
+msgid "View Discount"
+msgstr "Zobacz zniżkę"
+
+#: jigoshop-customer-discounts.php:93
+#@ jigoshop_customer_discounts
+msgid "Search Discounts"
+msgstr "Szukaj zniżek"
+
+#: jigoshop-customer-discounts.php:94
+#@ jigoshop_customer_discounts
+msgid "No Discounts found"
+msgstr "Nie znaleziono zniżek"
+
+#: jigoshop-customer-discounts.php:95
+#@ jigoshop_customer_discounts
+msgid "No Discounts found in trash"
+msgstr "Nie znaleziono zniżek w koszu"
+
+#: jigoshop-customer-discounts.php:96
+#@ jigoshop_customer_discounts
+msgid "Parent Discount"
+msgstr "Zniżka nadrzędna"
+
+#: jigoshop-customer-discounts.php:98
+#@ jigoshop_customer_discounts
+msgid "This is where you can add new discounts that customers can use in your store."
+msgstr "Tu możesz dodawać nowe zniżki do Twojego sklepu"
+
+#: jigoshop-customer-discounts.php:271
+#@ jigoshop_customer_discounts
+msgid "Discount Data"
+msgstr "Dane zniżki"
+
+#: jigoshop-customer-discounts.php:376
+#@ jigoshop_customer_discounts
+msgid "Name"
+msgstr "Imię"
+
+#: jigoshop-customer-discounts.php:377
+#@ jigoshop_customer_discounts
+msgid "Type"
+msgstr "Typ"
+
+#: jigoshop-customer-discounts.php:378
+#@ jigoshop_customer_discounts
+msgid "Value"
+msgstr "Wartość"
+
+#: jigoshop-customer-discounts.php:379
+#: templates/admin_box.php:79
+#@ jigoshop_customer_discounts
+msgid "Users"
+msgstr "Użytkownicy"
+
+#: jigoshop-customer-discounts.php:380
+#: templates/admin_box.php:92
+#@ jigoshop_customer_discounts
+msgid "Groups"
+msgstr "Grupy"
+
+#: templates/admin_box.php:16
+#@ jigoshop_customer_discounts
+msgid "Discount Type"
+msgstr "Typ zniżki"
+
+#: templates/admin_box.php:24
+#@ jigoshop_customer_discounts
+msgid "Quantity"
+msgstr "Ilość"
+
+#: templates/admin_box.php:26
+#@ jigoshop_customer_discounts
+msgid "Enter a value, i.e. 20"
+msgstr "Wpisz wartość, np. 20"
+
+#: templates/admin_box.php:34
+#@ jigoshop_customer_discounts
+msgid "Discount Value"
+msgstr "Wartość zniżki"
+
+#: templates/admin_box.php:36
+#@ jigoshop_customer_discounts
+msgid "Enter a value, i.e. 9.99 or 20%."
+msgstr "Wpisz wartość, np. 9.99 albo 20%"
+
+#: templates/admin_box.php:36
+#@ jigoshop_customer_discounts
+msgid "For free please enter 100%."
+msgstr "Jeśli darmowy - wpisz 100%."
+
+#: templates/admin_box.php:51
+#@ jigoshop_customer_discounts
+msgid "Products"
+msgstr "Produkty"
+
+#: templates/admin_box.php:52
+#@ jigoshop_customer_discounts
+msgid "Control which products this coupon can apply to."
+msgstr "Kontroluj, których produktów dotyczy zniżka."
+
+#: templates/admin_box.php:66
+#@ jigoshop_customer_discounts
+msgid "Categories"
+msgstr "Kategorie"
+
+#: templates/admin_box.php:67
+#@ jigoshop_customer_discounts
+msgid "Control which product categories this discount can apply to."
+msgstr "Kontroluj, których kategorii produktów dotyczy zniżka."
+
+#: templates/admin_box.php:69
+#@ jigoshop_customer_discounts
+msgid "Any category"
+msgstr "Dowolna kategoria"
+
+#: templates/admin_box.php:80
+#@ jigoshop_customer_discounts
+msgid "Control which user this discount can apply to."
+msgstr "Kontroluj, których użytkowników dotyczy zniżka."
+
+#: templates/admin_box.php:82
+#@ jigoshop_customer_discounts
+msgid "Any user"
+msgstr "Dowolny użytkownik"
+
+#: templates/admin_box.php:93
+#@ jigoshop_customer_discounts
+msgid "Control which group this discount can apply to."
+msgstr "Kontroluj, których typów użytkowników dotyczy zniżka."
+
+#: templates/admin_box.php:95
+#@ jigoshop_customer_discounts
+msgid "Any group"
+msgstr "Dowolny typ"
+
+#: templates/admin_box.php:105
+#@ jigoshop_customer_discounts
+msgid "Only first purchase?"
+msgstr "Tylko dla pierwszego zakupu?"
+
+#: templates/admin_box.php:106
+#@ jigoshop_customer_discounts
+msgid "Select to allow the discount for the first purchase that client has made in your shop."
+msgstr "Wybierz, aby zniżka dotyczyła tylko pierwszego zakupu, jakiego klient dokonuje w Twoim sklepie."
+
+#: templates/admin_box.php:113
+#@ jigoshop_customer_discounts
+msgid "Quantity of selected product in cart to apply discount, i.e. 5."
+msgstr "Ilość wybranego produktu w koszyku, od której zniżka będzie naliczana. Na przykład 5."
+
+#: templates/admin_box.php:114
+#@ jigoshop_customer_discounts
+msgid "Number of products in cart to apply discount, i.e. 5."
+msgstr "Ilość produktów w koszyku, od której zniżka będzie naliczana. Na przykład 5."
+
+#: templates/admin_box.php:115
+#@ jigoshop_customer_discounts
+msgid "Which product has a discount, i.e. every third is 3 in this field."
+msgstr "Wpisz, co który produkt ma naliczaną zniżkę. Na przykład, jeśli co trzeci - wpisz 3."
+
+#: templates/admin_box.php:117
+#@ jigoshop_customer_discounts
+msgid "Minimum cart value to apply discount."
+msgstr "Minimalna wartość koszyka od której będzie aplikowana zniżka."
+
+#: templates/admin_box.php:146
+#@ jigoshop_customer_discounts
+msgid "Any product"
+msgstr "Dowolny produkt"
+
+#: jigoshop-customer-discounts.php:119
+#@ jigoshop_customer_discounts
+msgid "Main settings"
+msgstr "Ustawienia główne"
+
+#: jigoshop-customer-discounts.php:179
+#@ jigoshop_customer_discounts
+msgid "Displaying \"How much you saved\""
+msgstr "Wyświetlanie \\\"ile oszczędziłeś\\\""
+
+#: jigoshop-customer-discounts.php:184
+#@ jigoshop_customer_discounts
+msgid "Display on product page"
+msgstr "Wyświetl na stronie produktu"
+
+#: jigoshop-customer-discounts.php:195
+#@ jigoshop_customer_discounts
+msgid "Display in cart"
+msgstr "Wyświetl w koszyku"
+
+#: jigoshop-customer-discounts.php:196
+#@ jigoshop_customer_discounts
+msgid "This option means you want to display savings in unit price."
+msgstr "Ta opcja znaczy, że chcesz wyświetlić oszczędności dla pojedynczego produktu."
+
+#: jigoshop-customer-discounts.php:206
+#@ jigoshop_customer_discounts
+msgid "Display in subtotal cart"
+msgstr "Wyświetl w koszyku w podsumach"
+
+#: jigoshop-customer-discounts.php:207
+#@ jigoshop_customer_discounts
+msgid "This option means you want to display savings in subtotal."
+msgstr "Ta opcja znaczy, że chcesz wyświetlić zniżki w podsumach."
+
+#: jigoshop-customer-discounts.php:217
+#@ jigoshop_customer_discounts
+msgid "Display on checkout"
+msgstr "Wyświetl na stronie płatności"
+
+#: jigoshop-customer-discounts.php:381
+#@ jigoshop_customer_discounts
+msgid "Date"
+msgstr "Data"
+
+#: jigoshop-customer-discounts.php:881
+#: jigoshop-customer-discounts.php:896
+#: jigoshop-customer-discounts.php:911
+#@ jigoshop_customer_discounts
+msgid "You save"
+msgstr "Oszczędzasz"
+
+#: jigoshop-customer-discounts.php:933
+#@ jigoshop_customer_discounts
+msgid "You saved"
+msgstr "Oszczędzasz"
+
+#: jigoshop-customer-discounts.php:872
+#@ jigoshop_customer_discounts
+msgid "Your price: "
+msgstr "Twoja cena:"
+
+#: jigoshop-customer-discounts.php:168
+#@ jigoshop_customer_discounts
+msgid "Show first time purchase discounts"
+msgstr "Pokaż zniżki dla pierwszych zakupów"
+
+#: jigoshop-customer-discounts.php:169
+#@ jigoshop_customer_discounts
+msgid "Setting this to \"No\" will hide first purchase discounts to not logged in clients."
+msgstr "Ustawienie \\\"nie\\\" ukryje zniżki dla pierwszych zakupów dla użytkowników niezalogowanych"
+
+#. translators: plugin header field 'Version'
+#: jigoshop-customer-discounts.php:0
+#@ jigoshop_customer_discounts
+msgid "2.2.5"
+msgstr ""
+
+#: jigoshop-customer-discounts.php:55
+#@ jigoshop_customer_discounts
+msgid "From X products"
+msgstr "Od X produktów"
+
+#: templates/admin_box.php:116
+#@ jigoshop_customer_discounts
+msgid "After how many products you want to give the discount, i.e. third, fourth and so on product discounted is 2 in this field."
+msgstr "Po ilu produktach chcesz dać zniżkę, np. trzeci, czwarty i następne produkty na zniżce oznacza 2 w tym polu."
+
