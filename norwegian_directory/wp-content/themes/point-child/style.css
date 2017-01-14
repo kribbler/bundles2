@@ -1,0 +1,144 @@
+/*
+Theme Name: Point Child
+Theme URI: http://mythemeshop.com/themes/point
+Author: MyThemeShop
+Author URI: http://mythemeshop.com/
+Description: Point is a fluid responsive and multipurpose WP Theme. Through the advanced options panel, you can choose from multiple site layouts, backgrounds and color schemes, as well as control specific features of the theme. ==>>>> Demo: ==>>>> http://bit.ly/1nPzfbC It includes 9 custom widgets, 2 site layouts, an author box and related posts widget, ad management, cross-browser compatibility, RTL Language support and it's translation-ready, all search engine optimized. Support for free themes is provided through the MyThemeShop forums. **Notable features => Fluid responsive layout. | Advanced options panel with ability to upload logo, favicon, customize settings and more. | 7 custom widgets included. | SEO Optimized | 2 site layouts to choose from. | Full width page template included. | Translation-ready. | Cross-browser compatible. | Ad management to control ad display. | Related posts widget. | Author box widget. | Unlimited color schemes. | Unlimited background colors, or upload your own image. | Option to disable or enable responsiveness | Numbered pagination | Trending stories option. | 2 featured post sections. | RTL Language Support | And much more! ==>>>> Support ==>>>> http://community.mythemeshop.com/
+Version: 1.1
+Tags: light, custom-menu, custom-header, custom-background, custom-colors, two-columns, right-sidebar, theme-options, threaded-comments, full-width-template, sticky-post, translation-ready, gray, blue, featured-images, theme-options, rtl-language-support
+License: GPL
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: mythemeshop
+Template: point
+*/
+
+@import url('../point/style.css');
+
+.firstlink{
+	display: none;
+}
+.featuredBox{
+	display: none;
+}
+
+.post-info{
+	display: none;
+}
+
+.readMore{
+	display: none;
+}
+
+.a2zaal_widget ul li{
+	list-style-type: none;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 27px;
+}
+
+.real-home-page .article{
+	width: 100%;
+}
+
+.real-home-page .article .post{
+	width: 48%;
+}
+
+.real-home-page .article .last{
+	padding-left: 4%;
+}
+
+.home_category{
+	width: 45%;
+	float: left;
+	padding-bottom: 40px;
+}
+
+#logo_mat{
+	background: url(images/mat-60x60.png) 20px 20px no-repeat;
+}
+
+#logo_motor{
+	background: url(images/motor-60x60.png) 20px 20px no-repeat;
+}
+
+#logo_reise{
+	background: url(images/reise-60x60.png) 20px 20px no-repeat;
+}
+
+#logo_sport{
+	background: url(images/sport-60x60.png) 20px 20px no-repeat;
+}
+
+#logo_okonomi{
+	background: url(images/okonomi-60x60.png) 20px 20px no-repeat;
+}
+
+#logo_barn-og-familie{
+	background: url(images/barn-familie-60x60.png) 20px 20px no-repeat;
+}
+
+#logo_bolig-og-interior{
+	background: url(images/bolig-interior-60x60.png) 20px 20px no-repeat;
+}
+
+#logo_helse-og-livsstil{
+	background: url(images/helse-livsstil-60x60.png) 20px 20px no-repeat;
+}
+
+#logo_hobby-og-fritid{
+	background: url(images/hobby-fritid-60x60.png) 20px 20px no-repeat;
+}
+
+#logo_nettbutikker{
+	background: url(images/nettbutikker-60x60.png) 20px 20px no-repeat;
+}
+
+.home_category h6{
+	color: #666;
+    float: left;
+    font-size: 14px;
+    padding-right: 7px;
+    font-weight: normal;
+    margin-bottom: 6px;
+}
+
+.home_category h6 a{
+	color: #666;
+}
+
+.home_cat_inside{
+	margin-left: 90px;
+}
+
+.home_category h1 a{
+	color: #444;
+}
+.home_category h1, .home_category h6{
+	text-transform: none;
+}
+
+.index_column{
+	float: left;
+	width: 25%;
+}
+.index_column ul{
+	padding-right: 15px;
+	padding-bottom: 30px;
+	display: inline-block;
+}
+
+.index_head{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.index_column ul li{
+	width: 100%;
+	display: block;
+	clear: both;
+}
+
+.index_column ul li a{
+	width: 100% !important;
+}
