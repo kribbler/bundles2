@@ -1,0 +1,446 @@
+<?php
+if (!defined(TEMPLATEURL)){
+    define('TEMPLATEURL', get_template_directory_uri());
+}
+
+define('DEMO', true);
+
+$domain = "afl";
+add_action( 'after_setup_theme', 'afl_setup' );
+
+if ( ! function_exists( 'afl_setup' ) ):
+function afl_setup() {
+	global $domain;
+	if ( ! isset( $content_width ) ) $content_width = 940;
+	// This theme styles the visual editor with editor-style.css to match the theme style.
+	add_editor_style();
+
+	// Post Format support. You can also use the legacy "gallery" or "asides" (note the plural) categories.
+	// add_theme_support( 'post-formats', array( 'aside', 'gallery' ) );
+
+	// This theme uses post thumbnails
+	if ( function_exists('add_theme_support') ) {
+            add_theme_support('post-thumbnails');
+            add_image_size('portfolio', 700, 520, TRUE);
+			add_image_size('popular-post-thumbnail', 60, 60, TRUE);
+            add_image_size('blog_img', 1170, 9999, TRUE);
+			add_image_size('single', 1170, 9999, TRUE);
+            add_image_size('portfolio_big', 1170, 9999, TRUE);
+        }
+
+	// Add default posts and comments RSS feed links to head
+	add_theme_support( 'automatic-feed-links' );
+
+	// Make theme available for translation
+	// Translations can be filed in the /languages/ directory
+	load_theme_textdomain( $domain, TEMPLATEPATH . '/languages' );
+
+	$locale = get_locale();
+	$locale_file = TEMPLATEPATH . "/languages/$locale.php";
+	if ( is_readable( $locale_file ) )
+		require_once( $locale_file );
+
+	// This theme uses wp_nav_menu() in one location.
+	register_nav_menus( array(
+		'primary' => __( 'Primary Navigation', $domain ),
+		'top' => __( 'Top Menu', $domain ),
+		'footer' => __( 'Footer Menu', $domain )
+	) );
+}
+endif;
+
+function afl_wp_print_styles_hook(){
+    wp_enqueue_style('bootstrap', TEMPLATEURL.'/css/bootstrap.css');
+	wp_enqueue_style('main-style', TEMPLATEURL.'/css/style.css');
+    wp_enqueue_style('prettyPhoto', TEMPLATEURL.'/css/prettyPhoto.css');
+	if(get_theme_mod("afl_page_use_slides", false)&&!is_admin()){
+		wp_enqueue_style('supersized', TEMPLATEURL.'/css/supersized/supersized.css');
+		wp_enqueue_style('supersized-theme', TEMPLATEURL.'/css/supersized/supersized.shutter.css');
+	}
+	$gfonts = array();
+	$fonts = unserialize(get_option('afl_font',''));
+	if(is_array($fonts)){
+		foreach($fonts as $font){
+			$gfonts[] = trim($font['font']);
+		}
+	}
+    if (!empty($gfonts)){
+        wp_enqueue_style('afl-google-fonts', 'http://fonts.googleapis.com/css?family='.  implode('|', $gfonts));
+    }
+}
+add_action('wp_print_styles', 'afl_wp_print_styles_hook');
+
+function afl_wp_print_scripts_hook(){
+    if(!is_admin()){
+		wp_enqueue_script( 'jquery' );
+        wp_enqueue_script('bootstrap', TEMPLATEURL.'/js/bootstrap.min.js');
+		wp_enqueue_script('jquery-easing', TEMPLATEURL.'/js/jquery.easing.1.3.js');
+        wp_enqueue_script('quicksand', TEMPLATEURL.'/js/jquery.quicksand.js');
+		wp_enqueue_script('elastislide', TEMPLATEURL.'/js/jquery.elastislide.js');
+        wp_enqueue_script('flex-slider', TEMPLATEURL.'/js/jquery.flexslider.js');
+		wp_enqueue_script('hoverdir', TEMPLATEURL.'/js/jquery.hoverdir.js');
+        wp_enqueue_script('superfish', TEMPLATEURL.'/js/superfish.js');
+		wp_enqueue_script('hover-intent', TEMPLATEURL.'/js/hoverIntent.js');
+        wp_enqueue_script('prettyPhoto', TEMPLATEURL.'/js/jquery.prettyPhoto.js');
+        wp_enqueue_script('flickrfeed', TEMPLATEURL.'/js/jflickrfeed.min.js');
+        wp_enqueue_script('twitter', TEMPLATEURL.'/js/jquery.tweet.js');
+        wp_enqueue_script('smoothscroll', TEMPLATEURL.'/js/smoothscroll.js');
+        wp_enqueue_script('jquery-totop', TEMPLATEURL.'/js/jquery.ui.totop.js');
+		wp_enqueue_script('form', TEMPLATEURL.'/js/jquery.form.js');
+		wp_enqueue_script('validation', TEMPLATEURL.'/js/jquery.validate.min.js');
+		wp_enqueue_script('validation-methods', TEMPLATEURL.'/js/additional-methods.min.js');
+        wp_enqueue_script('main', TEMPLATEURL.'/js/main.js');
+        wp_enqueue_script('accordion-settings', TEMPLATEURL.'/js/accordion.settings.js');
+		if(get_theme_mod("afl_page_use_slides", false)){
+			wp_enqueue_script('supersized', TEMPLATEURL.'/js/supersized/supersized.3.2.5.min.js');
+			wp_enqueue_script('supersized-theme', TEMPLATEURL.'/js/supersized/supersized.shutter.min.js', array('supersized'));
+		}
+    }
+}
+add_action('wp_print_scripts', 'afl_wp_print_scripts_hook');
+
+function new_images_postic($post_id, $postic2, $postic3, $postic4){
+	$imgq2 = split('src="', get_the_post_thumbnail($post_id));
+	$imgq2 = split('" class', $imgq2[1]);
+	if(!$postic2){$postic2=100;}
+	if(!$postic3){$postic3=100;}
+	if(!$postic4){$postic4="thumbnail";}
+	return'
+	<img width="'.$postic2.'" height="'.$postic3.'" src="'.$imgq2[0].'" alt="'.get_the_title().'" class="'.$postic4.'" />
+	';
+}
+
+function afl_page_menu_args( $args ) {
+	$args['show_home'] = true;
+	return $args;
+}
+add_filter( 'wp_page_menu_args', 'afl_page_menu_args' );
+
+add_filter( 'widget_tag_cloud_args', 'my_widget_tag_cloud_args' );
+function my_widget_tag_cloud_args( $args ) {
+    $args['number'] = 20;
+    $args['largest'] = 12;
+    $args['smallest'] = 12;
+    $args['unit'] = 'px';
+    return $args;
+}
+
+function afl_continue_reading_link() {
+	if (get_option('afl_readmore_enable','open')== 'open'){
+			$text = get_option('afl_readmore');
+			if($text == '') $text = 'Read More';
+            return '<p><a href="'. get_permalink() . '" class="link">' . __( $text, $domain ) . '</a></p>';
+        }
+        else return '';
+}
+
+function afl_auto_excerpt_more( $more ) {
+	return ' &hellip;' . afl_continue_reading_link();
+}
+add_filter( 'excerpt_more', 'afl_auto_excerpt_more' );
+
+function afl_custom_excerpt_more( $output ) {
+	if ( has_excerpt() && ! is_attachment() ) {
+		$output .= afl_continue_reading_link();
+	}
+	return $output;
+}
+add_filter( 'get_the_excerpt', 'afl_custom_excerpt_more' );
+
+add_filter( 'use_default_gallery_style', '__return_false' );
+
+function afl_remove_gallery_css( $css ) {
+	return preg_replace( "#<style type='text/css'>(.*?)</style>#s", '', $css );
+}
+// Backwards compatibility with WordPress 3.0.
+if ( version_compare( $GLOBALS['wp_version'], '3.1', '<' ) )
+	add_filter( 'gallery_style', 'afl_remove_gallery_css' );
+
+if ( ! function_exists( 'afl_comment' ) ) :
+function afl_comment( $comment, $args, $depth ) {
+	$GLOBALS['comment'] = $comment;
+	switch ( $comment->comment_type ) :
+		case '' :
+	?>
+	<li <?php comment_class('clearfix comments_li'); ?> id="li-comment-<?php comment_ID(); ?> comment-<?php comment_ID(); ?>">
+		<?php echo get_avatar( $comment, 58 ); ?>
+        <div class="textarea">
+			<p class="meta"><?php echo get_comment_date('F j, Y').' '.get_comment_author_link().' says:'; ?></p>
+			<?php if ( $comment->comment_approved == '0' ) : ?>
+            <p class="comment-awaiting-moderation"><?php _e( 'Your comment is awaiting moderation.', $domain ); ?></p>
+			<?php endif; ?>
+			<?php edit_comment_link( __( ' &nbsp; [Edit]', $domain ), ' ' ); ?>
+            <p><?php comment_text(); ?></p>
+			<?php comment_reply_link( array_merge( $args, array( 'depth' => $depth, 'max_depth' => $args['max_depth'] ) ) ); ?>
+        </div>
+	</li>
+	<?php
+			break;
+		case 'pingback'  :
+		case 'trackback' :
+	?>
+	<li class="post pingback">
+		<p><?php _e( 'Pingback:', $domain ); ?> <?php comment_author_link(); ?><?php edit_comment_link( __( '(Edit)', $domain ), ' ' ); ?></p>
+	<?php
+			break;
+	endswitch;
+}
+endif;
+
+function afl_widgets_init() {
+	global $domain;
+	register_sidebar( array(
+		'name' => __( 'Sidebar Widget Area', $domain ),
+		'id' => 'primary-widget-area',
+		'description' => __( 'The primary widget area', $domain ),
+		'before_widget' => '<section id="%1$s" class="widget-container %2$s">',
+		'after_widget' => '</section>',
+		'before_title' => '<h4>',
+		'after_title' => '</h4>',
+	) );
+
+}
+/** Register sidebars by running afl_widgets_init() on the widgets_init hook. */
+add_action( 'widgets_init', 'afl_widgets_init' );
+
+function afl_remove_recent_comments_style() {
+	add_filter( 'show_recent_comments_widget_style', '__return_false' );
+}
+add_action( 'widgets_init', 'afl_remove_recent_comments_style' );
+
+function afl_strEx($str, $length){
+    $str = explode(" ", $str);
+    $nstr = array();
+    for($t=0;$t<count($str);$t++){
+       $strl = strlen(implode($nstr));
+       $strr = strlen(implode($nstr)." ".$str[$t]);
+       if($strl<$length && $strr<$length){
+          array_push($nstr, " ".$str[$t]);
+       }else{
+          return trim(implode($nstr));
+       }
+    }
+	return '';
+}
+
+/* Featured Image Portfolio in Admin */
+
+add_filter( 'manage_portfolio_posts_columns', 'my_columns_filter', 10, 1 );
+add_filter( 'manage_testimonials_posts_columns', 'my_columns_filter', 10 ,1);
+function my_columns_filter( $columns ) {
+	$column_thumbnail = array( 'post_thumb' => __('Thumb') );
+	$columns = array_slice( $columns, 0, 1, true ) + $column_thumbnail + array_slice( $columns, 1, NULL, true );
+	return $columns;
+}
+
+add_action( 'manage_portfolio_posts_custom_column', 'my_column_action', 10, 1 );
+add_action( 'manage_testimonials_posts_custom_column', 'my_column_action', 5, 2);
+function my_column_action( $column ) {
+	global $post;
+	switch ( $column ) {
+		case 'post_thumb':
+			if( function_exists('the_post_thumbnail') )
+				echo the_post_thumbnail( array(55,55) );
+			else
+				echo 'Not supported in theme';
+			break;
+	}
+}
+
+add_action('admin_head', 'afl_admin_head');
+
+function afl_admin_head() {
+    echo '<style type="text/css">';
+    echo '.column-post_thumb { width:60px !important; overflow:hidden }';
+    echo '</style>';
+}
+
+/* End Featured Image Portfolio in Admin */
+
+/* Testimonials Additional Info Field */
+/**
+ * Display the metabox
+ */
+function url_custom_metabox() {
+	global $post;
+	$urllink = get_post_meta( $post->ID, 'urllink', true );
+	$urldesc = get_post_meta( $post->ID, 'urldesc', true );
+
+	if ( !preg_match( "/http(s?):\/\//", $urllink )) {
+		$errors = 'Url not valid';
+		$urllink = 'http://';
+	}
+
+	// output invlid url message and add the http:// to the input field
+	if( $errors ) { echo $errors; } ?>
+
+    <p><label for="siteurl">Url:<br />
+        <input id="siteurl" size="37" name="siteurl" value="<?php if( $urllink ) { echo $urllink; } ?>" /></label></p>
+    <p><label for="urldesc">Description:<br />
+        <textarea id="urldesc" name="urldesc" cols="45" rows="4"><?php if( $urldesc ) { echo $urldesc; } ?></textarea></label></p>
+<?php
+}
+
+/**
+ * Process the custom metabox fields
+ */
+function save_custom_url( $post_id ) {
+	global $post;
+
+	if( $_POST ) {
+		update_post_meta( $post->ID, 'urllink', $_POST['siteurl'] );
+		update_post_meta( $post->ID, 'urldesc', $_POST['urldesc'] );
+	}
+}
+// Add action hooks. Without these we are lost
+add_action( 'admin_init', 'add_custom_metabox' );
+add_action( 'save_post', 'save_custom_url' );
+
+/**
+ * Add meta box
+ */
+function add_custom_metabox() {
+	add_meta_box( 'custom-metabox', __( 'URL &amp; Description' ), 'url_custom_metabox', 'testimonials', 'normal', 'high' );
+}
+/**
+ * Get and return the values for the URL and description
+ */
+function get_url_desc_box($id = null) {
+	if($id == null) {
+		global $post;
+		$id = $post->ID;
+	}else
+	$urllink = get_post_meta( $id, 'urllink', true );
+	$urldesc = get_post_meta( $id, 'urldesc', true );
+
+	return array( $urllink, $urldesc );
+}
+
+/* End Testimonials Additional Info Field */
+
+/* Page Portfolio Options Fields */
+/**
+ * Display the metabox
+ */
+function portfolio_custom_metabox() {
+	global $post;
+	$num_cols = get_post_meta( $post->ID, 'num_cols', true );
+	$portfolio_type = get_post_meta( $post->ID, 'portfolio_type', true );
+	?>
+
+    <p><label for="num_cols">Columns:<br />
+		<select name="num_cols" id="num_cols">
+			<?php for($i=2; $i<5; $i++){
+				$selected = ($i == $num_cols) ? 'selected' : '';
+				echo '<option value="'.$i.'" '.$selected.'>'.$i.'</option>';
+			}?>
+	</select></label></p>
+    <p><label for="portfolio_type">Description:<br />
+        <select name="portfolio_type" id="portfolio_type">
+			<?php for($i=0; $i<2; $i++){
+			$selected = ($i == $portfolio_type) ? 'selected' : '';
+			echo '<option value="'.$i.'" '.$selected.'>'.(!$i ? 'no description' : 'with description').'</option>';
+		}?>
+    </select></label></p>
+<?php
+}
+
+/**
+ * Process the custom metabox fields
+ */
+function save_portfolio_settings( $post_id ) {
+	global $post;
+
+	if( $_POST ) {
+		update_post_meta( $post->ID, 'num_cols', $_POST['num_cols'] );
+		update_post_meta( $post->ID, 'portfolio_type', $_POST['portfolio_type'] );
+	}
+}
+// Add action hooks. Without these we are lost
+add_action( 'admin_init', 'add_portfolio_metabox' );
+add_action( 'save_post', 'save_portfolio_settings' );
+
+/**
+ * Add meta box
+ */
+function add_portfolio_metabox() {
+	add_meta_box( 'portfolio-metabox', __( 'Portfolio Cols &amp; Type (Affects "portfolio" type pages ONLY)' ), 'portfolio_custom_metabox', 'page', 'normal', 'high' );
+}
+/**
+ * Get and return the values for the Portfolio Settings
+ */
+function get_portfolio_settings($id = null) {
+	if($id == null) {
+		global $post;
+		$id = $post->ID;
+	}
+	$num_cols = get_post_meta( $id, 'num_cols', true );
+	$portfolio_type = get_post_meta( $id, 'portfolio_type', true );
+
+	return array( "num_cols" => $num_cols, "portfolio_type" => $portfolio_type );
+}
+
+/* End Page Portfolio Options Fields */
+
+function excerpt($limit=0) {
+    if ($limit>0)
+        $limit++;
+    else {
+        $limit = 1 + ($e=intval(get_option('afl_excerpt')))>0?$e:40;
+        $limit++;
+    }
+
+    $excerpt = explode(' ', get_the_excerpt(), $limit);
+    if (count($excerpt)>=$limit) {
+        array_pop($excerpt);
+        $excerpt = implode(" ",$excerpt);
+    } else {
+        $excerpt = implode(" ",$excerpt);
+    }
+    $excerpt = preg_replace('`\[[^\]]*\]`','',$excerpt);
+
+    return $excerpt;
+}
+
+function content($limit=0) {
+    if ($limit>0)
+        $limit++;
+    else {
+        $limit = ($e=intval(get_option('afl_excerpt')))>0?$e:40;
+        $limit++;
+    }
+
+    $content = explode(' ', get_the_content(), $limit);
+    if (count($content)>=$limit) {
+        array_pop($content);
+        $content = implode(" ",$content).'...';
+    } else {
+        $content = implode(" ",$content);
+    }
+    $content = preg_replace('/\[.+\]/','', $content);
+    $content = apply_filters('the_content', $content);
+    $content = str_replace(']]>', ']]&gt;', $content);
+    return $content;
+}
+
+
+## widgets
+	$includes_path = TEMPLATEPATH . '/inc/';
+	require_once $includes_path . 'register-widgets.php';
+        require_once $includes_path . 'sidebar-init.php';
+
+include_once TEMPLATEPATH . '/lib/init.php';
+
+
+function exclude_category($query) {
+	if ( $query->is_home() ) {
+		$query->set('cat', '-76');
+		$query->set('cat', '-78');
+	}
+
+$paged = intval(get_query_var('paged'));
+
+	return $query;
+}
+
+add_filter('pre_get_posts', 'exclude_category');
