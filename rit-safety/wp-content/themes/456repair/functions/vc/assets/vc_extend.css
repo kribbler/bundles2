@@ -1,0 +1,100 @@
+.wpb_vc_multi_module .vc_element-icon,
+.wpb_vc_meta_container .vc_element-icon,
+.wpb_vc_callout2 .vc_element-icon,
+.wpb_vc_testimonial .vc_element-icon,
+.wpb_vc_add_shortcode .vc_element-icon,
+.wpb_vc_cube_widget .vc_element-icon,
+.wpb_vc_multi_slider .vc_element-icon,
+.wpb_vc_counter .vc_element-icon,
+.wpb_vc_module .vc_element-icon,
+.wpb_vc_featured_module_1 .vc_element-icon,
+.wpb_vc_featured_module_2 .vc_element-icon,
+.wpb_vc_featured_module_3 .vc_element-icon,
+.wpb_vc_widget .vc_element-icon,
+.wpb_vc_meta_block .vc_element-icon,
+.wpb_vc_iconitem .vc_element-icon,
+.wpb_vc_blockquote .vc_element-icon,
+.wpb_vc_new_button .vc_element-icon,
+.wpb_vc_new_callout .vc_element-icon,
+.wpb_vc_new_title .vc_element-icon,
+.wpb_vc_mega_header .vc_element-icon,
+.wpb_vc_mega_header2 .vc_element-icon,
+.wpb_vc_lpd_header .vc_element-icon,
+.wpb_vc_banner .vc_element-icon,
+.wpb_vc_woo_carousel_products .vc_element-icon,
+.wpb_vc_woo_carousel_featured_products .vc_element-icon,
+.wpb_vc_woo_carousel_recent_products .vc_element-icon,
+.wpb_vc_woo_carousel_product_categories .vc_element-icon,
+.wpb_vc_woo_carousel_product_category .vc_element-icon,
+.wpb_vc_team_wdget .vc_element-icon,
+.wpb_vc_triangle_element .vc_element-icon{
+	background: url(vc_extend_lpd-logo.png) white no-repeat;
+}
+.wpb_vc_multi_module .wpb_element_wrapper div,
+.wpb_vc_meta_container .wpb_element_wrapper div,
+.wpb_vc_callout2 .wpb_element_wrapper div,
+.wpb_vc_testimonial .wpb_element_wrapper div,
+.wpb_vc_add_shortcode .wpb_element_wrapper div,
+.wpb_vc_cube_widget .wpb_element_wrapper div,
+.wpb_vc_multi_slider .wpb_element_wrapper div,
+.wpb_vc_counter .wpb_element_wrapper div,
+.wpb_vc_module .wpb_element_wrapper div,
+.wpb_vc_featured_module_1 .wpb_element_wrapper div,
+.wpb_vc_featured_module_2 .wpb_element_wrapper div,
+.wpb_vc_featured_module_3 .wpb_element_wrapper div,
+.wpb_vc_widget .wpb_element_wrapper div,
+.wpb_vc_meta_block .wpb_element_wrapper div,
+.wpb_vc_iconitem .wpb_element_wrapper div,
+.wpb_vc_blockquote .wpb_element_wrapper div,
+.wpb_vc_new_button .wpb_element_wrapper div,
+.wpb_vc_new_callout .wpb_element_wrapper div,
+.wpb_vc_new_title .wpb_element_wrapper div,
+.wpb_vc_mega_header .wpb_element_wrapper div,
+.wpb_vc_mega_header2 .wpb_element_wrapper div,
+.wpb_vc_lpd_header .wpb_element_wrapper div,
+.wpb_vc_banner .wpb_element_wrapper div,
+.wpb_vc_woo_carousel_products .wpb_element_wrapper div,
+.wpb_vc_woo_carousel_featured_products .wpb_element_wrapper div,
+.wpb_vc_woo_carousel_recent_products .wpb_element_wrapper div,
+.wpb_vc_woo_carousel_product_categories .wpb_element_wrapper div,
+.wpb_vc_woo_carousel_product_category .wpb_element_wrapper div,
+.wpb_vc_team_wdget .wpb_element_wrapper div,
+.wpb_vc_triangle_element .wpb_element_wrapper div{
+	display: none;
+}
+.wpb_vc_new_module .wpb_element_wrapper div.title,
+.wpb_vc_callout2 .wpb_element_wrapper div.title,
+.wpb_vc_testimonial .wpb_element_wrapper div.title,
+.wpb_vc_module .wpb_element_wrapper div.title,
+.wpb_vc_featured_module_1 .wpb_element_wrapper div.title,
+.wpb_vc_featured_module_2 .wpb_element_wrapper div.title,
+.wpb_vc_featured_module_3 .wpb_element_wrapper div.title,
+.wpb_vc_widget .wpb_element_wrapper div.title,
+.wpb_vc_meta_block .wpb_element_wrapper div.title,
+.wpb_vc_iconitem .wpb_element_wrapper div.title,
+.wpb_vc_blockquote .wpb_element_wrapper div.cite,
+.wpb_vc_new_button .wpb_element_wrapper div.text,
+.wpb_vc_new_callout .wpb_element_wrapper div.title{
+	display: block;
+}
+.wpb-elements-list-modal .vc_element-icon.icon-wpb-lpd{
+	background: url(vc_extend_lpd-logo.png) no-repeat center;
+}
+.wpb_recent_products .vc_element-icon,
+.wpb_featured_products .vc_element-icon,
+.wpb_product_category .vc_element-icon,
+.wpb_product_categories .vc_element-icon,
+.wpb_products .vc_element-icon,
+.wpb_product .vc_element-icon{
+	background: url(vc-woo-icon.png) white no-repeat;
+}
+.wpb-elements-list-modal .vc_element-icon.icon-wpb-woocom{
+	background: url(vc-woo-icon.png) no-repeat center;
+}
+.wpb_element_wrapper .textarea{
+    border: none;
+    font-family: inherit;
+    line-height: inherit;
+    padding: 0;
+    width: auto;
+}

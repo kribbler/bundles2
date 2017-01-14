@@ -1,0 +1,162 @@
+<?php
+$portfolio_metaboxes = array(
+    'link_post' => array(
+        'title' => __('Link Post', GETTEXT_DOMAIN),
+        'applicableto' => 'portfolio',
+        'location' => 'normal',
+        'display_condition' => 'post-format-link',
+        'priority' => 'high',
+        'fields' => array(
+            'link_post_meta' => array(
+                'title' => __('Url for link post: ', GETTEXT_DOMAIN),
+                'type' => 'text',
+                'description' => '',
+                'size' => 60
+            )
+        )
+    ),
+    'video_post' => array(
+        'title' => __('Video Url (youtube or vimeo)', GETTEXT_DOMAIN),
+        'applicableto' => 'portfolio',
+        'location' => 'normal',
+        'display_condition' => 'post-format-video',
+        'priority' => 'high',
+        'fields' => array(
+            'video_post_meta' => array(
+                'title' => __('Enter video url: ', GETTEXT_DOMAIN),
+                'type' => 'text',
+                'description' => '',
+                'size' => 60
+            )
+        )
+    )
+);
+
+add_action( 'admin_init', 'add_portfolio_format_metabox' );
+ 
+function add_portfolio_format_metabox() {
+    global $portfolio_metaboxes;
+ 
+    if ( ! empty( $portfolio_metaboxes ) ) {
+        foreach ( $portfolio_metaboxes as $id => $metabox ) {
+            add_meta_box( $id, $metabox['title'], 'show_portfolio_metaboxes', $metabox['applicableto'], $metabox['location'], $metabox['priority'], $id );
+        }
+    }
+}
+
+function show_portfolio_metaboxes( $post, $args ) {
+    global $portfolio_metaboxes;
+ 
+    $custom = get_post_custom( $post->ID );
+    $fields = $tabs = $portfolio_metaboxes[$args['id']]['fields'];
+ 
+    /** Nonce **/
+    $output = '<input type="hidden" name="post_format_meta_box_nonce" value="' . wp_create_nonce( basename( __FILE__ ) ) . '" />';
+ 
+    if ( sizeof( $fields ) ) {
+        foreach ( $fields as $id => $field ) {
+            switch ( $field['type'] ) {
+                default:
+                case "text":
+ 
+                    $output .= '<label for="' . $id . '">' . $field['title'] . '</label><input id="' . $id . '" type="text" name="' . $id . '" value="' . $custom[$id][0] . '" size="' . $field['size'] . '" />';
+ 
+                    break;
+            }
+        }
+    }
+ 
+    echo $output;
+}
+
+add_action( 'save_post', 'save_portfolio_metaboxes' );
+ 
+function save_portfolio_metaboxes( $post_id ) {
+    global $portfolio_metaboxes;
+    
+    
+    $nonce = '';
+	if(isset($_POST['post_format_meta_box_nonce'])){ $nonce = $_POST['post_format_meta_box_nonce']; }
+	
+	if (!wp_verify_nonce($nonce, basename(__FILE__)))
+        return $post_id;
+ 
+    // check autosave
+    if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE )
+        return $post_id;
+ 
+    // check permissions
+    if ( 'page' == $_POST['post_type'] ) {
+        if ( ! current_user_can( 'edit_page', $post_id ) )
+            return $post_id;
+    } elseif ( ! current_user_can( 'edit_post', $post_id ) ) {
+        return $post_id;
+    }
+ 
+    $post_type = get_post_type();
+ 
+    // loop through fields and save the data
+    foreach ( $portfolio_metaboxes as $id => $metabox ) {
+        // check if metabox is applicable for current post type
+        if ( $metabox['applicableto'] == $post_type ) {
+            $fields = $portfolio_metaboxes[$id]['fields'];
+ 
+            foreach ( $fields as $id => $field ) {
+                $old = get_post_meta( $post_id, $id, true );
+                $new = $_POST[$id];
+ 
+                if ( $new && $new != $old ) {
+                    update_post_meta( $post_id, $id, $new );
+                }
+                elseif ( '' == $new && $old || ! isset( $_POST[$id] ) ) {
+                    delete_post_meta( $post_id, $id, $old );
+                }
+            }
+        }
+    }
+}
+
+add_action( 'admin_print_scripts', 'display_portfolio_metaboxes', 1000 );
+
+function display_portfolio_metaboxes() {
+    global $portfolio_metaboxes;
+    if ( get_post_type() == "portfolio" ) :
+        ?>
+        <script type="text/javascript">// <![CDATA[
+            $ = jQuery;
+ 
+            <?php
+            $formats = $ids = array();
+            foreach ( $portfolio_metaboxes as $id => $metabox ) {
+                array_push( $formats, "'" . $metabox['display_condition'] . "': '" . $id . "'" );
+                array_push( $ids, "#" . $id );
+            }
+            ?>
+ 
+            var formats = { <?php echo implode( ',', $formats );?> };
+            var ids = "<?php echo implode( ',', $ids ); ?>";
+            function displayMetaboxes() {
+                // Hide all post format metaboxes
+                $(ids).hide();
+                // Get current post format
+                var selectedElt = $("input[name='post_format']:checked").attr("id");
+ 
+                // If exists, fade in current post format metabox
+                if ( formats[selectedElt] )
+                    $("#" + formats[selectedElt]).fadeIn();
+            }
+ 
+            $(function() {
+                // Show/hide metaboxes on page load
+                displayMetaboxes();
+ 
+                // Show/hide metaboxes on change event
+                $("input[name='post_format']").change(function() {
+                    displayMetaboxes();
+                });
+            });
+ 
+        // ]]></script>
+        <?php
+    endif;
+}

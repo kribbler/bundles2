@@ -1,0 +1,133 @@
+/*------------------------------------------------------------------
+1. Body
+-------------------------------------------------------------------*/
+body{
+	font-family: 'Raleway', sans-serif;
+}
+/*------------------------------------------------------------------
+2. Headings
+-------------------------------------------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6{
+	font-family: 'Raleway', sans-serif;
+}
+/*------------------------------------------------------------------
+3. Elements
+-------------------------------------------------------------------*/
+.header-content-wrap{
+	font-family: 'Lato', sans-serif;
+}
+.widget .title{
+	font-family: 'Lato', sans-serif;
+}
+.comment-author{
+	font-family: 'Lato', sans-serif;
+}
+.btn{
+	font-family: 'Lato', sans-serif;
+}
+.tagcloud a,
+.tags a{
+	font-family: 'Lato', sans-serif;
+}
+.footer-menu{
+	font-family: 'Lato', sans-serif;
+}
+.footer-meta{
+	font-family: 'Lato', sans-serif;
+}
+#footer .footer-meta .social-media{
+	font-family: 'Lato', sans-serif;
+}
+.menu3dmega .menu-title{
+	font-family: 'Lato', sans-serif;
+}
+.halflings-icon-list,
+.lpd_header_content.font_type_2{
+	font-family: 'Lato', sans-serif;
+}
+.wordpress-456repair .wpb_toggle, .wordpress-456repair #content h4.wpb_toggle{
+	font-family: 'Lato', sans-serif;
+}
+.wordpress-456repair .wpb_content_element .wpb_accordion_wrapper .wpb_accordion_header{
+	font-family: 'Lato', sans-serif;
+}
+.mm5_title,
+.mm4_title,
+.mm3_description,
+.mm2_description,
+.mm1_description{
+	font-family: 'Lato', sans-serif;
+}
+.featured-module-3-content .featured-module-3-label{
+	font-family: 'Lato', sans-serif;
+}
+.owl-theme .owl-controls{
+	font-family: 'Lato', sans-serif;
+}
+.vc_lpd_testiomonial .testiomonial_content .tc_title{
+	font-family: 'Lato', sans-serif;
+}
+.tmc_title{
+	font-family: 'Lato', sans-serif;
+}
+.iconitem h5.title{
+	font-family: 'Lato', sans-serif;
+}
+.wpb_content_element .messagebox_text{
+	font-family: 'Lato', sans-serif;
+}
+.lpd-banner .lpd-b-sub-title{
+	font-family: 'Lato', sans-serif;
+}
+.cbp-l-project-details-list .amount,
+.lpd-cbp-product-price,
+ul.lpd-products li.type-product .price{
+	font-family: 'Lato', sans-serif;
+}
+.lpd-product-thumbnail .loop-shop-btn{
+	font-family: 'Lato', sans-serif;	
+}
+.lpd-out-of-s,
+.lpd-onsale{
+	font-family: 'Lato', sans-serif;
+}
+.wordpress-456repair .woocommerce #content div.product p.price, .wordpress-456repair .woocommerce #content div.product span.price, .wordpress-456repair .woocommerce div.product p.price, .wordpress-456repair .woocommerce div.product span.price, .wordpress-456repair.woocommerce-page #content div.product p.price, .wordpress-456repair.woocommerce-page #content div.product span.price, .wordpress-456repair.woocommerce-page div.product p.price, .wordpress-456repair.woocommerce-page div.product span.price{
+	font-family: 'Lato', sans-serif;	
+}
+.wordpress-456repair.woocommerce-page div.product form.cart .group_table td.price .price-wrap{
+	font-family: 'Lato', sans-serif;
+}
+.wordpress-456repair .woocommerce ul.product_list_widget li .amount,
+.wordpress-456repair.woocommerce-page ul.product_list_widget li .amount{
+	font-family: 'Lato', sans-serif;
+}
+.wordpress-456repair .woocommerce .widget_price_filter .price_slider_amount,
+.wordpress-456repair.woocommerce-page .widget_price_filter .price_slider_amount{
+	font-family: 'Lato', sans-serif;	
+}
+.wordpress-456repair.woocommerce-page .quantity{
+	font-family: 'Lato', sans-serif;	
+}
+.lpd-shopping-cart .lpd-cart-total span{
+	font-family: 'Lato', sans-serif;	
+}
+.lpd-cart-list-meta .quantity{
+	font-family: 'Lato', sans-serif;	
+}
+.cart-icon .count{
+	font-family: 'Lato', sans-serif;	
+}
+.cart-button-total{
+	font-family: 'Lato', sans-serif;
+}

@@ -1,0 +1,39 @@
+<?php
+/*
+Template Name: Video Page
+*/
+
+ $id = isset($_GET['vid']) ? $_GET['vid'] : '';
+
+get_header();
+ $permalink = get_permalink( $id );
+?>
+	<div id="primary" class="site-content">
+		<div id="content" role="main">
+<?php
+    echo '<br><br><br><br><br><br><br>';
+	
+	query_posts( 'p='.$id.'&post_type=product ' );   
+	while ( have_posts() ) : the_post();
+	
+			$add_video = get_field('add_video');	
+ 			if( $add_video ){ 		 
+				  foreach( $add_video as $row) { 
+					 	$video_name = $row['video_name'];
+						echo '<h1 class="posttitle">'.$video_name.'</h1>';
+					 	$video_url  = $row['video_url'];   
+					echo '<br><iframe width="560" height="315" src="http://www.youtube.com/embed/'.getYoutubeIdFromUrl($video_url).'" frameborder="0" allowfullscreen></iframe><br><br><br><br><br>';
+				  }  		 
+			 } else {
+			 	echo '<div style=" display:block; font-family: \'Open Sans Condensed\'; font-weight: bold; text-align:center; width:auto; font-size:25px; color:#b51111; padding: 7px 0px 0px 0px; text-decoration:none;">No Video Found <br><br><br><br></div>';
+			 }
+			           
+ 	endwhile; ?>     
+    <a style=" display:block; width:112px; font-family: 'Open Sans Condensed'; font-weight: bold; font-size:15px; color:#b51111; padding: 7px 0px 0px 0px; text-decoration:none;" 
+href="<?php echo $permalink; ?>"><img src="<?php bloginfo( 'template_url' ); ?>/images/go-back.jpg"></a>
+
+		</div><!-- #content -->
+	</div><!-- #primary -->
+    
+<?php get_sidebar(); ?>   
+<?php get_footer(); ?>

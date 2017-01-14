@@ -1,0 +1,24 @@
+/*
+==================================================
+
+	Theme Name: 456Repair 1.0.1
+	Theme URI: http://www.lpd-themes.com
+	Description: 456Repair Premium WooCommerce Theme
+	Author: lpd-themes
+	Author URI: http://support.lpd-themes.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0.1
+
+
+================================================== */
+
+@import "assets/css/bootstrap.css";
+@import "assets/css/application.css";
+@import "assets/css/fonts.css";
+@import "assets/css/color.css";
+@import "assets/css/picons-social.css";
+@import "assets/css/menu/menu3d.css";
+@import "assets/css/menu/animate.css";
+@import "assets/font-icons/glyphicons_halflings/css/halflings.css";
+@import "assets/cbp-plugin/cubeportfolio/css/cubeportfolio.css";
